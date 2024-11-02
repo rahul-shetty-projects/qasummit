@@ -1,0 +1,983 @@
+
+.hero_section_wrapper{
+    background-image: url('../images/Homepage/Rectangle 7.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px 80px;
+}
+
+.hero_second_div{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.hero_speaker_image{
+    /* background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%); */
+    width: fit-content;
+    top: 0;
+    right: 10px;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero_first_div{
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero_headline{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: left;
+    color: #F4238D;
+    background: #FFFFFF;
+    padding: 10px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.border_style{
+    border-bottom: 3px solid #F4238D;
+    border-right: 3px solid #F4238D;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.hero_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60.48px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.hero_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #C8C7D3;
+
+}
+
+
+.event_headline{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: column;
+}
+
+.event_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #fff;
+}
+
+.event_location{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.event_date{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.upcoming_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming_events{
+    backdrop-filter: blur(20px);
+    border: 1px solid;
+    border-image-source: linear-gradient(134.72deg, rgba(255, 255, 255, 0.5) -1.24%, rgba(255, 255, 255, 0.3) 100.74%);
+    background: linear-gradient(134.86deg, rgba(113, 113, 113, 0.45) 0.99%, rgba(255, 255, 255, 0.2) 99.01%);
+    border-radius: 15px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.horizontal_line_event{
+    border: 1px solid #C8C7D3
+}
+
+.hero_register_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.hero_register_btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Timer */
+
+.timer_wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -46px;
+    right: 25%;
+}
+
+.days, .hours, .seconds, .minutes{
+    box-shadow: 2px 4px 15px 0px #00000026;
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #fff;
+    width: 90px;
+}
+
+.timer_count{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.93px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.timer_timing{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.95px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* About The Conference */
+
+.about_the_cenference{
+    position: relative;
+    padding-top: 5rem;
+}
+
+.about_conference_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    padding: 20px 40px;
+    gap: 10px;
+    background-image: url('../images/Homepage/Group 4.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.conference_images{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-image: url('../images/Homepage/Group 4.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 65%;
+}
+
+.first_set{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second_set{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.about_conference_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+    color: #001023;
+
+}
+
+.conference_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images_description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px 0px;
+    gap: 60px;
+    width: 60%;
+    background-image: url('../images/Homepage/Group 4.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.desc_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.desc_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: left;
+    color: #001023;
+
+}
+
+.register_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.register_btn:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Call For Speakers */
+
+.speakers_section_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2D1C5B;
+    padding: 3rem 5rem;
+    height: 90vh;
+}
+
+.speakers_content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+
+.get_involved{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: #F4238D;
+
+}
+
+.call_spaekers{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.speaker_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.86px;
+    text-align: left;
+    color: #CECBD7;
+    padding: 20px 0px;
+}
+
+.proposal_btn{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.speaker_img > img{
+    width: 700px;
+    z-index: 0;
+    /* background: linear-gradient(180deg, rgba(45, 28, 91, 0) 47.35%, #2D1C5B 93.49%);
+    filter: drop-shadow(5px 23px 13px #2D1C5B); */
+}
+
+/* Events booking */
+
+.event_booking{
+    background: #EFF1FD;
+}
+
+.event_booking_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.headline_content{
+    padding: 20px 10px;
+}
+
+.early_bird{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
+.early_bird_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+    width: 70%;
+    margin: auto;
+}
+
+.remaining_days{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;
+    color: #F4238D;
+
+}
+
+.booking_slots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+    gap: 6rem;
+    margin: auto;
+}
+
+.individual{
+    border-radius: 15px;
+    background: #7750E7;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+
+.group_booking{
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+}
+
+.title_tag{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #FFFFFF;
+    background: #E946C1;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.group_title_tag{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #7750E7;
+    background: #E7E1FA;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.price{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.36px;
+    text-align: left;
+    color: #fff;
+}
+
+.group_price{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.36px;
+    text-align: left;
+    color: #1C1826;
+
+}
+
+
+
+.buy_ticket{
+    background: #FFFFFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #7750E7;
+    padding: 10px 40px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buy_ticket_btn{
+    border: 1px solid #5A6FF4;
+    color: #5A6FF4;
+    background-color: transparent;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+
+/* Sponsors and Partners */
+
+.sponsors_wrapper{
+    width: 60%;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsors_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sponsor_summary{
+    width: 70%;
+    margin: auto;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+
+}
+
+.sponsors_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+/* Upcoming Events Carousel */
+
+.events_headlines{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+
+.events_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+}
+
+.upcoming_carousel_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.Upcoming_headlines{
+    width: 30%;
+}
+
+
+.carousel_div{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+.slide_1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.slide_1_1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9rem;
+    height: 70vh;
+    padding: 2rem;
+    background-image: url('../images/Homepage/Group 6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_1_2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9rem;
+    height: 70vh;
+    padding: 2rem;
+    background-image: url('../images/Homepage/Rectangle 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .div_upcom_eve{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} */
+
+
+.upcom_headline{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.24px;
+    text-align: left;
+    color: #fff;
+}
+
+.upcom_event_data{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.76px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.upcom_learn_more_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #fff;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 40px;
+}
+
+/* Previous Events */
+
+.background_div{
+    background-color:  #FE2287 ;
+    background-image: url('../images/Homepage/Group 4.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 631px;
+    height: 509px;
+    text-align: right;
+    z-index: 0;
+}
+
+
+.previious_events{
+    background: #2D1C5B;
+    position: relative;
+    padding: 40px;
+}
+
+.event_details_img{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8rem;
+    height: 76vh;
+    padding: 5rem;
+    background-image: url('../images/Homepage/Group 15.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prev_event_date{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.91px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+/* .div_prev{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} */
+
+.attendees{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.76px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.learn_more_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #fff;
+}
+
+.previous_event_wrapper{
+    background-image: url('../images/Homepage/Group 4.png');
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.previous_details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.prev_event_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    color: #fff;
+}
+
+.images_carousel{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Event Reviews */
+
+.clients_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0px;
+}
+
+.client_details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.review_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+
+.bottom_part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.combine_client{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event_reviews{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
+.review_headline{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.91px;
+    text-align: left;
+    color: #1C1826;
+}
+
+.review_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1C1826;
+}
+
+.client_name{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1C1826;
+}
+
+.client_designation{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1C1826;
+}
+
+/* Footer */
+
+.footer_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2rem;
+}
+
+.second_div{
+    width: 60%;
+}
+
+.name_div,.mail_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.name_label{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 1rem;
+}
+
+.email_label{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 1rem;
+}
+
+.name_input{
+    box-shadow: 0px 4px 20px 0px #00000026;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.email_input{
+    box-shadow: 0px 4px 20px 0px #00000026;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.subscibe_button{
+    border: none;
+    border-radius: 15px;
+    background-color: #825FF1;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: left;
+    color: #fff;
+    padding: 1.2rem 3rem;
+}

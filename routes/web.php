@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view(view: 'home');
+})->name("home");
+
+Route::get('/upcoming-event', function () {
+    return view(view: 'upcoming-event');
+})->name("upcoming-event");
