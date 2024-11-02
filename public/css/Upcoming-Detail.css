@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('./Header.css');
+@import url('./Footer.css');
+
+/* Hero Section */
 
 .hero_section_wrapper{
-    background-image: url('../images/Homepage/Rectangle 7.png');
+    background-image: url('../images/Homepage/hero_2.png');
     background-size: cover;
     position: relative;
     display: flex;
@@ -75,7 +83,6 @@
 
 }
 
-
 .event_headline{
     font-family: Plus Jakarta Sans;
     font-size: 14px;
@@ -125,6 +132,7 @@
 .upcoming_details{
     display: flex;
     flex-direction: column;
+    /* gap: 1rem; */
 }
 
 .upcoming_events{
@@ -138,7 +146,6 @@
     flex-direction: column;
     gap: 15px;
 }
-
 
 .horizontal_line_event{
     border: 1px solid #C8C7D3
@@ -155,61 +162,14 @@
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-    text-decoration: none;
 
 }
 
-.hero_register_btn:hover{
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Timer */
-
-.timer_wrapper{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: -46px;
-    right: 25%;
-}
-
-.days, .hours, .seconds, .minutes{
-    box-shadow: 2px 4px 15px 0px #00000026;
-    border-radius: 15px;
-    padding: 12px;
-    background-color: #fff;
-    width: 90px;
-}
-
-.timer_count{
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 38.93px;
-    text-align: center;
-    color: #000000;
-
-}
-
-.timer_timing{
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25.95px;
-    text-align: center;
-    color: #000000;
-}
-
-
-/* About The Conference */
+/* About the Conference */
 
 .about_the_cenference{
     position: relative;
-    padding-top: 5rem;
+    height: 100vh;
 }
 
 .about_conference_wrapper{
@@ -218,7 +178,7 @@
     align-items: flex-start;
     width: 90%;
     margin: auto;
-    padding: 20px 40px;
+    padding: 4rem;
     gap: 10px;
     background-image: url('../images/Homepage/Group 4.png');
     background-repeat: no-repeat;
@@ -250,11 +210,11 @@
 
 .about_conference_heading{
     font-family: Plus Jakarta Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50.4px;
-    text-align: left;
-    color: #001023;
+font-size: 20px;
+font-weight: 700;
+line-height: 25.2px;
+text-align: left;
+color: #F4238D;
 
 }
 
@@ -271,7 +231,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 70px 0px;
-    gap: 60px;
+    gap: 40px;
     width: 60%;
     background-image: url('../images/Homepage/Group 4.png');
     background-repeat: no-repeat;
@@ -310,83 +270,425 @@
     padding: 10px 40px;
     border: 1px solid transparent;
     border-radius: 20px;
-    text-decoration: none;
 }
 
-.register_btn:hover{
-    color: #FFFFFF;
-    text-decoration: none;
+/* Why Attend? */
+
+
+
+.why_attend_sectin{
+    background-color: #170548;
+    padding: 4rem 1rem;
 }
 
-/* Call For Speakers */
-
-.speakers_section_wrapper{
+.why_attend_wrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    background: #2D1C5B;
-    padding: 3rem 5rem;
-    height: 90vh;
+    /* justify-content: space-between; */
+    width: 80%;
+    margin: auto;
 }
 
-.speakers_content{
+.attend_content_part{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    padding: 20px;
+    gap: 2rem;
+    width: 50%;
 }
 
-.get_involved{
+.attend_accordion{
+    width: 80%;
+}
+
+
+.accordion-button[aria-expanded="false"]{
+    background-color: #170548!important;
+    color: #fff!important;
     font-family: Plus Jakarta Sans;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 25.2px;
     text-align: left;
-    color: #F4238D;
-
+    border: 1px solid #5A6FF4!important;
+    border-radius: 15px!important;
+    transition: none!important;
 }
 
-.call_spaekers{
+.accordion-button[aria-expanded="true"]{
+    background-color: #fff!important;
+    color: #000!important;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    border: none!important;
+    border-radius: 15px!important;
+    transition: none!important;
+}
+
+
+
+.accordion-button::after{
+    background-image: url('../images/Detailspage/arrow.png')!important;
+    height: 0.7rem!important;
+}
+
+.why_attend_headline{
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: left;
-    color: #FFFFFF;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion-item{
+    margin-bottom: 1rem;
+    border: 2px solid #5A6FF4!important;
+    border-radius: 17px!important;
 
 }
 
-.speaker_summary{
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24.86px;
-    text-align: left;
-    color: #CECBD7;
-    padding: 20px 0px;
+
+/* Event Highlights */
+
+
+.event_high_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 3rem 1rem;
 }
 
-.proposal_btn{
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.16px;
-    text-align: left;
-    color: #FFFFFF;
+.event_top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.highlights_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 4px 36.2px 0px #00000026;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+.highlight_active{
     background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    width: fit-content;
+    color: #fff!important;
 }
 
-.speaker_img > img{
-    width: 700px;
-    z-index: 0;
-    /* background: linear-gradient(180deg, rgba(45, 28, 91, 0) 47.35%, #2D1C5B 93.49%);
-    filter: drop-shadow(5px 23px 13px #2D1C5B); */
+.event_bottom_part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
 }
+
+.event_high_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.event_highlights_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.highlights{
+    border: none;
+    border-right: 1px solid #DBDBDB;
+    background-color: #fff;
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.event_note{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    color: #000;
+}
+
+.event_note_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #000;
+}
+
+
+/* Schedule and Events */
+
+/* .schedule_container{
+    width: 70%;
+    margin-left: auto;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.schedule_wrapper::after{
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+    border: 3px solid #D6D6D8;
+}
+
+.schedule_container::before{
+    content: '';
+    position: absolute;
+    left: 49.2%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+} */
+
+
+.schedule_section{
+    background-color: #EFF1FD;
+
+}
+
+.schedule_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    gap: 4rem;
+    padding-top: 4rem;
+}
+
+.schedule_heading_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 26%;
+}
+
+.timeline_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule_days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.day_1,.day_2,.day_3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.schedule_horiz_line{
+    background-color:#D6D6D8 ;
+}
+
+.small_horiz_line{
+    border: 3px solid #5975F7;
+    width: 30%;
+}
+
+.timeline_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.timeline_wrapper::after{
+    content: '';
+    height: 82%;
+    position: absolute;
+    left: 30%;
+    top: 10px;
+    z-index: 1;
+    border: 3px solid #D6D6D8;
+}
+
+.timeline_1,.timeline_2,.timeline_3,.timeline_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeline_1::before{
+    content: '1';
+    position: absolute;
+    left: 28.6%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_2::before{
+    content: '2';
+    position: absolute;
+    left: 28.6%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_3::before{
+    content: '3';
+    position: absolute;
+    left: 28.6%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_4::before{
+    content: '4';
+    position: absolute;
+    left: 28.6%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.schedule_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
+.schedule_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+}
+
+.schedule_day{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.schedule_date{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+}
+
+.span_date{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+}
+
+
+.eve_time{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+}
+
+.sch_title{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+}
+
+.sch_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #717380;
+    width: 80%;
+}
+
+.schedule_titles{
+    width: 60%;
+}
+
+
 
 /* Events booking */
 
@@ -402,7 +704,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    padding: 60px 0px;
+    padding: 2rem 0rem;
 }
 
 .headline_content{
@@ -549,280 +851,6 @@
     border-radius: 12px;
 }
 
-/* Sponsors and Partners */
-
-.sponsors_wrapper{
-    width: 60%;
-    margin: auto;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.sponsors_heading{
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40.32px;
-    text-align: center;
-    background-clip: text;
-    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.sponsor_summary{
-    width: 70%;
-    margin: auto;
-    font-family: Plus Jakarta Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22.68px;
-    text-align: center;
-    color: #717380;
-
-}
-
-.sponsors_logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px 0px;
-}
-
-
-/* Upcoming Events Carousel */
-
-.events_headlines{
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40.32px;
-    background-clip: text;
-    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-
-}
-
-.events_summary{
-    font-family: Plus Jakarta Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22.68px;
-    text-align: center;
-    color: #717380;
-}
-
-.upcoming_carousel_wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-}
-
-.Upcoming_headlines{
-    width: 30%;
-}
-
-
-.carousel_div{
-    width: 80%;
-    text-align: center;
-    padding: 20px;
-}
-
-.slide_1{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.slide_1_1{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 9rem;
-    height: 70vh;
-    padding: 2rem;
-    background-image: url('../images/Homepage/Group 6.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide_1_2{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 9rem;
-    height: 70vh;
-    padding: 2rem;
-    background-image: url('../images/Homepage/Rectangle 4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* .div_upcom_eve{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-} */
-
-
-.upcom_headline{
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30.24px;
-    text-align: left;
-    color: #fff;
-}
-
-.upcom_event_data{
-    font-family: Plus Jakarta Sans;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25.76px;
-    text-align: left;
-    color: #fff;
-}
-
-
-.upcom_learn_more_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.16px;
-    text-align: left;
-    color: #fff;
-}
-
-.controls{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    gap: 40px;
-}
-
-/* Previous Events */
-
-.background_div{
-    background-color:  #FE2287 ;
-    background-image: url('../images/Homepage/Group 4.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-x: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 631px;
-    height: 509px;
-    text-align: right;
-    z-index: 0;
-}
-
-
-.previious_events{
-    background: #2D1C5B;
-    position: relative;
-    padding: 40px;
-}
-
-.event_details_img{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8rem;
-    height: 76vh;
-    padding: 5rem;
-    background-image: url('../images/Homepage/Group 15.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.prev_event_date{
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30.91px;
-    text-align: left;
-    color: #FFFFFF;
-
-}
-
-/* .div_prev{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-} */
-
-.attendees{
-    font-family: Plus Jakarta Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25.76px;
-    text-align: left;
-    color: #fff;
-}
-
-
-.learn_more_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.16px;
-    text-align: left;
-    color: #fff;
-}
-
-.previous_event_wrapper{
-    background-image: url('../images/Homepage/Group 4.png');
-    background-repeat: no-repeat;
-    background-position-y: top;
-}
-
-.previous_details{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    z-index: 2;
-    position: relative;
-}
-
-.prev_event_heading{
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40.32px;
-    text-align: center;
-    color: #fff;
-}
-
-.images_carousel{
-    width: 80%;
-    margin: auto;
-}
-
 
 /* Event Reviews */
 
@@ -839,8 +867,7 @@
 .client_details{
     display: flex;
     flex-direction: column;
-    width: 50%;
-
+    width: 60%;
 }
 
 .review_content{
@@ -849,7 +876,13 @@
     gap: 1.2rem;
 }
 
+/* p{
+    margin-bottom: 0!important;
+} */
 
+.controls_reviews{
+    margin-top: 2rem;
+}
 
 .bottom_part{
     display: flex;
@@ -892,6 +925,7 @@
     line-height: 22.68px;
     text-align: left;
     color: #1C1826;
+    width: 80%;
 }
 
 .client_name{
@@ -901,6 +935,7 @@
     line-height: 22.68px;
     text-align: left;
     color: #1C1826;
+    margin-bottom: 0!important;
 }
 
 .client_designation{
@@ -910,74 +945,11 @@
     line-height: 22.68px;
     text-align: left;
     color: #1C1826;
+    margin-bottom: 0!important;
 }
 
 /* Footer */
 
-.footer_form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    gap: 2rem;
-}
-
-.second_div{
+.first_div{
     width: 60%;
-}
-
-.name_div,.mail_div{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-.name_label{
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.96px;
-    text-align: left;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
-
-.email_label{
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.96px;
-    text-align: left;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
-
-.name_input{
-    box-shadow: 0px 4px 20px 0px #00000026;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 20px;
-}
-
-.email_input{
-    box-shadow: 0px 4px 20px 0px #00000026;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 20px;
-}
-
-.subscibe_button{
-    border: none;
-    border-radius: 15px;
-    background-color: #825FF1;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20.16px;
-    text-align: left;
-    color: #fff;
-    padding: 1.2rem 3rem;
 }

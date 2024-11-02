@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/upcoming-event', function () {
     return view(view: 'upcoming-event');
 })->name("upcoming-event");
+
+Route::get('/previous-events', function () {
+    return view(view: 'previous-events');
+})->name("previous-events");
+
+Route::get('/upcoming-events', function () {
+    return view(view: 'upcoming-events');
+})->name("upcoming-events");

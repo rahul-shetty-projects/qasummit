@@ -28,9 +28,8 @@
     <div class="main-wrapper">
         @include('header')
         @yield('content')
-        @yield('footer')
+        @include('footer')
     </div>
-
     @yield('scripts')
 </body>
 

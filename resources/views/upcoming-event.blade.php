@@ -3,7 +3,7 @@
 @section('title', 'Upcoming Event')
 
 @section('styles')
-<link rel="stylesheet" href="{{ asset("css/DetailsBody.css") }}" />
+<link rel="stylesheet" href="{{ asset("css/Upcoming-Detail.css") }}" />
 @endsection
 
 @section('content')
@@ -361,8 +361,4 @@
 
 
 
-@endsection
-
-@section('footer')
-@include('footer2')
 @endsection

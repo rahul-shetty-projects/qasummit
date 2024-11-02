@@ -87,7 +87,6 @@
 
 <script>
     $(document).ready(function() {
-        $("#failureModal").modal('show');
         $('#newsletterForm').on('submit', function(event) {
             event.preventDefault();
 

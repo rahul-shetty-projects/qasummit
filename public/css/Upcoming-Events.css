@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('./Header.css');
+@import url('./Footer.css');
+
+
+.hero_section_wrapper{
+    background-image: url('../images/Previouspage/background.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px 80px;
+}
+
+.hero_second_div{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.hero_speaker_image{
+    /* background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%); */
+    width: fit-content;
+    top: 0;
+    right: 10px;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero_first_div{
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero_headline{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: #F4238D;
+    /* background: #FFFFFF;
+    padding: 10px;
+    margin-top: -12px;
+    margin-left: -12px; */
+}
+
+/* .border_style{
+    border-bottom: 3px solid #F4238D;
+    border-right: 3px solid #F4238D;
+    padding-right: 12px;
+    padding-bottom: 12px;
+} */
+
+.hero_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60.48px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.hero_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #C8C7D3;
+
+}
+
+
+.event_headline{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: column;
+}
+
+.event_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #fff;
+}
+
+.event_location{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.event_date{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #C8C7D3;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.upcoming_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming_events{
+    backdrop-filter: blur(20px);
+    border: 1px solid;
+    border-image-source: linear-gradient(134.72deg, rgba(255, 255, 255, 0.5) -1.24%, rgba(255, 255, 255, 0.3) 100.74%);
+    background: linear-gradient(134.86deg, rgba(113, 113, 113, 0.45) 0.99%, rgba(255, 255, 255, 0.2) 99.01%);
+    border-radius: 15px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.horizontal_line_event{
+    border: 1px solid #C8C7D3
+}
+
+.hero_register_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+
+}
+
