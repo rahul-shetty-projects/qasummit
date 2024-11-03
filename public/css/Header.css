@@ -37,10 +37,10 @@ text-align: left;
 #navbar_wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
-    margin-bottom: 20px;
+    padding: 10px 80px;
+    margin-block: 12px;
 }
 
 .menu_wrapper{
@@ -151,5 +151,5 @@ text-align: left;
     .contact_btn{
         display: none;
     }
-    
+
 }

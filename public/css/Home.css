@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
-@import url('./Header.css');
-@import url('./Footer.css');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap");
+@import url("./Header.css");
+@import url("./Footer.css");
 
-
-
-.hero_section_wrapper{
-    background-image: url('../images/Homepage/Rectangle 7.png');
+.hero_section_wrapper {
+    background-image: url("../images/Homepage/Rectangle 7.png");
     background-size: cover;
     position: relative;
     display: flex;
@@ -19,12 +17,12 @@
     padding: 10px 80px;
 }
 
-.hero_second_div{
+.hero_second_div {
     margin-top: auto;
     margin-bottom: 30px;
 }
 
-.hero_speaker_image{
+.hero_speaker_image {
     /* background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%); */
     width: fit-content;
     top: 0;
@@ -33,7 +31,7 @@
     z-index: 0;
 }
 
-.hero_first_div{
+.hero_first_div {
     position: relative;
     z-index: 2;
     width: 60%;
@@ -43,59 +41,56 @@
     gap: 20px;
 }
 
-.hero_headline{
+.hero_headline {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
     line-height: 58.51px;
     text-align: left;
-    color: #F4238D;
-    background: #FFFFFF;
+    color: #f4238d;
+    background: #ffffff;
     padding: 10px;
     margin-top: -12px;
     margin-left: -12px;
 }
 
-.border_style{
-    border-bottom: 3px solid #F4238D;
-    border-right: 3px solid #F4238D;
+.border_style {
+    border-bottom: 3px solid #f4238d;
+    border-right: 3px solid #f4238d;
     padding-right: 12px;
     padding-bottom: 12px;
 }
 
-.hero_heading{
+.hero_heading {
     font-family: Plus Jakarta Sans;
     font-size: 48px;
     font-weight: 700;
     line-height: 60.48px;
     text-align: left;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
-.hero_summary{
+.hero_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 22.68px;
     text-align: left;
-    color: #C8C7D3;
-
+    color: #c8c7d3;
 }
 
-
-.event_headline{
+.event_headline {
     font-family: Plus Jakarta Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.64px;
     text-align: left;
-    color: #C8C7D3;
+    color: #c8c7d3;
     display: flex;
     flex-direction: column;
 }
 
-.event_heading{
+.event_heading {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 700;
@@ -104,42 +99,50 @@
     color: #fff;
 }
 
-.event_location{
+.event_location {
     font-family: Plus Jakarta Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.64px;
     text-align: left;
-    color: #C8C7D3;
+    color: #c8c7d3;
     display: flex;
     flex-direction: row;
     gap: 5px;
     align-items: center;
 }
 
-.event_date{
+.event_date {
     font-family: Plus Jakarta Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.64px;
     text-align: left;
-    color: #C8C7D3;
+    color: #c8c7d3;
     display: flex;
     flex-direction: row;
     gap: 5px;
     align-items: center;
 }
 
-.upcoming_details{
+.upcoming_details {
     display: flex;
     flex-direction: column;
 }
 
-.upcoming_events{
+.upcoming_events {
     backdrop-filter: blur(20px);
     border: 1px solid;
-    border-image-source: linear-gradient(134.72deg, rgba(255, 255, 255, 0.5) -1.24%, rgba(255, 255, 255, 0.3) 100.74%);
-    background: linear-gradient(134.86deg, rgba(113, 113, 113, 0.45) 0.99%, rgba(255, 255, 255, 0.2) 99.01%);
+    border-image-source: linear-gradient(
+        134.72deg,
+        rgba(255, 255, 255, 0.5) -1.24%,
+        rgba(255, 255, 255, 0.3) 100.74%
+    );
+    background: linear-gradient(
+        134.86deg,
+        rgba(113, 113, 113, 0.45) 0.99%,
+        rgba(255, 255, 255, 0.2) 99.01%
+    );
     border-radius: 15px;
     padding: 20px 40px;
     display: flex;
@@ -147,13 +150,18 @@
     gap: 15px;
 }
 
-
-.horizontal_line_event{
-    border: 1px solid #C8C7D3
+.horizontal_line_event {
+    border: 1px solid #c8c7d3;
 }
 
-.hero_register_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+.hero_btn_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hero_register_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     padding: 10px 30px;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -164,17 +172,35 @@
     line-height: 20.16px;
     text-align: left;
     text-decoration: none;
-
 }
 
-.hero_register_btn:hover{
+.hero_register_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero_learn_more_btn {
+    background: transparent;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.hero_learn_more_btn:hover {
     color: #fff;
     text-decoration: none;
 }
 
 /* Timer */
 
-.timer_wrapper{
+.timer_wrapper {
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -185,7 +211,10 @@
     right: 25%;
 }
 
-.days, .hours, .seconds, .minutes{
+.days,
+.hours,
+.seconds,
+.minutes {
     box-shadow: 2px 4px 15px 0px #00000026;
     border-radius: 15px;
     padding: 12px;
@@ -193,17 +222,16 @@
     width: 90px;
 }
 
-.timer_count{
+.timer_count {
     font-family: Plus Jakarta Sans;
     font-size: 24px;
     font-weight: 700;
     line-height: 38.93px;
     text-align: center;
     color: #000000;
-
 }
 
-.timer_timing{
+.timer_timing {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 400;
@@ -212,15 +240,14 @@
     color: #000000;
 }
 
-
 /* About The Conference */
 
-.about_the_cenference{
+.about_the_cenference {
     position: relative;
     padding-top: 5rem;
 }
 
-.about_conference_wrapper{
+.about_conference_wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -228,52 +255,51 @@
     margin: auto;
     padding: 20px 40px;
     gap: 10px;
-    background-image: url('../images/Homepage/Group 4.png');
+    background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.conference_images{
+.conference_images {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    background-image: url('../images/Homepage/Group 4.png');
+    background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: right;
     width: 65%;
 }
 
-.first_set{
+.first_set {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.second_set{
+.second_set {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     gap: 20px;
 }
 
-.about_conference_heading{
+.about_conference_heading {
     font-family: Plus Jakarta Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 50.4px;
     text-align: left;
     color: #001023;
-
 }
 
-.conference_content{
+.conference_content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.images_description{
+.images_description {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -281,115 +307,154 @@
     padding: 70px 0px;
     gap: 60px;
     width: 60%;
-    background-image: url('../images/Homepage/Group 4.png');
+    background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
-.desc_heading{
+.desc_heading {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: left;
     background-clip: text;
-    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    background-image: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     -webkit-text-fill-color: transparent;
 }
 
-.desc_summary{
+.desc_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 500;
     line-height: 22.68px;
     text-align: left;
     color: #001023;
-
 }
 
-.register_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+.register_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 40px;
     border: 1px solid transparent;
     border-radius: 20px;
     text-decoration: none;
 }
 
-.register_btn:hover{
-    color: #FFFFFF;
+.register_btn:hover {
+    color: #ffffff;
     text-decoration: none;
+}
+
+.learn_more_btn2 {
+    padding: 8px 32px;
+    position: relative;
+    background-color: white;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 1.75rem;
+    z-index: 1;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.learn_more_btn2:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.learn_more_btn2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2.5px;
+    left: -2.5px;
+    z-index: -1;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    border-radius: 1.75rem;
+}
+
+.button__label {
+    margin: 0;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
 }
 
 /* Call For Speakers */
 
-.speakers_section_wrapper{
+.speakers_section_wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background: #2D1C5B;
+    background: #2d1c5b;
     padding: 3rem 5rem;
     height: 90vh;
 }
 
-.speakers_content{
+.speakers_content {
     display: flex;
     flex-direction: column;
     align-items: left;
     padding: 20px;
 }
 
-.get_involved{
+.get_involved {
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 25.2px;
     text-align: left;
-    color: #F4238D;
-
+    color: #f4238d;
 }
 
-.call_spaekers{
+.call_spaekers {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: left;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
-.speaker_summary{
+.speaker_summary {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24.86px;
     text-align: left;
-    color: #CECBD7;
+    color: #cecbd7;
     padding: 20px 0px;
 }
 
-.proposal_btn{
+.proposal_btn {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-    color: #FFFFFF;
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    color: #ffffff;
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     width: fit-content;
 }
 
-.speaker_img > img{
+.speaker_img > img {
     width: 700px;
     z-index: 0;
     /* background: linear-gradient(180deg, rgba(45, 28, 91, 0) 47.35%, #2D1C5B 93.49%);
@@ -398,11 +463,11 @@
 
 /* Events booking */
 
-.event_booking{
-    background: #EFF1FD;
+.event_booking {
+    background: #eff1fd;
 }
 
-.event_booking_wrapper{
+.event_booking_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -413,22 +478,22 @@
     padding: 60px 0px;
 }
 
-.headline_content{
+.headline_content {
     padding: 20px 10px;
 }
 
-.early_bird{
+.early_bird {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: center;
     background-clip: text;
-    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
     -webkit-text-fill-color: transparent;
 }
 
-.early_bird_summary{
+.early_bird_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 400;
@@ -439,74 +504,83 @@
     margin: auto;
 }
 
-.remaining_days{
+.remaining_days {
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 25.2px;
     text-align: center;
-    color: #F4238D;
-
+    color: #f4238d;
+    animation: colorChange 2000ms infinite;
 }
 
-.booking_slots{
+@keyframes colorChange {
+    0% {
+        color: #f4238d;
+    }
+
+    65% {
+        color: #14063B;
+    }
+}
+
+.booking_slots {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px ;
+    padding: 20px;
     gap: 6rem;
     margin: auto;
 }
 
-.individual{
+.individual {
     border-radius: 15px;
-    background: #7750E7;
+    background: #7750e7;
     padding: 20px 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
-
 }
 
-.group_booking{
+.group_booking {
     border-radius: 15px;
-    background: #FFFFFF;
+    background: #ffffff;
     padding: 20px 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
     border: 1px solid;
-    border-image-source: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    border-image-source: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
 }
 
-.title_tag{
+.title_tag {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.16px;
     text-align: left;
-    color: #FFFFFF;
-    background: #E946C1;
+    color: #ffffff;
+    background: #e946c1;
     padding: 10px 20px;
     border-radius: 20px;
 }
 
-.group_title_tag{
+.group_title_tag {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.16px;
     text-align: left;
-    color: #7750E7;
-    background: #E7E1FA;
+    color: #7750e7;
+    background: #e7e1fa;
     padding: 10px 20px;
     border-radius: 20px;
 }
 
-.price{
+.price {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
@@ -515,26 +589,23 @@
     color: #fff;
 }
 
-.group_price{
+.group_price {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 45.36px;
     text-align: left;
-    color: #1C1826;
-
+    color: #1c1826;
 }
 
-
-
-.buy_ticket{
-    background: #FFFFFF;
+.buy_ticket {
+    background: #ffffff;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-    color: #7750E7;
+    color: #7750e7;
     padding: 10px 40px;
     border-radius: 12px;
     border: 1px solid transparent;
@@ -542,9 +613,9 @@
     margin-bottom: 10px;
 }
 
-.buy_ticket_btn{
-    border: 1px solid #5A6FF4;
-    color: #5A6FF4;
+.buy_ticket_btn {
+    border: 1px solid #5a6ff4;
+    color: #5a6ff4;
     background-color: transparent;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
@@ -559,7 +630,7 @@
 
 /* Sponsors and Partners */
 
-.sponsors_wrapper{
+.sponsors_wrapper {
     width: 60%;
     margin: auto;
     padding: 40px 20px;
@@ -569,21 +640,21 @@
     text-align: center;
 }
 
-.sponsors_heading{
+.sponsors_heading {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: center;
     background-clip: text;
-    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    background-image: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     -webkit-text-fill-color: transparent;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.sponsor_summary{
+.sponsor_summary {
     width: 70%;
     margin: auto;
     font-family: Plus Jakarta Sans;
@@ -592,10 +663,9 @@
     line-height: 22.68px;
     text-align: center;
     color: #717380;
-
 }
 
-.sponsors_logo{
+.sponsors_logo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -604,22 +674,20 @@
     padding: 20px 0px;
 }
 
-
 /* Upcoming Events Carousel */
 
-.events_headlines{
+.events_headlines {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     background-clip: text;
-    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
     -webkit-text-fill-color: transparent;
     text-align: center;
-
 }
 
-.events_summary{
+.events_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 400;
@@ -628,31 +696,30 @@
     color: #717380;
 }
 
-.upcoming_carousel_wrapper{
+.upcoming_carousel_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
 }
 
-.Upcoming_headlines{
+.Upcoming_headlines {
     width: 30%;
 }
 
-
-.carousel_div{
+.carousel_div {
     width: 80%;
     text-align: center;
     padding: 20px;
 }
 
-.slide_1{
+.slide_1 {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.slide_1_1{
+.slide_1_1 {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -660,12 +727,12 @@
     gap: 9rem;
     height: 70vh;
     padding: 2rem;
-    background-image: url('../images/Homepage/Group 6.png');
+    background-image: url("../images/Homepage/Group 6.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.slide_1_2{
+.slide_1_2 {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -673,7 +740,7 @@
     gap: 9rem;
     height: 70vh;
     padding: 2rem;
-    background-image: url('../images/Homepage/Rectangle 4.png');
+    background-image: url("../images/Homepage/Rectangle 4.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -684,8 +751,7 @@
     gap: 2rem;
 } */
 
-
-.upcom_headline{
+.upcom_headline {
     font-family: Plus Jakarta Sans;
     font-size: 24px;
     font-weight: 700;
@@ -694,7 +760,7 @@
     color: #fff;
 }
 
-.upcom_event_data{
+.upcom_event_data {
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 500;
@@ -703,9 +769,8 @@
     color: #fff;
 }
 
-
-.upcom_learn_more_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+.upcom_learn_more_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -717,7 +782,7 @@
     color: #fff;
 }
 
-.controls{
+.controls {
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -726,9 +791,9 @@
 
 /* Previous Events */
 
-.background_div{
-    background-color:  #FE2287 ;
-    background-image: url('../images/Homepage/Group 4.png');
+.background_div {
+    background-color: #fe2287;
+    background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: right;
@@ -741,14 +806,13 @@
     z-index: 0;
 }
 
-
-.previious_events{
-    background: #2D1C5B;
+.previious_events {
+    background: #2d1c5b;
     position: relative;
     padding: 40px;
 }
 
-.event_details_img{
+.event_details_img {
     width: 100%;
     margin: auto;
     display: flex;
@@ -757,19 +821,18 @@
     gap: 8rem;
     height: 76vh;
     padding: 5rem;
-    background-image: url('../images/Homepage/Group 15.png');
+    background-image: url("../images/Homepage/Group 15.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.prev_event_date{
+.prev_event_date {
     font-family: Plus Jakarta Sans;
     font-size: 24px;
     font-weight: 500;
     line-height: 30.91px;
     text-align: left;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 /* .div_prev{
@@ -778,7 +841,7 @@
     gap: 2rem;
 } */
 
-.attendees{
+.attendees {
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 400;
@@ -787,9 +850,8 @@
     color: #fff;
 }
 
-
-.learn_more_btn{
-    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+.learn_more_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 15px;
@@ -801,13 +863,13 @@
     color: #fff;
 }
 
-.previous_event_wrapper{
-    background-image: url('../images/Homepage/Group 4.png');
+.previous_event_wrapper {
+    background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position-y: top;
 }
 
-.previous_details{
+.previous_details {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -817,7 +879,7 @@
     position: relative;
 }
 
-.prev_event_heading{
+.prev_event_heading {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
@@ -826,15 +888,14 @@
     color: #fff;
 }
 
-.images_carousel{
+.images_carousel {
     width: 80%;
     margin: auto;
 }
 
-
 /* Event Reviews */
 
-.clients_wrapper{
+.clients_wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -844,80 +905,83 @@
     padding: 4rem 0px;
 }
 
-.client_details{
+.client_details {
     display: flex;
     flex-direction: column;
     width: 50%;
-
 }
 
-.review_content{
+.review_content {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-
-
-.bottom_part{
+.bottom_part {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
 }
 
-.combine_client{
+.controls_reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.combine_client {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
 }
 
-.event_reviews{
+.event_reviews {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: left;
     background-clip: text;
-    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
     -webkit-text-fill-color: transparent;
 }
 
-.review_headline{
+.review_headline {
     font-family: Plus Jakarta Sans;
     font-size: 24px;
     font-weight: 700;
     line-height: 30.91px;
     text-align: left;
-    color: #1C1826;
+    color: #1c1826;
 }
 
-.review_summary{
+.review_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 22.68px;
     text-align: left;
-    color: #1C1826;
+    color: #1c1826;
 }
 
-.client_name{
+.client_name {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 700;
     line-height: 22.68px;
     text-align: left;
-    color: #1C1826;
+    color: #1c1826;
+    margin-bottom: 0px;
 }
 
-.client_designation{
+.client_designation {
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 22.68px;
     text-align: left;
-    color: #1C1826;
+    color: #1c1826;
+    margin-bottom: 6px;
 }
-
-

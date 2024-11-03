@@ -3,6 +3,9 @@
 <div class="top_navbar"></div>
 <section id="navbar_section">
     <div id="navbar_wrapper" class="navbar_wrapper">
+        <div class="logo_wrapper">
+            <a href="{{route("home")}}" class="logo"><img src="{{ asset("images/Header/logo.png")}}" /></a>
+        </div>
         <div class="menu_wrapper">
             <div>
                 <ul class="nav_menu">
@@ -28,3 +31,14 @@
         </div>
     </div> -->
 </section>
+
+<script>
+    window.addEventListener('scroll', function() {
+        var navbar = document.getElementById('navbar_section');
+        if (window.scrollY > 200) {
+            navbar.style.backgroundColor = '#2D1C5B'; // Change to desired color
+        } else {
+            navbar.style.backgroundColor = 'transparent';
+        }
+    });
+</script>

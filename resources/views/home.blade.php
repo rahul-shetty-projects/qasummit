@@ -19,7 +19,10 @@
             </div>
             <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference.</p>
             <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
-            <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
+            <div class="hero_btn_wrapper">
+                <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
+                <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a>
+            </div>
         </div>
         <div class="hero_second_div">
             <div class="upcoming_events">
@@ -111,7 +114,10 @@
             <div class="images_description">
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
                 <p class="desc_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
+                <div class="btn_wrapper">
+                    <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
+                    <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -181,7 +187,7 @@
         <div class="carousel_div">
 
 
-            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slide_1">
@@ -221,7 +227,7 @@
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
+                                    <p class="upcom_event_data">January 16-19, 2026
                                         <br>New Delhi | India
                                         <br>Habitat World Convention Centre
                                     </p>
@@ -252,7 +258,7 @@
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
+                                    <p class="upcom_event_data">January 16-19, 2027
                                         <br>New Delhi | India
                                         <br>Habitat World Convention Centre
                                     </p>
@@ -290,10 +296,10 @@
         </div>
 
         <div class="controls">
-            <div class="prev_div">
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
                 <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
             </div>
-            <div class="next_div">
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
                 <img src="{{ asset("images/Homepage/next.png") }}" alt="">
             </div>
         </div>
@@ -310,12 +316,12 @@
             <p class="prev_event_heading">Previous Events</p>
             <div class="images_carousel">
 
-                <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
-                    </ol>
+                <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
@@ -339,7 +345,7 @@
                                         <br>New Delhi | India
                                         <br>Habitat World Convention Centre
                                     </p>
-                                    <p class="attendees">Attendees: 20,000+</p>
+                                    <p class="attendees">Attendees: 21,000+</p>
                                 </div>
 
                                 <button class="learn_more_btn">Learn More</button>
@@ -353,21 +359,21 @@
                                         <br>New Delhi | India
                                         <br>Habitat World Convention Centre
                                     </p>
-                                    <p class="attendees">Attendees: 20,000+</p>
+                                    <p class="attendees">Attendees: 22,000+</p>
                                 </div>
 
                                 <button class="learn_more_btn">Learn More</button>
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </button>
                 </div>
 
 
@@ -396,15 +402,17 @@
                         <p class="client_designation">CEO of Global Company</p>
                     </div>
                 </div>
+                <div class="controls_reviews">
+                    <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="">
+                    <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="">
+                </div>
             </div>
-            <div class="controls_reviews">
-                <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="">
-                <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="">
-            </div>
+
         </div>
         <div class="client_eclipse">
             <img src="{{ asset("images/Homepage/eclipse group.png") }}" alt="">
         </div>
     </div>
 </section>
+
 @endsection

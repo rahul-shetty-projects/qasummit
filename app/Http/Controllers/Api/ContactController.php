@@ -15,6 +15,7 @@ class ContactController extends Controller
         $request->validate([
             'email' => 'required|email',
             'name' => 'required|string|max:255',
+            'city' => 'required|string|max:255',
         ]);
 
         $client = new Client();
@@ -31,7 +32,8 @@ class ContactController extends Controller
                 'jsonBody' => [[
                     'email' => $request->input('email'),
                     'attributes' => [
-                        'FIRSTNAME' => $request->input('name'),
+                        'FULLNAME' => $request->input('name'),
+                        'CITY' => $request->input('city'),
                     ],
                 ]],
                 'listIds' => [$listId]

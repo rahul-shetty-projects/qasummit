@@ -13,6 +13,10 @@
                 <label for="email" class="email_label">Email Address</label>
                 <input type="email" name="email" id="email" class="email_input" placeholder="john@gmail.com" required>
             </div>
+            <div class="mail_div">
+                <label for="city" class="email_label">City</label>
+                <input type="text" name="city" id="city" class="email_input" placeholder="Hyderabad" required>
+            </div>
             <button id="subscribe_submit_btn" type="submit" class="subscibe_button">SUBSCRIBE</button>
         </form>
     </div>
@@ -20,11 +24,10 @@
         <div class="footer_menu">
             <ul class="footer_menu_list">
                 <li><a href="{{route("home")}}" class="footer_list_item">Home</a></li>
-                <li><a href="#" class="footer_list_item">About Us</a></li>
+                <li><a href="#" class="footer_list_item">Events</a></li>
                 <li><a href="#" class="footer_list_item">Sponsors</a></li>
-                <li><a href="#" class="footer_list_item">Schedule</a></li>
-                <li><a href="#" class="footer_list_item">Blog</a></li>
-                <li><a href="#" class="footer_list_item">Contact</a></li>
+                <li><a href="#" class="footer_list_item">Become a Speaker</a></li>
+                <li><a href="#" class="footer_list_item">About Us</a></li>
             </ul>
         </div>
         <div class="horrizontal_line">
@@ -42,7 +45,7 @@
                 </div>
             </div>
             <div class="footer_logo">
-                <img src="{{ asset("images/Footer/Mask group.png") }}" alt="">
+                <img src="{{ asset("images/Footer/smalllogo.png") }}" alt="">
             </div>
         </div>
     </div>
@@ -93,11 +96,18 @@
             const formData = {
                 name: $('#name').val(),
                 email: $('#email').val(),
+                city: $('#city').val()
             };
 
 
             $("#subscribe_submit_btn").prop('disabled', true);
-            $("#subscribe_submit_btn").html("Please Wait <span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>");
+            $("#subscribe_submit_btn").html("Please Wait&nbsp;&nbsp;<span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>");
+            $("#subscribe_submit_btn").css({
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center",
+                "gap": "8px"
+            });
 
             $.ajax({
                 url: "{{ route('newsletter.store') }}",
@@ -110,11 +120,15 @@
                 error: function(response) {
                     $('#failureModal').modal('show');
                     $('#newsletterForm').trigger('reset');
+                },
+                complete: function() {
+                    $("#subscribe_submit_btn").prop('disabled', false);
+                    $("#subscribe_submit_btn").html("SUBSCRIBE");
+                    //remove inline styles
+                    $("#subscribe_submit_btn").removeAttr("style");
                 }
-            });
 
-            $("#subscribe_submit_btn").prop('disabled', false);
-            $("#subscribe_submit_btn").html("SUBSCRIBE");
+            });
 
         });
     });

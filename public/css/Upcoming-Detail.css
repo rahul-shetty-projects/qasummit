@@ -740,7 +740,17 @@ color: #F4238D;
     line-height: 25.2px;
     text-align: center;
     color: #F4238D;
+    animation: colorChange 2000ms infinite;
+}
 
+@keyframes colorChange {
+    0% {
+        color: #f4238d;
+    }
+
+    65% {
+        color: #14063B;
+    }
 }
 
 .booking_slots{
@@ -753,7 +763,7 @@ color: #F4238D;
     margin: auto;
 }
 
-.individual{
+.individual {
     border-radius: 15px;
     background: #7750E7;
     padding: 20px 60px;
@@ -882,6 +892,9 @@ color: #F4238D;
 
 .controls_reviews{
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
 }
 
 .bottom_part{
