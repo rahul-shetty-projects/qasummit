@@ -40,7 +40,7 @@
     <div class="upcom_eve_wrapper">
         <div class="upcom_nocon_header">
             <div class="upcom_nocon_events">
-                <button class="upcom_eve_btn active" id="upcoming_btn" onclick="upComingFun()">Upcoming Events</button>
+                <button class="upcom_eve_btn activee" id="upcoming_btn" onclick="upComingFun()">Upcoming Events</button>
                 <button class="nocon_eve_btn" id="notconfirm_btn" onclick="notConfrmFun()">Not Confirmed Events</button>
             </div>
             <div class="horiz_line_upcom_nocon_eve"></div>
@@ -256,14 +256,14 @@
 
             </div>
 
-            <div class="controls">
+            <!-- <div class="controls">
                 <div type="button" class="prev_div">
                     <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
                 </div>
                 <div type="button" class="next_div">
                     <img src="{{ asset("images/Homepage/next.png") }}" alt="">
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -278,15 +278,15 @@
     let notCnfrmTmln = document.getElementById('not_cnfrmed_events');
 
     const upComingFun = () => {
-        upComingBtn.classList.add('active');
-        notCnfrmBtn.classList.remove('active')
+        upComingBtn.classList.add('activee');
+        notCnfrmBtn.classList.remove('activee')
         upCmngTmln.style.display = 'block'
         notCnfrmTmln.style.display = 'none'
     }
 
     const notConfrmFun = () => {
-        notCnfrmBtn.classList.add('active');
-        upComingBtn.classList.remove('active')
+        notCnfrmBtn.classList.add('activee');
+        upComingBtn.classList.remove('activee')
         notCnfrmTmln.style.display = 'block'
         upCmngTmln.style.display = 'none'
     }

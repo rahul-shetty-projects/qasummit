@@ -42,7 +42,7 @@
             <div class="prev_eve_header">
                 <div class="heading_div">
                     <p class="prev_eve_heading" style="margin-bottom:0!important">Previous Events</p>
-                    <button class="prev_eve_date">Date <img src="{{ asset("images/Previouspage/down arrow.png") }}" alt="" style="margin-left: 6px;"> </button>
+                    <!-- <button class="prev_eve_date">Date <img src="{{ asset("images/Previouspage/down arrow.png") }}" alt="" style="margin-left: 6px;"> </button> -->
                 </div>
                 <div class="horizontal_line_prev_eve"></div>
             </div>
@@ -149,14 +149,14 @@
                 </div>
 
             </div>
-            <div class="controls">
+            <!-- <div class="controls">
                 <div type="button" class="prev_div">
                     <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
                 </div>
                 <div type="button" class="next_div">
                     <img src="{{ asset("images/Homepage/next.png") }}" alt="">
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
