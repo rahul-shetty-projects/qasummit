@@ -146,7 +146,7 @@
         <div class="event_top_part">
             <p class="event_highlights_heading">Event Highlights</p>
             <div class="highlights_wrapper">
-                <button class="highlights highlight_active" onclick="showContent('keynote')" style="border: none; border-top-left-radius: 15px; border-bottom-left-radius: 15px;">Keynote Speakers</button>
+                <button class="highlights highlight_active" onclick="showContent('keynote')" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">Keynote Speakers</button>
                 <button class="highlights" onclick="showContent('panel')">Panel Discussions</button>
                 <button class="highlights" onclick="showContent('networking')">Networking Opportunities</button>
                 <button class="highlights" onclick="showContent('insights')">Industry Insights</button>

@@ -164,3 +164,233 @@
 
 }
 
+/* Previous Events Timeline */
+
+
+.previous_events_wrapper{
+    padding: 3rem 0rem;
+}
+
+.prev_eve_header{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+
+.heading_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.horizontal_line_prev_eve{
+    border: 1px solid #CFCDCD;
+}
+
+.prev_eve_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.36px;
+    text-align: left;
+    background-clip: text;
+    background-image:linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;
+    -webkit-text-fill-color: transparent;
+}
+
+.prev_eve_date{
+    border: 1px solid #CFCDCD;
+    padding: 10px 25px;
+    border-radius: 40px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+    color: #1C1826;
+    background-color: transparent;
+}
+
+.tmln_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.24px;
+    text-align: left;
+    background-clip: text;
+    background-image:linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;
+    -webkit-text-fill-color: transparent;
+}
+
+.tmln_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #1C1826;
+}
+
+.sec_tmln_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #fff;
+}
+
+.prev_learn_more_btn{
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    padding: 10px 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+.img_wrapper{
+    border: 3px solid ;
+    border-image:  linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)1;
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+}
+
+.image_content_tmln{
+    position: absolute;
+    padding: 10px;
+}
+
+.image_summary_tmln{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.76px;
+    text-align: left;
+    color:  #FFFFFF;
+}
+
+.first_timeline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 8rem;
+    position: relative;
+}
+
+.second_timeline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8rem;
+    position: relative;
+    height: 700px;
+    background-image: url('../images/Previouspage/tmlnbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.timeline_content{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sec_timeline_content{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.prev_eve_timeline_wrapper{
+    position: relative;
+}
+
+.prev_eve_timeline_wrapper::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    height: 82.5%;
+    top: 3%;
+    border: 2px solid #F4238D;
+    z-index: 5;
+}
+
+.timeline_img::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #F4238D;
+    top: 16%;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 49.45%;
+}
+
+.timeline_img::after{
+    content: 'December 2024.';
+    color: #F4238D;
+    border: none;
+    position: absolute;
+    left: 52%;
+    top: 16%;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.sec_timeline_img::after{
+    content: 'December 2024.';
+    color: #F4238D;
+    border: none;
+    position: absolute;
+    left: 39%;
+    top: 26%;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.sec_timeline_img::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #F4238D;
+    border: none;
+    top: 26%;
+    border-radius: 50%;
+    position: absolute;
+    left: 49.45%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 40px;
+    width: 10%;
+    margin: auto;
+}

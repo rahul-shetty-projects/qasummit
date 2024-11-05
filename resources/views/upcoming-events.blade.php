@@ -35,4 +35,263 @@
         </div> -->
     </div>
 </section>
+
+<section class="upcoming_events_section" id="upcoming_events_section">
+    <div class="upcom_eve_wrapper">
+        <div class="upcom_nocon_header">
+            <div class="upcom_nocon_events">
+                <button class="upcom_eve_btn active" id="upcoming_btn" onclick="upComingFun()">Upcoming Events</button>
+                <button class="nocon_eve_btn" id="notconfirm_btn" onclick="notConfrmFun()">Not Confirmed Events</button>
+            </div>
+            <div class="horiz_line_upcom_nocon_eve"></div>
+        </div>
+        <div class="upcom_nocon_div">
+            <div class="upcom_eve_tmln_wrapper" id="upcoming_events" style="display : block">
+
+            <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="second_timeline">
+                    <div class="sec_timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                    <div class="sec_timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="second_timeline">
+                    <div class="sec_timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                    <div class="sec_timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="nocon_eve_tmln_wrapper" id="not_cnfrmed_events" style="display : none">
+
+
+            <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="second_timeline">
+                    <div class="sec_timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                    <div class="sec_timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="second_timeline">
+                    <div class="sec_timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                    <div class="sec_timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first_timeline">
+                    <div class="timeline_img">
+                        <div class="img_wrapper">
+                            <div class="image_content_tmln">
+                                <p class="image_summary_tmln">
+                                        January 16-19, 2025
+                                    <br>New Delhi | India
+                                    <br>Habitat World Convention Centre
+                                </p>
+                            </div>
+                            <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        </div>
+                    </div>
+                    <div class="timeline_content">
+                        <p class="tmln_heading">India QA Fest</p>
+                        <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                        <button class="prev_learn_more_btn">Learn More</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="controls">
+                <div type="button" class="prev_div">
+                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+                </div>
+                <div type="button" class="next_div">
+                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+    let upComingBtn = document.getElementById('upcoming_btn');
+    let notCnfrmBtn = document.getElementById('notconfirm_btn');
+    let upCmngTmln = document.getElementById('upcoming_events');
+    let notCnfrmTmln = document.getElementById('not_cnfrmed_events');
+
+    const upComingFun = () => {
+        upComingBtn.classList.add('active');
+        notCnfrmBtn.classList.remove('active')
+        upCmngTmln.style.display = 'block'
+        notCnfrmTmln.style.display = 'none'
+    }
+
+    const notConfrmFun = () => {
+        notCnfrmBtn.classList.add('active');
+        upComingBtn.classList.remove('active')
+        notCnfrmTmln.style.display = 'block'
+        upCmngTmln.style.display = 'none'
+    }
+
+</script>
+
 @endsection
+
