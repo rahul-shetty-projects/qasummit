@@ -511,7 +511,7 @@
     line-height: 25.2px;
     text-align: center;
     color: #f4238d;
-    animation: colorChange 2000ms infinite;
+    animation: colorChange 1000ms infinite;
 }
 
 @keyframes colorChange {
@@ -519,7 +519,7 @@
         color: #f4238d;
     }
 
-    65% {
+    50% {
         color: #14063B;
     }
 }
@@ -530,7 +530,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    gap: 6rem;
+    gap: 3rem;
     margin: auto;
 }
 

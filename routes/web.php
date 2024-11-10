@@ -28,3 +28,7 @@ Route::get('/previous-events', function () {
 Route::get('/upcoming-events', function () {
     return view(view: 'upcoming-events');
 })->name("upcoming-events");
+
+Route::get('/previous-event', function () {
+    return view(view: 'previous-event');
+})->name("previous-event");

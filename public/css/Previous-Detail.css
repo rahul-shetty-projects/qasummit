@@ -36,7 +36,7 @@
 .hero_first_div{
     position: relative;
     z-index: 2;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,24 +44,24 @@
 }
 
 .hero_headline{
-    font-family: Montserrat;
-    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 58.51px;
+    line-height: 25.2px;
     text-align: left;
     color: #F4238D;
-    background: #FFFFFF;
+    /* background: #FFFFFF;
     padding: 10px;
     margin-top: -12px;
-    margin-left: -12px;
+    margin-left: -12px; */
 }
 
-.border_style{
+/* .border_style{
     border-bottom: 3px solid #F4238D;
     border-right: 3px solid #F4238D;
     padding-right: 12px;
     padding-bottom: 12px;
-}
+} */
 
 .hero_heading{
     font-family: Plus Jakarta Sans;
@@ -194,7 +194,8 @@
     background-image: url('../images/Homepage/Group 4.png');
     background-repeat: no-repeat;
     background-position: right;
-    width: 65%;
+    width: 75%;
+    padding: 2rem 0rem;
 }
 
 .first_set{
@@ -234,7 +235,7 @@ color: #F4238D;
     justify-content: space-between;
     padding: 70px 0px;
     gap: 40px;
-    width: 60%;
+    width: 55%;
     background-image: url('../images/Homepage/Group 4.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -274,90 +275,59 @@ color: #F4238D;
     border-radius: 20px;
 }
 
-/* Why Attend? */
+/* Sponsors and Partners */
 
-
-
-.why_attend_sectin{
-    background-color: #170548;
-    padding: 4rem 1rem;
-}
-
-.why_attend_wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* justify-content: space-between; */
-    width: 80%;
+.sponsors_wrapper {
+    width: 60%;
     margin: auto;
-}
-
-.attend_content_part{
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    width: 50%;
+    align-items: center;
+    text-align: center;
 }
 
-.attend_accordion{
-    width: 80%;
-}
-
-
-.accordion-button[aria-expanded="false"]{
-    background-color: #170548!important;
-    color: #fff!important;
-    font-family: Plus Jakarta Sans;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25.2px;
-    text-align: left;
-    border: 1px solid #5A6FF4!important;
-    border-radius: 15px!important;
-    transition: none!important;
-}
-
-.accordion-button[aria-expanded="true"]{
-    background-color: #fff!important;
-    color: #000!important;
-    font-family: Plus Jakarta Sans;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25.2px;
-    text-align: left;
-    border: none!important;
-    border-radius: 15px!important;
-    transition: none!important;
-}
-
-
-
-.accordion-button::after{
-    background-image: url('../images/Detailspage/arrow.png')!important;
-    height: 0.7rem!important;
-}
-
-.why_attend_headline{
+.sponsors_heading {
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
-    text-align: left;
+    text-align: center;
     background-clip: text;
-    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    background-image: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.accordion-item{
-    margin-bottom: 1rem;
-    border: 2px solid #5A6FF4!important;
-    border-radius: 17px!important;
-
+.sponsor_summary {
+    width: 70%;
+    margin: auto;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
 }
+
+.sponsors_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+}
+
 
 
 /* Event Highlights */
 
+.event_highlights_section{
+    background-color: #EFF1FD;
+}
 
 .event_high_wrapper{
     display: flex;
@@ -442,6 +412,77 @@ color: #F4238D;
     line-height: 25.2px;
     text-align: left;
     color: #000;
+}
+
+/* Our Impact */
+
+.our_impact_section{
+    background: #170548;
+    height: 80vh;
+}
+
+.extra_div{
+    background-image: url('../images/Previouspage/impactbg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 80%;
+    margin: auto;
+}
+
+.our_impact_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    background-image: url('../images/Previouspage/impactbg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.count_div_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.attendees_count,.bssnss_connection,.social_media_imp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impact_hdln{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: #F4238D;
+}
+
+.impact_smmry{
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80.64px;
+    text-align: left;
+    color: #F4238D;
+}
+
+.hdln_impact{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -691,178 +732,58 @@ color: #F4238D;
 }
 
 
+/* Media Gallery */
 
-/* Events booking */
 
-.event_booking{
-    background: #EFF1FD;
+.image_gallery_section{
+    background: #170548;
 }
 
-.event_booking_wrapper{
+.image_gallery_wrapper{
     display: flex;
     flex-direction: column;
+    gap: 3rem;
+}
+
+.carousel_images{
+    width: 80%;
+    margin: auto;
+}
+
+.slide_img1,.slide_img2,.slide_img3{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+}
+
+.wrapper_heading{
+    width: fit-content;
     margin: auto;
-    text-align: center;
-    padding: 2rem 0rem;
 }
 
-.headline_content{
-    padding: 20px 10px;
-}
-
-.early_bird{
+.media_heading{
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.32px;
     text-align: center;
     background-clip: text;
-    background-image: linear-gradient(90deg, #5A6FF4 0%, #F741BB 81.86%);
+    padding-top: 2rem;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
     -webkit-text-fill-color: transparent;
 }
 
-.early_bird_summary{
-    font-family: Plus Jakarta Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22.68px;
-    text-align: center;
-    color: #717380;
-    width: 70%;
-    margin: auto;
-}
-
-.remaining_days{
-    font-family: Plus Jakarta Sans;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25.2px;
-    text-align: center;
-    color: #F4238D;
-    animation: colorChange 2000ms infinite;
-}
-
-@keyframes colorChange {
-    0% {
-        color: #f4238d;
-    }
-
-    65% {
-        color: #14063B;
-    }
-}
-
-.booking_slots{
+.controls {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px ;
-    gap: 6rem;
+    padding: 3rem 0rem;
+    gap: 40px;
+    width: 10%;
     margin: auto;
 }
-
-.individual {
-    border-radius: 15px;
-    background: #7750E7;
-    padding: 20px 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-
-}
-
-.group_booking{
-    border-radius: 15px;
-    background: #FFFFFF;
-    padding: 20px 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-    border: 1px solid;
-    border-image-source: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
-}
-
-.title_tag{
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.16px;
-    text-align: left;
-    color: #FFFFFF;
-    background: #E946C1;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.group_title_tag{
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.16px;
-    text-align: left;
-    color: #7750E7;
-    background: #E7E1FA;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.price{
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 45.36px;
-    text-align: left;
-    color: #fff;
-}
-
-.group_price{
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 45.36px;
-    text-align: left;
-    color: #1C1826;
-
-}
-
-
-
-.buy_ticket{
-    background: #FFFFFF;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.16px;
-    text-align: left;
-    color: #7750E7;
-    padding: 10px 40px;
-    border-radius: 12px;
-    border: 1px solid transparent;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.buy_ticket_btn{
-    border: 1px solid #5A6FF4;
-    color: #5A6FF4;
-    background-color: transparent;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.16px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px 40px;
-    border-radius: 12px;
-}
-
 
 /* Event Reviews */
 
@@ -963,8 +884,3 @@ color: #F4238D;
     margin-bottom: 0!important;
 }
 
-/* Footer */
-
-.first_div{
-    width: 60%;
-}
