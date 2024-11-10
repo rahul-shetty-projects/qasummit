@@ -32,3 +32,15 @@ Route::get('/upcoming-events', function () {
 Route::get('/previous-event', function () {
     return view(view: 'previous-event');
 })->name("previous-event");
+
+Route::get('/become-a-speaker', function () {
+    return view(view: 'become-a-speaker');
+})->name("become-a-speaker");
+
+Route::get('/become-a-sponsor', function () {
+    return view(view: 'become-a-sponsor');
+})->name("become-a-sponsor");
+
+Route::get('/about-us', function () {
+    return view(view: 'about-us');
+})->name("about-us");
