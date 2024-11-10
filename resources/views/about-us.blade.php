@@ -41,7 +41,7 @@
 <section class="why_attend_sectin" id="why_attend_section">
     <div class="why_attend_wrapper">
         <div class="attend_content_part">
-            <p class="why_attend_headline">Why Sponsor Us?</p>
+            <p class="why_attend_headline">QA Summit Culture</p>
             <div class="attend_accordion">
 
 
