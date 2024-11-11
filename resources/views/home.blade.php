@@ -11,7 +11,7 @@
 <section class="hero_section" id="hero_section">
     <div class="hero_section_wrapper">
         <div class="hero_speaker_image">
-            <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="">
+            <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="" style="width:100%;">
         </div>
         <div class="hero_first_div">
             <div class="border_style">
@@ -310,7 +310,7 @@
 <section class="previious_events">
     <div class="previous_event_wrapper">
         <div class="background_div">
-
+            <img src="{{ asset("images/Homepage/Group 4.png") }}" alt="" style="width:250px;margin-bottom : -2rem;">
         </div>
         <div class="previous_details">
             <p class="prev_event_heading">Previous Events</p>
