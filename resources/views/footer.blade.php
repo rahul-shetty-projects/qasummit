@@ -35,7 +35,7 @@
         </div>
         <div class="footer_bottom">
             <div class="combine_div">
-                <p class="copyright" style="margin-bottom: 0!important;">2023 Copyright Rahul Shetty. All Rights Reserved</p>
+                <p class="copyright" style="margin-bottom: 0!important;">2024 Copyright Rahul Shetty. All Rights Reserved</p>
                 <div class="footer_social_icons">
                     <img src="{{ asset("images/Footer/Facebook Icon.png") }}" alt="">
                     <img src="{{ asset("images/Footer/Linkedin Icon.png") }}" alt="">

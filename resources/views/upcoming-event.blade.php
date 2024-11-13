@@ -23,7 +23,7 @@
             <button class="hero_register_btn">Register</button>
         </div>
         <div class="hero_second_div">
-            <div class="upcoming_events">
+            <!-- <div class="upcoming_events">
                 <div class="event_headline">
                     <p class="event_headline">Upcoming Event</p>
                     <p class="event_heading" style="margin-bottom: 0!important;">QA Transformation</p>
@@ -33,7 +33,7 @@
                     <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png");}}" alt=""><span>Conference room 5</span></p>
                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png");}}" alt=""><span>25 Aug, 2025</span></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

@@ -15,17 +15,19 @@
         </div>
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">TestFest India!</p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">TestFest!</p>
             </div>
-            <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference.</p>
+            <p class="hero_heading">India’s Premier Software Testing and QA Conference</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bangalore, India (Exact venue to be shared later)</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25 Aug, 2025</span></p>
             <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
             <div class="hero_btn_wrapper">
                 <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
-                <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a>
+                <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
         <div class="hero_second_div">
-            <div class="upcoming_events">
+            <!-- <div class="upcoming_events">
                 <div class="event_headline">
                     <p class="event_headline">Upcoming Event</p>
                     <p class="event_heading" style="margin-bottom: 0!important;">QA Transformation</p>
@@ -35,7 +37,7 @@
                     <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png") }}" alt=""><span>Conference room 5</span></p>
                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png") }}" alt=""><span>25 Aug, 2025</span></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -103,12 +105,24 @@
         <div class="conference_content">
             <div class="conference_images">
                 <div class="first_set">
-                    <img src="{{ asset("images/Homepage/Mask group.png") }}" alt="">
-                    <img src="{{ asset("images/Homepage/Mask group (1).png") }}" alt="">
+                    <div class="img1_div">
+                        <img src="{{ asset("images/Homepage/con1.png") }}" alt="">
+                        <p class="overflow_txt">Grow</p>
+                    </div>
+                    <div class="img2_div">
+                        <img src="{{ asset("images/Homepage/con3.png") }}" alt="">
+                        <p class="overflow_txt">Connect</p>
+                    </div>
                 </div>
                 <div class="second_set">
-                    <img src="{{ asset("images/Homepage/Mask group (2).png") }}" alt="">
-                    <img src="{{ asset("images/Homepage/Mask group (3).png") }}" alt="">
+                    <div class="img3_div">
+                        <img src="{{ asset("images/Homepage/con2.png") }}" alt="">
+                        <p class="overflow_txt">Learn</p>
+                    </div>
+                    <div class="img4_div">
+                        <img src="{{ asset("images/Homepage/con4.png") }}" alt="">
+                        <p class="overflow_txt">Innovate</p>
+                    </div>
                 </div>
             </div>
             <div class="images_description">
@@ -116,7 +130,7 @@
                 <p class="desc_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
                 <div class="btn_wrapper">
                     <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
-                    <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a>
+                    <!-- <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
         </div>
@@ -131,15 +145,15 @@
             <p class="sponsor_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
         </div>
         <div class="sponsors_logo">
-            <img src="{{ asset("images/Homepage/IBM logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/google logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/Vector (1).png") }}" alt="">
+            <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/udemy logo.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/rslogo.png") }}" alt="">
         </div>
     </div>
 </section>
 
 
-<section class="event_booking" id="event_booking">
+<!-- <section class="event_booking" id="event_booking">
     <div class="event_booking_wrapper">
         <div class="headline_content">
             <p class="early_bird">Early Bird Registration</p>
@@ -161,7 +175,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="call_for_speakers">
     <div class="speakers_section_wrapper">
@@ -196,9 +210,9 @@
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
+                                    <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
@@ -209,9 +223,9 @@
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
+                                    <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
@@ -222,27 +236,27 @@
                     <div class="carousel-item">
 
                         <div class="slide_1">
-                            <div class="slide_1_1">
-                                <div class="div_upcom_eve">
-                                    <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                    </p>
-                                    <p class="upcom_event_data">January 16-19, 2026
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
-                                    </p>
-                                </div>
-
-                                <button class="upcom_learn_more_btn">Learn More</button>
-                            </div>
                             <div class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    </p>
+                                </div>
+
+                                <button class="upcom_learn_more_btn">Learn More</button>
+                            </div>
+                            <div class="slide_1_1">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
@@ -258,22 +272,22 @@
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2027
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
                                 <button class="upcom_learn_more_btn">Learn More</button>
                             </div>
-                            <div class="slide_1_2">
+                            <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
                                     </p>
-                                    <p class="upcom_event_data">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
@@ -327,10 +341,10 @@
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
                             <div class="event_details_img">
                                 <div class="div_prev">
-                                    <p class="prev_event_date">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
-                                    </p>
+                                    <div class="prev_event_date">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
+                                    </div>
                                     <p class="attendees">Attendees: 20,000+</p>
                                 </div>
 
@@ -341,10 +355,10 @@
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
                             <div class="event_details_img">
                                 <div class="div_prev">
-                                    <p class="prev_event_date">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
-                                    </p>
+                                    <div class="prev_event_date">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
+                                    </div>
                                     <p class="attendees">Attendees: 21,000+</p>
                                 </div>
 
@@ -355,10 +369,10 @@
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
                             <div class="event_details_img">
                                 <div class="div_prev">
-                                    <p class="prev_event_date">January 16-19, 2025
-                                        <br>New Delhi | India
-                                        <br>Habitat World Convention Centre
-                                    </p>
+                                    <div class="prev_event_date">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
+                                    </div>
                                     <p class="attendees">Attendees: 22,000+</p>
                                 </div>
 

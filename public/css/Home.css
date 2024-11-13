@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 93vh;
     padding: 10px 80px;
 }
 
@@ -24,7 +24,7 @@
 
 .hero_speaker_image {
     /* background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%); */
-    width: 53%;
+    width: 49%;
     top: 0;
     right: 10px;
     position: absolute;
@@ -34,11 +34,11 @@
 .hero_first_div {
     position: relative;
     z-index: 2;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
     padding: 0rem 4rem;
 }
 
@@ -78,7 +78,7 @@
     line-height: 22.68px;
     text-align: left;
     color: #c8c7d3;
-    width: 80%;
+    width: 70%;
 }
 
 .event_headline {
@@ -103,11 +103,13 @@
 
 .event_location {
     font-family: Plus Jakarta Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17.64px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
     text-align: left;
-    color: #c8c7d3;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -116,11 +118,13 @@
 
 .event_date {
     font-family: Plus Jakarta Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17.64px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
     text-align: left;
-    color: #c8c7d3;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #fff;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -164,9 +168,9 @@
 
 .hero_register_btn {
     background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
-    padding: 10px 30px;
-    border: 1px solid transparent;
-    border-radius: 20px;
+    padding: 1rem 3rem;
+    /* border: 1px solid transparent; */
+    border-radius: 15px;
     color: #fff;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
@@ -175,6 +179,13 @@
     text-align: left;
     text-decoration: none;
 }
+
+/* // While hovering
+// Change to: "Variant2";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 500ms; */
+
 
 .hero_register_btn:hover {
     color: #fff;
@@ -209,7 +220,7 @@
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: -5.5rem;
+    top: -2.2rem;
     right: 25%;
 }
 
@@ -253,7 +264,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 90%;
+    width: 85%;
     margin: auto;
     padding: 20px 40px;
     gap: 10px;
@@ -269,7 +280,7 @@
     background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: right;
-    width: 50%;
+    width: 55%;
 }
 
 .first_set {
@@ -294,6 +305,24 @@
     color: #001023;
 }
 
+.img1_div,.img2_div,.img3_div,.img4_div{
+    position: relative;
+}
+
+.overflow_txt{
+    position: absolute;
+    top: 1rem;
+    left: 28%;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+
 .conference_content {
     display: flex;
     flex-direction: row;
@@ -307,7 +336,7 @@
     justify-content: space-between;
     padding: 70px 0px;
     gap: 60px;
-    width: 40%;
+    width: 45%;
     background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -331,6 +360,7 @@
     line-height: 22.68px;
     text-align: left;
     color: #001023;
+    width: 70%;
 }
 
 .register_btn {
@@ -670,7 +700,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     padding: 20px 0px;
 }
 
@@ -701,6 +731,7 @@
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    background-color: #EFF1FD;
 }
 
 .Upcoming_headlines {
@@ -708,7 +739,7 @@
 }
 
 .carousel_div {
-    width: 80%;
+    width: 90%;
     text-align: center;
     padding: 20px;
 }
@@ -724,7 +755,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 9rem;
+    gap: 12rem;
     height: 70vh;
     padding: 2rem;
     background-image: url("../images/Homepage/Group 6.png");
@@ -737,7 +768,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 9rem;
+    gap: 12rem;
     height: 70vh;
     padding: 2rem;
     background-image: url("../images/Homepage/Rectangle 4.png");
@@ -758,6 +789,7 @@
     line-height: 30.24px;
     text-align: left;
     color: #fff;
+    width: 80%;
 }
 
 .upcom_event_data {
@@ -838,11 +870,11 @@
     color: #ffffff;
 }
 
-/* .div_prev{
+.div_prev{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-} */
+    gap: 3rem;
+}
 
 .attendees {
     font-family: Plus Jakarta Sans;
