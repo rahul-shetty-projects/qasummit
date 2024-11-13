@@ -38,11 +38,12 @@
 .hero_first_div{
     position: relative;
     z-index: 2;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    padding: 0rem 3rem;
 }
 
 .hero_headline{
@@ -525,4 +526,118 @@
     text-align: left;
     color: #1C1826;
     margin-bottom: 0!important;
+}
+
+
+/* Get Started Form */
+
+.speaker_form_section{
+    padding: 3rem 0;
+}
+
+.form_wrapper{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_header{
+    width: fit-content;
+    margin: auto;
+}
+
+.form_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.form_wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.spname_div,.email_div,.title_div,.number_div,.text_area1_div,.text_area2_div,.text_area3_div,.subject_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.speaker_label{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1C1826;
+    margin-left: 20px;
+}
+
+.combine_divv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.speakername_inp,.speakermail_inp,.speakertitle_inp,.speakernumber_inp,.speakersub_inp{
+    box-shadow: 0px 4px 20px 0px #00000026;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.speakerarea1_inp,.speakerarea2_inp,.speakerarea3_inp{
+    box-shadow: 0px 4px 20px 0px #00000026;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.submit_btn_div{
+    width: fit-content;
+    margin: auto;
+}
+
+.submit_btn{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    padding: 1.2rem 2.5rem;
+    margin: 2rem 0rem;
+    border: none;
+    border-radius: 23px;
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
 }

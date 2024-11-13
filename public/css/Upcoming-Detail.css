@@ -157,8 +157,8 @@
 .hero_register_btn{
     background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
     padding: 10px 30px;
-    border: 1px solid transparent;
-    border-radius: 20px;
+    border: none;
+    border-radius: 40px;
     color: #fff;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
@@ -174,7 +174,6 @@
 
 .about_the_cenference{
     position: relative;
-    height: 100vh;
 }
 
 .about_conference_wrapper{
@@ -198,6 +197,7 @@
     background-repeat: no-repeat;
     background-position: right;
     width: 65%;
+    padding: 0rem 3.6rem;
 }
 
 .first_set{
@@ -227,7 +227,7 @@ color: #F4238D;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .images_description{
@@ -237,7 +237,7 @@ color: #F4238D;
     justify-content: space-between;
     padding: 70px 0px;
     gap: 40px;
-    width: 60%;
+    width: 50%;
     background-image: url('../images/Homepage/Group 4.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -261,7 +261,7 @@ color: #F4238D;
     line-height: 22.68px;
     text-align: left;
     color: #001023;
-
+    width: 80%;
 }
 
 .register_btn{
@@ -299,11 +299,11 @@ color: #F4238D;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 50%;
+    width: 45%;
 }
 
 .attend_accordion{
-    width: 80%;
+    width: 73%;
 }
 
 
@@ -333,7 +333,16 @@ color: #F4238D;
     transition: none!important;
 }
 
-
+.accordion-body{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;    
+}
 
 .accordion-button::after{
     background-image: url('../images/Detailspage/arrow.png')!important;
@@ -494,7 +503,8 @@ color: #F4238D;
 .schedule_wrapper{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    justify-content: space-between;
+    width: 76%;
     margin: auto;
     gap: 4rem;
     padding-top: 4rem;
@@ -504,13 +514,15 @@ color: #F4238D;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 26%;
+    width: 30%;
 }
 
 .timeline_div{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 60%;
+    padding: 2rem 0rem;
 }
 
 .schedule_days{
@@ -518,12 +530,16 @@ color: #F4238D;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 50%;
+    margin-left: 2rem;
 }
 
 .day_1,.day_2,.day_3{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: fit-content;
+    margin: auto;
 }
 
 .schedule_horiz_line{
@@ -545,7 +561,7 @@ color: #F4238D;
 
 .timeline_wrapper::after{
     content: '';
-    height: 82%;
+    height: 93%;
     position: absolute;
     left: 30%;
     top: 10px;
@@ -553,7 +569,7 @@ color: #F4238D;
     border: 3px solid #D6D6D8;
 }
 
-.timeline_1,.timeline_2,.timeline_3,.timeline_4{
+.timeline_1,.timeline_2,.timeline_3,.timeline_4,.timeline_5,.timeline_6,.timeline_7,.timeline_8,.timeline_9{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -562,7 +578,7 @@ color: #F4238D;
 .timeline_1::before{
     content: '1';
     position: absolute;
-    left: 28.6%;
+    left: 28.5%;
     width: 28px;
     height: 28px;
     color: #FFFFFF;
@@ -575,7 +591,7 @@ color: #F4238D;
 .timeline_2::before{
     content: '2';
     position: absolute;
-    left: 28.6%;
+    left: 28.5%;
     width: 28px;
     height: 28px;
     color: #FFFFFF;
@@ -588,7 +604,7 @@ color: #F4238D;
 .timeline_3::before{
     content: '3';
     position: absolute;
-    left: 28.6%;
+    left: 28.5%;
     width: 28px;
     height: 28px;
     color: #FFFFFF;
@@ -601,7 +617,72 @@ color: #F4238D;
 .timeline_4::before{
     content: '4';
     position: absolute;
-    left: 28.6%;
+    left: 28.5%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_5::before{
+    content: '5';
+    position: absolute;
+    left: 28.5%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_6::before{
+    content: '6';
+    position: absolute;
+    left: 28.5%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_7::before{
+    content: '7';
+    position: absolute;
+    left: 28.5%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_8::before{
+    content: '8';
+    position: absolute;
+    left: 28.5%;
+    width: 28px;
+    height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5975F7;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.timeline_9::before{
+    content: '9';
+    position: absolute;
+    left: 28.5%;
     width: 28px;
     height: 28px;
     color: #FFFFFF;
@@ -648,7 +729,11 @@ color: #F4238D;
     font-weight: 700;
     line-height: 22.68px;
     text-align: left;
-    color: #717380;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid #5975F7;
+    padding: .5rem 0rem;
 }
 
 .span_date{
@@ -686,7 +771,6 @@ color: #F4238D;
     line-height: 22.68px;
     text-align: left;
     color: #717380;
-    width: 80%;
 }
 
 .schedule_titles{
@@ -706,7 +790,7 @@ color: #F4238D;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin: auto;
     text-align: center;
     padding: 2rem 0rem;
@@ -764,31 +848,45 @@ color: #F4238D;
     align-items: center;
     justify-content: space-between;
     padding: 20px ;
-    gap: 6rem;
-    margin: auto;
+    gap: 4rem;
+    width: 100%;
 }
 
 .individual {
     border-radius: 15px;
     background: #7750E7;
-    padding: 20px 60px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
-
+    width: 250px;
 }
 
 .group_booking{
     border-radius: 15px;
     background: #FFFFFF;
-    padding: 20px 60px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
-    border: 1px solid;
-    border-image-source: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    width: 250px;
+    /* border: 1px solid ; */
+    /* border-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%) 1; */
+}
+
+.corp_booking{
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 250px;
+    /* border: 1px solid; */
+    /* border-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%) 1; */
 }
 
 .title_tag{
@@ -808,32 +906,61 @@ color: #F4238D;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.16px;
-    text-align: left;
+    text-align: center;
     color: #7750E7;
     background: #E7E1FA;
     padding: 10px 20px;
     border-radius: 20px;
+    width: 100%;
+}
+
+.corp_title_tag{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+    color: #fff;
+    background: #FF9650;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
 }
 
 .price{
     font-family: Plus Jakarta Sans;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 45.36px;
+    line-height: 60.48px;
     text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
     color: #fff;
 }
 
 .group_price{
     font-family: Plus Jakarta Sans;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 45.36px;
+    line-height: 60.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
     text-align: left;
     color: #1C1826;
-
 }
 
+
+.corp_price{
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #1C1826;
+}
 
 
 .buy_ticket{
@@ -844,17 +971,16 @@ color: #F4238D;
     line-height: 20.16px;
     text-align: left;
     color: #7750E7;
-    padding: 10px 40px;
-    border-radius: 12px;
+    padding: 15px 20px;
+    border-radius: 15px;
     border: 1px solid transparent;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .buy_ticket_btn{
-    border: 1px solid #5A6FF4;
-    color: #5A6FF4;
-    background-color: transparent;
+    border: none;
+    color: #fff;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 700;
@@ -862,8 +988,10 @@ color: #F4238D;
     text-align: left;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 10px 40px;
-    border-radius: 12px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+
 }
 
 

@@ -16,14 +16,14 @@
         </div> -->
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">Upcoming Event 2024</p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">Previous Event Details</p>
             </div>
             <p class="hero_heading">WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT</p>
             <p class="hero_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <!-- <button class="hero_register_btn">Register</button> -->
         </div>
         <div class="hero_second_div">
-            <div class="upcoming_events">
+            <!-- <div class="upcoming_events">
                 <div class="event_headline">
                     <p class="event_headline">Upcoming Event</p>
                     <p class="event_heading" style="margin-bottom: 0!important;">QA Transformation</p>
@@ -33,7 +33,7 @@
                     <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png");}}" alt=""><span>Conference room 5</span></p>
                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png");}}" alt=""><span>25 Aug, 2025</span></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -70,7 +70,7 @@
                     <img src="{{ asset("images/Homepage/Mask group (2).png");}}" alt="">
                     <img src="{{ asset("images/Homepage/Mask group (3).png");}}" alt="">
                 </div> -->
-                <img src="{{ asset("images/Previouspage/abtbg.png");}}" alt="">
+                <img src="{{ asset("images/Previouspage/rahulimage.png");}}" alt="">
             </div>
             <div class="images_description">
                 <!-- <p class="about_conference_heading">About the Conference</p> -->
@@ -392,20 +392,20 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="slide_img1">
-                                    <img src="{{ asset("images/Homepage/Rectangle 4.png") }}" alt="">
-                                    <img src="{{ asset("images/Homepage/Group 6.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery1.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="slide_img2">
-                                    <img src="{{ asset("images/Homepage/Group 6.png") }}" alt="">
-                                    <img src="{{ asset("images/Homepage/Rectangle 4.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery1.png") }}" alt="">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                <div class="slide_img3">
-                                    <img src="{{ asset("images/Homepage/Rectangle 4.png") }}" alt="">
-                                    <img src="{{ asset("images/Homepage/Group 6.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
                                </div>
                             </div>
                         </div>

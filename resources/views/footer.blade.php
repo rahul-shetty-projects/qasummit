@@ -27,7 +27,7 @@
                 <li><a href="#" class="footer_list_item">Events</a></li>
                 <li><a href="#" class="footer_list_item">Sponsors</a></li>
                 <li><a href="#" class="footer_list_item">Become a Speaker</a></li>
-                <li><a href="#" class="footer_list_item">About Us</a></li>
+                <li><a href="#" class="footer_list_item">Contact Us</a></li>
             </ul>
         </div>
         <div class="horrizontal_line">

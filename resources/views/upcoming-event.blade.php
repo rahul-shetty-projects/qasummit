@@ -20,7 +20,7 @@
             </div>
             <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference</p>
             <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
-            <button class="hero_register_btn">Register</button>
+            <button class="hero_register_btn">Secure Your Spot!</button>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">
@@ -62,14 +62,15 @@
     <div class="about_conference_wrapper">
         <div class="conference_content">
             <div class="conference_images">
-                <div class="first_set">
+                <!-- <div class="first_set">
                     <img src="{{ asset("images/Homepage/Mask group.png");}}" alt="">
                     <img src="{{ asset("images/Homepage/Mask group (1).png");}}" alt="">
                 </div>
                 <div class="second_set">
                     <img src="{{ asset("images/Homepage/Mask group (2).png");}}" alt="">
                     <img src="{{ asset("images/Homepage/Mask group (3).png");}}" alt="">
-                </div>
+                </div> -->
+                <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="">
             </div>
             <div class="images_description">
                 <p class="about_conference_heading">About the Conference</p>
@@ -92,11 +93,11 @@
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
                                 Connect with Experts
                             </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.</div>
                         </div>
                     </div>
@@ -240,58 +241,103 @@
         <div class="timeline_div">
             <div class="schedule_days">
                 <div class="day_1">
-                    <p class="schedule_day">Day 01</p>
+                    <!-- <p class="schedule_day">Day 01</p> -->
                     <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
                 </div>
-                <div class="day_2">
+                <!-- <div class="day_2">
                     <p class="schedule_day">Day 01</p>
                     <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
                 </div>
                 <div class="day_3">
                     <p class="schedule_day">Day 01</p>
                     <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
-                </div>
+                </div> -->
             </div>
-            <div class="schedule_horiz_line">
+            <!-- <div class="schedule_horiz_line">
                 <div class="small_horiz_line">
 
                 </div>
-            </div>
+            </div> -->
             <div class="timeline_wrapper">
                 <div class="timeline_1">
                     <div class="event_time">
-                        <p class="eve_time">9:00 AM - 10:00 AM</p>
+                        <p class="eve_time">10:00AM - 10:15 AM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Registration & introduction</p>
-                        <p class="sch_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        <p class="sch_title">Opening</p>
+                        <p class="sch_summary">Opening ceremony talk by Rahul Shetty</p>
                     </div>
                 </div>
                 <div class="timeline_2">
                     <div class="event_time">
-                        <p class="eve_time">9:00 AM - 10:00 AM</p>
+                        <p class="eve_time">10:15 AM - 10:45 AM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Registration & introduction</p>
-                        <p class="sch_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        <p class="sch_title">1st Subject</p>
+                        <p class="sch_summary">Exploring 2025 QA trends</p>
                     </div>
                 </div>
                 <div class="timeline_3">
                     <div class="event_time">
-                        <p class="eve_time">9:00 AM - 10:00 AM</p>
+                        <p class="eve_time">10:45 AM - 11:15 AM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Registration & introduction</p>
-                        <p class="sch_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        <p class="sch_title">2nd subject</p>
+                        <p class="sch_summary">Impact of AI in testing </p>
                     </div>
                 </div>
                 <div class="timeline_4">
                     <div class="event_time">
-                        <p class="eve_time">9:00 AM - 10:00 AM</p>
+                        <p class="eve_time">11:15  AM - 11:35AM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Registration & introduction</p>
-                        <p class="sch_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        <p class="sch_title">Break</p>
+                        <p class="sch_summary">Hot tea & Snacks</p>
+                    </div>
+                </div>
+                <div class="timeline_5">
+                    <div class="event_time">
+                        <p class="eve_time">11:35 AM - 12:05 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">3rd Subject</p>
+                        <p class="sch_summary">AI-powered automation tools overview-</p>
+                    </div>
+                </div>
+                <div class="timeline_6">
+                    <div class="event_time">
+                        <p class="eve_time">12:05 PM - 12:35 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">4th Subject</p>
+                        <p class="sch_summary">Career guidance & Upskilling to SDET </p>
+                    </div>
+                </div>
+                <div class="timeline_7">
+                    <div class="event_time">
+                        <p class="eve_time">12:35 PM - 1:35 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Q&A</p>
+                        <p class="sch_summary">Ask your queries, 1-1 interaction with Rahul(Q&A)</p>
+                    </div>
+                </div>
+                <div class="timeline_8">
+                    <div class="event_time">
+                        <p class="eve_time">1:35 PM - 2:05 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Quiz</p>
+                        <p class="sch_summary">QA quizzes - win upto 50k INR</p>
+                    </div>
+                </div>
+                <div class="timeline_9">
+                    <div class="event_time">
+                        <p class="eve_time">2:05 PM - 2:10 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Closing</p>
+                        <p class="sch_summary">Vote of thanks/Closing ceremony</p>
                     </div>
                 </div>
             </div>
@@ -309,15 +355,20 @@
             <p class="remaining_days">15 Days Remaining!</p>
         </div>
         <div class="booking_slots">
+            <div class="group_booking">
+                <p class="group_title_tag">Group Ticket (3+)</p>
+                <p class="group_price">₹1200</p>
+                <button class="buy_ticket_btn">Buy Ticket</button>
+            </div>
             <div class="individual">
                 <p class="title_tag">Individual</p>
                 <p class="price">₹600</p>
                 <button class="buy_ticket">Buy Ticket</button>
             </div>
-            <div class="group_booking">
-                <p class="group_title_tag">Group Ticket (5+)</p>
-                <p class="group_price">₹1000</p>
-                <button class="buy_ticket_btn">Buy Ticket</button>
+            <div class="corp_booking">
+                <p class="corp_title_tag">Corporate</p>
+                <p class="corp_price">₹1000</p>
+                <button class="buy_ticket_btn">Contact us</button>
             </div>
         </div>
     </div>

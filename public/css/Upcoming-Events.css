@@ -40,6 +40,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    padding: 0rem 3rem;
 }
 
 .hero_headline{
@@ -235,6 +236,7 @@
     line-height: 25.2px;
     text-align: left;
     color: #1C1826;
+    width: 80%;
 }
 
 .sec_tmln_summary{
@@ -244,6 +246,7 @@
     line-height: 25.2px;
     text-align: left;
     color: #fff;
+    width: 80%;
 }
 
 .prev_learn_more_btn{
@@ -330,7 +333,7 @@
     content: '';
     position: absolute;
     left: 50%;
-    height: 82.5%;
+    height: 83.5%;
     top: 3%;
     border: 2px solid #F4238D;
     z-index: 5;
