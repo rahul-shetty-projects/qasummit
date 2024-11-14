@@ -89,9 +89,9 @@
             <p class="sponsor_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
         </div>
         <div class="sponsors_logo">
-            <img src="{{ asset("images/Homepage/IBM logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/google logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/Vector (1).png") }}" alt="">
+            <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/udemy logo.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/rslogo.png") }}" alt="">
         </div>
     </div>
 </section>
@@ -156,7 +156,7 @@
     </div>
 </section> -->
 
-<section class="event_highlights_section" id="event_highlights_section">
+<!-- <section class="event_highlights_section" id="event_highlights_section">
     <div class="event_high_wrapper">
         <div class="event_top_part">
             <p class="event_highlights_heading">Event Highlights</p>
@@ -243,7 +243,7 @@
                 break;
         }
     }
-</script>
+</script> -->
 
 
 <section class="our_impact_section" id="our_impact_section">

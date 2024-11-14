@@ -6,7 +6,7 @@
 @import url("./Footer.css");
 
 .hero_section_wrapper {
-    background-image: url("../images/Homepage/Rectangle 7.png");
+    background-image: url("../images/Homepage/homeherobg.png");
     background-size: cover;
     position: relative;
     display: flex;
@@ -34,12 +34,13 @@
 .hero_first_div {
     position: relative;
     z-index: 2;
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
     padding: 0rem 4rem;
+    padding-top: 2rem;
 }
 
 .hero_headline {
@@ -52,13 +53,13 @@
     background: #ffffff;
     padding: 10px;
     margin-top: -12px;
-    margin-left: -12px;
+    margin-right: -12px;
 }
 
 .border_style {
     border-bottom: 3px solid #f4238d;
-    border-right: 3px solid #f4238d;
-    padding-right: 12px;
+    border-left: 3px solid #f4238d;
+    padding-left: 12px;
     padding-bottom: 12px;
 }
 
@@ -78,7 +79,7 @@
     line-height: 22.68px;
     text-align: left;
     color: #c8c7d3;
-    width: 70%;
+    width: 80%;
 }
 
 .event_headline {
@@ -169,7 +170,7 @@
 .hero_register_btn {
     background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
     padding: 1rem 3rem;
-    /* border: 1px solid transparent; */
+    border: none;
     border-radius: 15px;
     color: #fff;
     font-family: Plus Jakarta Sans;
@@ -178,6 +179,8 @@
     line-height: 20.16px;
     text-align: left;
     text-decoration: none;
+    transition: all .5s;
+    width: fit-content;
 }
 
 /* // While hovering
@@ -189,6 +192,18 @@ animation-duration: 500ms; */
 .hero_register_btn:hover {
     color: #fff;
     text-decoration: none;
+    padding: 1rem 3rem;
+    background: linear-gradient(90deg, #5A6FF4 0%, #F741BB 100%);
+    border-radius: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;  
+    width: fit-content;  
 }
 
 .hero_learn_more_btn {
@@ -262,7 +277,7 @@ animation-duration: 500ms; */
 .about_conference_wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     margin: auto;
     padding: 20px 40px;
@@ -284,13 +299,12 @@ animation-duration: 500ms; */
 .first_set {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .second_set {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
     gap: 1rem;
 }
 
@@ -327,8 +341,8 @@ animation-duration: 500ms; */
 
 .conference_content {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .images_description {
@@ -752,6 +766,13 @@ animation-duration: 500ms; */
     padding: 20px;
 }
 
+.mobile_carousel_div{
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
 .slide_1 {
     display: flex;
     flex-direction: row;
@@ -1040,4 +1061,95 @@ animation-duration: 500ms; */
     text-align: left;
     color: #1c1826;
     margin-bottom: 6px;
+}
+
+
+/* Mobile */
+
+@media screen and (width <= 500px){
+    .hero_section_wrapper{
+        background-image: url("../images/Homepage/mobherobg.png");
+        background-size: cover;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero_speaker_image{
+        display: none;
+    }
+
+    .hero_first_div{
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Mob About Conference */
+
+    .conference_images{
+        width: 100%;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .images_description{
+        width: 100%;
+    }
+
+    /* Mob Sponsors */
+
+    .sponsors_logo{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sponsors_wrapper{
+        width: 100%;
+    }
+
+    /* Mob Call Speakers */
+
+    .speakers_section_wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+
+    .speaker_img > img{
+        width: 400px;
+    }
+
+    .upcoming_carousel_wrapper{
+        padding: 0;
+    }
+
+    .carousel_div{
+        padding: 0;
+    }
+
+    .Upcoming_headlines{
+        width: fit-content;
+    }
+
+    .carousel_div{
+        display: none;
+    }
+
+    .mobile_carousel_div{
+        display: flex;
+    }
+
+    .clients_wrapper{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .slide_1_1{
+        width: 94%;
+        height: auto;
+        padding: 1rem;
+    }
 }

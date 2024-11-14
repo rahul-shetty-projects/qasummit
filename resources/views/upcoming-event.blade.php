@@ -155,7 +155,7 @@
     </div>
 </section>
 
-<section class="event_highlights_section" id="event_highlights_section">
+<!-- <section class="event_highlights_section" id="event_highlights_section">
     <div class="event_high_wrapper">
         <div class="event_top_part">
             <p class="event_highlights_heading">Event Highlights</p>
@@ -242,7 +242,7 @@
                 break;
         }
     }
-</script>
+</script> -->
 
 
 <section class="schedule_section" id="schedule_section">
@@ -375,7 +375,7 @@
             </div>
             <div class="individual">
                 <p class="title_tag">Individual</p>
-                <p class="price">₹600</p>
+                <p class="price">₹499</p>
                 <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket">Buy Ticket</a>
             </div>
             <div class="corp_booking">
