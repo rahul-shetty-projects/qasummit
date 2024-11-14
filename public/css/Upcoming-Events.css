@@ -261,6 +261,12 @@
     border: none;
     border-radius: 40px;
     width: fit-content;
+    text-decoration: none;
+}
+
+.prev_learn_more_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .img_wrapper{

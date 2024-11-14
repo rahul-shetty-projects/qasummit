@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'About Us')
+@section('title', 'Contact Us')
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset("css/about-us.css") }}" />
@@ -112,7 +112,7 @@
                     Lorem Ipsum
                 </p>
                 <p class="content_summary">
-                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA 
+                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA
                 </p>
             </div>
             <div class="our_val2_div">
@@ -121,7 +121,7 @@
                     Lorem Ipsum
                 </p>
                 <p class="content_summary">
-                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA 
+                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA
                 </p>
             </div>
             <div class="our_val3_div">
@@ -130,7 +130,7 @@
                     Lorem Ipsum
                 </p>
                 <p class="content_summary">
-                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA 
+                    After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA
                 </p>
             </div>
         </div>
@@ -156,7 +156,7 @@
             <div class="person2_div">
                 <div class="image_style">
                 </div>
-                <img src="{{ asset("images/Aboutuspage/person2.png");}}" alt="">                
+                <img src="{{ asset("images/Aboutuspage/person2.png");}}" alt="">
                 <p class="person_name">John Doe</p>
                 <p class="person_title">Senior VP of Marketing</p>
             </div>
@@ -213,9 +213,9 @@
 
 <section class="speaker_form_section" id="speaker_form_section">
     <div class="form_wrapper">
-        <div class="form_header">
+        <!-- <div class="form_header">
             <p class="form_heading">Get Started!</p>
-        </div>
+        </div> -->
         <div class="form_wrap">
             <div class="spname_div">
                 <label for="speakername" class="speaker_label">Name</label>

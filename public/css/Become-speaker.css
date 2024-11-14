@@ -165,9 +165,13 @@
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-
+    text-decoration: none;
 }
 
+.hero_register_btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
 
 /* Why Attend? */
 
@@ -237,7 +241,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #000;    
+    color: #000;
 }
 
 .accordion-button::after{
@@ -347,12 +351,12 @@
     padding: 12px 20px;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
 .submit_btn_div{
@@ -430,7 +434,7 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #40513B;    
+    color: #40513B;
 }
 
 .success_summary{
@@ -442,8 +446,8 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #40513B7D;  
-    width: 80%;  
+    color: #40513B7D;
+    width: 80%;
 }
 
 
@@ -460,6 +464,6 @@ input[type=number]::-webkit-outer-spin-button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #fff;
-    width: 80%;  
-    margin: auto;  
+    width: 80%;
+    margin: auto;
 }

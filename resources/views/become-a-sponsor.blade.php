@@ -19,7 +19,7 @@
             </div>
             <p class="hero_heading">Join Us as a Sponsor</p>
             <p class="hero_summary">We’re proud to partner with industry leaders who share our commitment to advancing quality assurance</p>
-            <button class="hero_register_btn">Become a Sponsor</button>
+            <a href="#speaker_form_section" class="hero_register_btn">Become a Sponsor</a>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">

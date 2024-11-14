@@ -165,9 +165,13 @@
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
-
+    text-decoration: none;
 }
 
+.hero_register_btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
 /* Current Sponsors */
 
 
@@ -189,8 +193,8 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     background-clip: text;
-    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;  
-    -webkit-text-fill-color: transparent;  
+    background-image: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%)    ;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -281,7 +285,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #000;    
+    color: #000;
 }
 
 .accordion-button::after{
@@ -346,7 +350,7 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #717380;    
+    color: #717380;
 }
 
 .form_wrap{
@@ -402,12 +406,12 @@
     box-shadow: 0px 4px 20px 0px #00000026;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
 .submit_btn_div{

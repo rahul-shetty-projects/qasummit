@@ -41,6 +41,6 @@ Route::get('/become-a-sponsor', function () {
     return view(view: 'become-a-sponsor');
 })->name("become-a-sponsor");
 
-Route::get('/about-us', function () {
-    return view(view: 'about-us');
-})->name("about-us");
+Route::get('/contact-us', function () {
+    return view(view: 'contact-us');
+})->name("contact-us");

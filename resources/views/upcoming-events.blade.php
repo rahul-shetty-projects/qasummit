@@ -64,7 +64,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                     <div class="sec_timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                     <div class="sec_timeline_img">
                         <div class="img_wrapper">
@@ -104,7 +104,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 
@@ -112,7 +112,7 @@
                     <div class="sec_timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                     <div class="sec_timeline_img">
                         <div class="img_wrapper">
@@ -144,7 +144,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 
@@ -169,7 +169,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 
@@ -177,7 +177,7 @@
                     <div class="sec_timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                     <div class="sec_timeline_img">
                         <div class="img_wrapper">
@@ -209,7 +209,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 
@@ -217,7 +217,7 @@
                     <div class="sec_timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                     <div class="sec_timeline_img">
                         <div class="img_wrapper">
@@ -249,7 +249,7 @@
                     <div class="timeline_content">
                         <p class="tmln_heading">India QA Fest</p>
                         <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                        <button class="prev_learn_more_btn">Learn More</button>
+                        <a href="{{route("upcoming-event")}}" class="prev_learn_more_btn">Learn More</a>
                     </div>
                 </div>
 

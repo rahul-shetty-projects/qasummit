@@ -185,7 +185,7 @@
             <p class="get_involved">Get Involved!</p>
             <p class="call_spaekers">Call for Speakers!</p>
             <p class="speaker_summary">We are currently accepting proposals for speakers. If you're experienced in software testing or quality assurance and want to share your knowledge, please submit your proposal by December 15, 2024. Selected speakers will have the opportunity to engage with an audience of industry professionals and contribute to meaningful discussions. Details regarding submission guidelines and event logistics will be provided upon acceptance.</p>
-            <button class="proposal_btn">Submit Your Proposal</button>
+            <a href="{{ route("become-a-speaker")}}" class="proposal_btn">Submit Your Proposal</a>
         </div>
         <div class="speaker_img">
             <img src="{{ asset("images/Homepage/callspeaker image.png") }}" alt="">
@@ -218,7 +218,7 @@
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                             <div class="slide_1_2">
                                 <div class="div_upcom_eve">
@@ -227,11 +227,11 @@
                                     </p>
                                     <p class="upcom_event_data">
                                         <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bangalore | India</span></p>
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
@@ -262,7 +262,7 @@
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                         </div>
 
@@ -280,7 +280,7 @@
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
@@ -293,7 +293,7 @@
                                     </p>
                                 </div>
 
-                                <button class="upcom_learn_more_btn">Learn More</button>
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -350,7 +350,7 @@
                                     <p class="attendees">Attendees: 20,000+</p>
                                 </div>
 
-                                <button class="learn_more_btn">Learn More</button>
+                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -364,7 +364,7 @@
                                     <p class="attendees">Attendees: 21,000+</p>
                                 </div>
 
-                                <button class="learn_more_btn">Learn More</button>
+                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -378,18 +378,18 @@
                                     <p class="attendees">Attendees: 22,000+</p>
                                 </div>
 
-                                <button class="learn_more_btn">Learn More</button>
+                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </button>
+                    </button> -->
                 </div>
 
 

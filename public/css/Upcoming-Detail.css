@@ -71,7 +71,7 @@
     line-height: 50.4px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    text-decoration-skip-ink: none;
     color: #fff;
 }
 
@@ -165,7 +165,12 @@
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
+    text-decoration: none;
+}
 
+.hero_register_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -275,6 +280,12 @@ color: #F4238D;
     padding: 10px 40px;
     border: 1px solid transparent;
     border-radius: 20px;
+    text-decoration: none;
+}
+
+.register_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Why Attend? */
@@ -341,7 +352,7 @@ color: #F4238D;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #000000;    
+    color: #000000;
 }
 
 .accordion-button::after{
@@ -934,7 +945,7 @@ color: #F4238D;
     line-height: 60.48px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    text-decoration-skip-ink: none;
     color: #fff;
 }
 
@@ -945,7 +956,7 @@ color: #F4238D;
     line-height: 60.48px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    text-decoration-skip-ink: none;
     text-align: left;
     color: #1C1826;
 }
@@ -958,7 +969,7 @@ color: #F4238D;
     line-height: 60.48px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    text-decoration-skip-ink: none;
     color: #1C1826;
 }
 
@@ -976,6 +987,12 @@ color: #F4238D;
     border: 1px solid transparent;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.buy_ticket:hover{
+    color: #7750E7;
+    text-decoration: none;
 }
 
 .buy_ticket_btn{
@@ -991,7 +1008,12 @@ color: #F4238D;
     padding: 15px 20px;
     border-radius: 15px;
     background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    text-decoration: none;
+}
 
+.buy_ticket_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 

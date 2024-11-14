@@ -24,10 +24,10 @@
         <div class="footer_menu">
             <ul class="footer_menu_list">
                 <li><a href="{{route("home")}}" class="footer_list_item">Home</a></li>
-                <li><a href="#" class="footer_list_item">Events</a></li>
-                <li><a href="#" class="footer_list_item">Sponsors</a></li>
-                <li><a href="#" class="footer_list_item">Become a Speaker</a></li>
-                <li><a href="#" class="footer_list_item">Contact Us</a></li>
+                <li><a href="{{route("upcoming-events")}}" class="footer_list_item">Events</a></li>
+                <li><a href="{{ route("become-a-sponsor")}}" class="footer_list_item">Sponsors</a></li>
+                <li><a href="{{route("become-a-speaker")}}" class="footer_list_item">Become a Speaker</a></li>
+                <li><a href="{{route("contact-us")}}" class="footer_list_item">Contact Us</a></li>
             </ul>
         </div>
         <div class="horrizontal_line">
@@ -88,6 +88,34 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <div class="success_modal_wrapper">
+            <div class="check_div">
+                <img src="{{ asset("images/Footer/checkimg.png");}}" alt="">
+            </div>
+            <div class="success_content">
+                <p class="success_heading">Success!</p>
+                <p class="success_summary">Your request has been submitted successfully.</p>
+            </div>
+            <button class="done_btn" data-bs-dismiss="modal">Done</button>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
 <script>
     $(document).ready(function() {
         $('#newsletterForm').on('submit', function(event) {
@@ -114,7 +142,7 @@
                 method: 'POST',
                 data: formData,
                 success: function(response) {
-                    $('#successModal').modal('show');
+                    $('#exampleModal').modal('show');
                     $('#newsletterForm').trigger('reset');
                 },
                 error: function(response) {
