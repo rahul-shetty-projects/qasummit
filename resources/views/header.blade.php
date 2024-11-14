@@ -9,7 +9,7 @@
         <div class="menu_wrapper">
             <div>
                 <ul class="nav_menu">
-                    <li><a href="{{route("home")}}" class="menu_item {{ /* check route */ }}">Home</a></li>
+                    <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
                     <li><a href="{{route("upcoming-events")}}" class="menu_item ">Events</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
                     <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
