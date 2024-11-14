@@ -17,19 +17,22 @@
                 </ul>
             </div>
         </div>
+        <button class="btn off_canvas_wrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <img src="{{ asset("images/Header/Menu.png")}}" />
+        </button>
     </div>
-    <!-- <div class="off_canvas" id="off_canvas">
-        <div class="off_canvas_close"></div>
-        <div class="off_canvas_menu">
-        <ul class="">
-            <li><a href="#" class="menu_item active">Home</a></li>
-            <li><a href="#" class="menu_item ">Solutions</a></li>
-            <li><a href="#" class="menu_item">Services</a></li>
-            <li><a href="#" class="menu_item">Careers</a></li>
-            <li><a href="#" class="menu_item">Company</a></li>
-        </ul>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-    </div> -->
+        <div class="offcanvas-body">
+            ...
+        </div>
+        </div>
+
+
 </section>
 
 <script>

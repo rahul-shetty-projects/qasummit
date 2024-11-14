@@ -263,10 +263,9 @@ animation-duration: 500ms; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 85%;
+    width: 80%;
     margin: auto;
     padding: 20px 40px;
-    gap: 10px;
     background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -337,8 +336,8 @@ animation-duration: 500ms; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 70px 0px;
-    gap: 60px;
+    padding: 2rem 0rem;
+    gap: 40px;
     width: 45%;
     background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
@@ -363,7 +362,7 @@ animation-duration: 500ms; */
     line-height: 22.68px;
     text-align: left;
     color: #001023;
-    width: 70%;
+    width: 100%;
 }
 
 .register_btn {
