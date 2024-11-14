@@ -138,12 +138,47 @@
                 <textarea name="" id="speakerarea3"  rows="5" class="speakerarea3_inp"></textarea>
             </div>
             <div class="submit_btn_div">
-                <button class="submit_btn">Submit</button>
+                <button class="submit_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
             </div>
         </div>
     </div>
+
 </section>
 
 
+    <section class="modal_section" id="modal_section">
+        <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <div class="success_modal_wrapper">
+            <div class="check_div">
+                <img src="{{ asset("images/Footer/checkimg.png");}}" alt="">
+            </div>
+            <div class="success_content">
+                <p class="success_heading">Success!</p>
+                <p class="success_summary">Your subscription request was successful.</p>
+            </div>
+            <button class="done_btn" data-bs-dismiss="modal">Done</button>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+    </section>
 
 @endsection
