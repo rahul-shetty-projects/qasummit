@@ -199,3 +199,91 @@
     color: #fff;
     padding: 1.2rem 3rem;
 }
+
+
+/* Modal */
+
+.modal-content{
+    padding: 0!important;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 30px!important;
+    width: fit-content!important;
+    border: none!important;
+}
+
+.modal-body{
+    padding: 0!important;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 30px!important;
+}
+
+.success_modal_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 415px;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+.check_div{
+    width: 160px;
+    height: 160px;
+    background-image: url('../images/Footer/successbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.success_heading{
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #40513B;
+}
+
+.success_summary{
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.9px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #40513B7D;
+    width: 80%;
+}
+
+
+.done_btn{
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}

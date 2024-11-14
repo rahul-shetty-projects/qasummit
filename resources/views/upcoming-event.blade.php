@@ -20,7 +20,7 @@
             </div>
             <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference</p>
             <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
-            <button class="hero_register_btn">Secure Your Spot!</button>
+            <a target="_blank" href="https://www.eventbrite.com/" class="hero_register_btn">Secure Your Spot!</a>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">
@@ -76,7 +76,7 @@
                 <p class="about_conference_heading">About the Conference</p>
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
                 <p class="desc_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                <button class="register_btn">Register</button>
+                <a target="_blank" href="https://www.eventbrite.com/" class="register_btn">Register</a>
             </div>
         </div>
     </div>
@@ -94,41 +94,54 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                Connect with Experts
+                                Learn from the Best
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Gain insights from Rahul Shetty, a leading voice in quality assurance, during engaging sessions and interactive Q&A.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Insightful Sessions
+                                Explore 2025 QA Trends
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Discover the latest trends shaping the future of QA and how AI is revolutionizing testing methodologies.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Showcase Your Work
+                                Network Opportunities
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Connect with fellow QA professionals, industry experts, and leaders in Bengaluru’s vibrant tech community.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                Explore Latest Trends:
+                                Hands-On Experience
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Participate in workshops and quizzes to win exciting prizes, including up to 50k INR!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Career Development
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Receive valuable career guidance and learn how to upskill for roles such as Software Development Engineer in Test (SDET).
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -208,7 +221,7 @@
 
         // Optionally, update image based on content if needed
         const eventImage = document.getElementById("eventImage");
-        switch(id) {
+        switch (id) {
             case 'keynote':
                 eventImage.src = "{{ asset('images/Detailspage/Group 30.png') }}";
                 break;
@@ -288,7 +301,7 @@
                 </div>
                 <div class="timeline_4">
                     <div class="event_time">
-                        <p class="eve_time">11:15  AM - 11:35AM</p>
+                        <p class="eve_time">11:15 AM - 11:35AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Break</p>
@@ -358,17 +371,17 @@
             <div class="group_booking">
                 <p class="group_title_tag">Group Ticket (3+)</p>
                 <p class="group_price">₹1200</p>
-                <button class="buy_ticket_btn">Buy Ticket</button>
+                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Buy Ticket</a>
             </div>
             <div class="individual">
                 <p class="title_tag">Individual</p>
                 <p class="price">₹600</p>
-                <button class="buy_ticket">Buy Ticket</button>
+                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket">Buy Ticket</a>
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate</p>
                 <p class="corp_price">₹1000</p>
-                <button class="buy_ticket_btn">Contact us</button>
+                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Contact us</a>
             </div>
         </div>
     </div>

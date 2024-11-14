@@ -20,7 +20,7 @@
             </div>
             <p class="hero_heading">Join Us as a Speaker!</p>
             <p class="hero_summary">Share your expertise, connect with industry leaders, and inspire our QA community.</p>
-            <button class="hero_register_btn">Become a Speaker</button>
+            <a href="#speaker_form_section" class="hero_register_btn">Become a Speaker</a>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">
@@ -167,7 +167,7 @@
             </div>
             <div class="success_content">
                 <p class="success_heading">Success!</p>
-                <p class="success_summary">Your subscription request was successful.</p>
+                <p class="success_summary">Your request has been submitted successfully.</p>
             </div>
             <button class="done_btn" data-bs-dismiss="modal">Done</button>
         </div>

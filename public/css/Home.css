@@ -484,6 +484,12 @@ animation-duration: 500ms; */
     border: none;
     border-radius: 20px;
     width: fit-content;
+    text-decoration: none;
+}
+
+.proposal_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .speaker_img > img {
@@ -814,6 +820,12 @@ animation-duration: 500ms; */
     line-height: 20.16px;
     text-align: left;
     color: #fff;
+    text-decoration:none;
+}
+
+.upcom_learn_more_btn:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .controls {
@@ -898,6 +910,12 @@ animation-duration: 500ms; */
     line-height: 20.16px;
     text-align: left;
     color: #fff;
+    text-decoration: none;
+}
+
+.learn_more_btn:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .previous_event_wrapper {
