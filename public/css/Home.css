@@ -123,7 +123,7 @@
     line-height: 25.2px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    text-decoration-skip-ink: none;
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -185,7 +185,6 @@
 // Animate: Smart animate;
 animation-timing-function: ease-out;
 animation-duration: 500ms; */
-
 
 .hero_register_btn:hover {
     color: #fff;
@@ -305,22 +304,26 @@ animation-duration: 500ms; */
     color: #001023;
 }
 
-.img1_div,.img2_div,.img3_div,.img4_div{
+.img1_div,
+.img2_div,
+.img3_div,
+.img4_div {
     position: relative;
 }
 
-.overflow_txt{
+.overflow_txt {
     position: absolute;
-    top: 1rem;
-    left: 28%;
+    top: 2rem;
+    width: 100%;
     font-family: Plus Jakarta Sans;
-    font-size: 32px;
+    font-size: 24px;
+    text-align: center;
     font-weight: 700;
     line-height: 40.32px;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #FFFFFF;    
+    color: #ffffff;
+    padding-inline:10px;
 }
 
 .conference_content {
@@ -550,7 +553,7 @@ animation-duration: 500ms; */
     }
 
     50% {
-        color: #14063B;
+        color: #14063b;
     }
 }
 
@@ -731,7 +734,7 @@ animation-duration: 500ms; */
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    background-color: #EFF1FD;
+    background-color: #eff1fd;
 }
 
 .Upcoming_headlines {
@@ -824,7 +827,7 @@ animation-duration: 500ms; */
 /* Previous Events */
 
 .background_div {
-    background: linear-gradient(140.1deg, #FE2287 0.22%, #6626D8 77.66%);
+    background: linear-gradient(140.1deg, #fe2287 0.22%, #6626d8 77.66%);
     /* background-image: url("../images/Homepage/Group 4.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -870,7 +873,7 @@ animation-duration: 500ms; */
     color: #ffffff;
 }
 
-.div_prev{
+.div_prev {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -959,7 +962,7 @@ animation-duration: 500ms; */
     gap: 1rem;
 }
 
-.controls_reviews{
+.controls_reviews {
     display: flex;
     flex-direction: row;
     gap: 14px;

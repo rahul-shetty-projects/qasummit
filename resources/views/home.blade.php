@@ -15,12 +15,12 @@
         </div>
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">TestFest!</p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit Bengaluru</p>
             </div>
-            <p class="hero_heading">India’s Premier Software Testing and QA Conference</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bangalore, India (Exact venue to be shared later)</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25 Aug, 2025</span></p>
-            <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
+            <p class="hero_heading">Uncover AI Testing!</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
+            <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. Who's ensuring the quality of AI-driven solutions? How is the industry evolving? Join us on January 25th, 2025, as we gather the brightest minds in quality assurance for TestFest Bengaluru.</p>
             <div class="hero_btn_wrapper">
                 <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
@@ -66,7 +66,7 @@
     </div>
     <script>
         // End timestamp (in seconds) - replace with your actual end timestamp
-        const endTimestamp = 1731318998;
+        const endTimestamp = 1737819000;
 
         // Function to calculate and display remaining time
         function updateTimer() {
@@ -107,27 +107,29 @@
                 <div class="first_set">
                     <div class="img1_div">
                         <img src="{{ asset("images/Homepage/con1.png") }}" alt="">
-                        <p class="overflow_txt">Grow</p>
+                        <p class="overflow_txt">AI in testing</p>
                     </div>
                     <div class="img2_div">
                         <img src="{{ asset("images/Homepage/con3.png") }}" alt="">
-                        <p class="overflow_txt">Connect</p>
+                        <p class="overflow_txt">Career guidance</p>
                     </div>
                 </div>
                 <div class="second_set">
                     <div class="img3_div">
                         <img src="{{ asset("images/Homepage/con2.png") }}" alt="">
-                        <p class="overflow_txt">Learn</p>
+                        <p class="overflow_txt">Local Networking</p>
                     </div>
                     <div class="img4_div">
                         <img src="{{ asset("images/Homepage/con4.png") }}" alt="">
-                        <p class="overflow_txt">Innovate</p>
+                        <p class="overflow_txt">Stay updated with QA trends</p>
                     </div>
                 </div>
             </div>
             <div class="images_description">
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
-                <p class="desc_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
+                <p class="desc_summary">TestFest Bengaluru is the premier QA summit taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur Rahul Shetty, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
+
+                <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
                 <div class="btn_wrapper">
                     <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
                     <!-- <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
