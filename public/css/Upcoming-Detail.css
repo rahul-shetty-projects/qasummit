@@ -1214,6 +1214,35 @@ color: #F4238D;
 
     /* About The Conference */
 
+    .about_conference_wrapper{
+        width: 100%;
+        padding: 2rem;
+        background-image: none;
+    }
+
+    .conference_content{
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .images_description{
+        width: 100%;
+        background-image: none;
+    }
+
+    .conference_images{
+        width: 100%;
+        background-image: none;
+    }
+
+    .conference_images > img {
+        width: 360px;
+    }
+
+    .register_btn{
+        width: 100%;
+        text-align: center;
+    }
 
     /* Why Attend */
 
