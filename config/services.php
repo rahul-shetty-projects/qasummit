@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'mail' => [
+        'admin_mail'=>env('ADMIN_MAIL'),
+        'from_name'=>env('FROM_NAME'),
+        'from_mail'=>env('MAIL_USERNAME')
+    ]
+
 ];
