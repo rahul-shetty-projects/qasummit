@@ -999,6 +999,7 @@ animation-duration: 500ms; */
     align-items: center;
     z-index: 2;
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .prev_event_heading {
@@ -1013,6 +1014,16 @@ animation-duration: 500ms; */
 .images_carousel {
     width: 90%;
     margin: auto;
+}
+
+.carousel-indicators {
+    bottom: -4rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 16px !important;
+    width: 16px !important;
+    border-radius: 50% !important;
 }
 
 /* Event Reviews */
@@ -1050,6 +1061,11 @@ animation-duration: 500ms; */
     display: flex;
     flex-direction: row;
     gap: 14px;
+    padding: 2rem 0rem;
+}
+
+.controls_reviews > img:hover{
+    cursor: pointer;
 }
 
 .combine_client {
@@ -1349,7 +1365,7 @@ animation-duration: 500ms; */
     }
 
     .speaker_img > img {
-        margin-top: -2rem;
+        /* margin-top: -2rem; */
         /* margin-left: -10rem; */
         width: 80%;
     }
@@ -1445,6 +1461,10 @@ animation-duration: 500ms; */
         margin: 0rem 1rem;
     }
 
+    .slide_1{
+        margin: 0rem 1rem;
+    }
+
     /* Previous Events */
 
     .background_div {
@@ -1462,7 +1482,7 @@ animation-duration: 500ms; */
     .event_details_img {
         height: auto;
         background-image: url("../images/Homepage/mobprevbg.png");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         padding: 4rem 2rem;
         gap: 13rem;
@@ -1474,7 +1494,7 @@ animation-duration: 500ms; */
     }
 
     .carousel-indicators {
-        bottom: -1.5rem !important;
+        bottom: -3.5rem !important;
     }
 
     .carousel-indicators [data-bs-target] {

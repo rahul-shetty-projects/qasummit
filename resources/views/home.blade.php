@@ -279,7 +279,7 @@
             <div id="carouselExampleInterval22" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="slide_1">
+                        <div class="slide_1" style="background-image:url('../images/Homepage/Rectangle 4.png'); background-size:cover; background-repeat:no-repeat;">
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
@@ -310,7 +310,7 @@
                     </div>
                     <div class="carousel-item">
 
-                        <div class="slide_1">
+                        <div class="slide_1" style="background-image:url('../images/Homepage/Group 6.png'); background-size:cover; background-repeat:no-repeat;">
                             <div class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
@@ -341,7 +341,7 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="slide_1">
+                        <div class="slide_1" style="background-image:url('../images/Homepage/Rectangle 4.png'); background-size:cover; background-repeat:no-repeat;">
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
@@ -464,25 +464,77 @@
     <div class="clients_wrapper">
         <div class="client_details">
             <p class="event_reviews">Event Reviews</p>
-            <div class="review_content">
-                <div class="top_part_rev">
-                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                    <p class="review_headline">Great Speakers. Excellent experience!</p>
-                </div>
-                <div class="middle_part">
-                    <p class="review_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                </div>
-                <div class="bottom_part">
-                    <img src="{{ asset("images/Homepage/Ellipse 19.png") }}" alt="">
-                    <div class="combine_client">
-                        <p class="client_name">Stephanie Johnson</p>
-                        <p class="client_designation">CEO of Global Company</p>
+            <div id="carouselExampleInterval2222" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Great Speakers. Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Johnson Doe</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Great Speakers.</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Stephanie John</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Stephanie Johnson</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                     </div>
                 </div>
-                <div class="controls_reviews">
-                    <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="">
-                    <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="">
-                </div>
+            </div>
+            <div class="controls_reviews">
+                <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="prev">
+                <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="next">
             </div>
 
         </div>
