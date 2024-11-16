@@ -15,12 +15,12 @@
         </div>
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit Bengaluru</p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
             <p class="hero_heading">Uncover AI Testing!</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
-            <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. Who's ensuring the quality of AI-driven solutions? How is the industry evolving? Join us on January 25th, 2025, as we gather the brightest minds in quality assurance for TestFest Bengaluru.</p>
+            <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions? Join us on January 25th, 2025, as we gather the brightest minds in quality assurance for <span class="hero_summary_span">QASummit <i>Bengaluru.</i></span></p>
             <div class="hero_btn_wrapper">
                 <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
@@ -131,11 +131,11 @@
             <div class="images_description">
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
                 <div class="">
-                    <p class="desc_summary">TestFest Bengaluru is the premier QA summit taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur Rahul Shetty, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
+                    <p class="desc_summary"><b>QASummit Bengaluru</b> is the premier QA event taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur <b>Rahul Shetty</b>, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
                     <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
                 </div>
                 <div class="btn_wrapper">
-                    <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
+                    <a href="{{ route("upcoming-event")}}" class="register_btn">Secure your Spot</a>
                     <!-- <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
@@ -148,7 +148,7 @@
     <div class="sponsors_wrapper">
         <div class="sponsors_headlines">
             <p class="sponsors_heading">Sponsors And Partners</p>
-            <p class="sponsor_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="sponsor_summary">We are grateful for our sponsors and partners who make this summit possible. Together, we drive innovation in quality assurance.</p>
         </div>
         <div class="sponsors_logo">
             <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
@@ -202,7 +202,7 @@
     <div class="upcoming_carousel_wrapper">
         <div class="Upcoming_headlines">
             <p class="events_headlines">Upcoming Events</p>
-            <p class="events_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="events_summary">Mark your calendars for our upcoming events, designed to inspire and inform the QA community about the latest trends and technologies.</p>
         </div>
         <div class="carousel_div">
 
@@ -211,96 +211,55 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slide_1">
-                            <div class="slide_1_1">
+                            <div style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        QASummit <span class="upcom_headline_span">Bengaluru</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
                                     </p>
                                 </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
-                            <div class="slide_1_2">
+                            <div style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        QASummit <span class="upcom_headline_span">London</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bangalore | India</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>May 24, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-
                         <div class="slide_1">
+                            <div style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        QASummit <span class="upcom_headline_span">Pune</span>
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
+                                    </p>
+                                </div>
+
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                            </div>
                             <div class="slide_1_2">
-                                <div class="div_upcom_eve">
-                                    <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                    </p>
-                                    <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                    </p>
-                                </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                            </div>
-                            <div class="slide_1_1">
-                                <div class="div_upcom_eve">
-                                    <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                    </p>
-                                    <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                    </p>
-                                </div>
-
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <div class="slide_1_1">
-                                <div class="div_upcom_eve">
-                                    <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                    </p>
-                                    <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                    </p>
-                                </div>
-
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                            </div>
-                            <div class="slide_1_1">
-                                <div class="div_upcom_eve">
-                                    <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                    </p>
-                                    <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                    </p>
-                                </div>
-
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -316,25 +275,25 @@
 
 
         <div class="mobile_carousel_div">
-            
-                <div id="carouselExampleInterval22" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="slide_1">
-                                <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
 
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+            <div id="carouselExampleInterval22" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide_1">
+                            <div class="slide_1_1">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    </p>
                                 </div>
-                                <!-- <div class="slide_1_2">
+
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                            </div>
+                            <!-- <div class="slide_1_2">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
                                             WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
@@ -347,72 +306,72 @@
 
                                     <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
                                 </div> -->
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <div class="slide_1">
-                                <div class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div>
-                                <!-- <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div> -->
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1">
-                                <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div>
-                                <!-- <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div> -->
-                            </div>
                         </div>
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <div class="carousel-item">
+
+                        <div class="slide_1">
+                            <div class="slide_1_2">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    </p>
+                                </div>
+
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                            </div>
+                            <!-- <div class="slide_1_1">
+                                    <div class="div_upcom_eve">
+                                        <p class="upcom_headline">
+                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        </p>
+                                        <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                        </p>
+                                    </div>
+
+                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                </div> -->
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide_1">
+                            <div class="slide_1_1">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    </p>
+                                </div>
+
+                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                            </div>
+                            <!-- <div class="slide_1_1">
+                                    <div class="div_upcom_eve">
+                                        <p class="upcom_headline">
+                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        </p>
+                                        <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                        </p>
+                                    </div>
+
+                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
@@ -420,28 +379,28 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a> -->
-                </div>
-
             </div>
 
+        </div>
 
-            <div class="mob_controls">
-                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-                </div>
-            </div>
 
-            <div class="controls">
-                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-                </div>
+        <div class="mob_controls">
+            <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
             </div>
+            <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            </div>
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
     </div>
 </section>
 
@@ -458,8 +417,7 @@
                 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -467,43 +425,23 @@
                             <div class="event_details_img">
                                 <div class="div_prev">
                                     <div class="prev_event_date">
+                                        <p class="upcom_headline">
+                                            QASummit <span class="upcom_headline_span">Hyderabad</span>
+                                        </p>
                                         <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
+
                                     </div>
-                                    <p class="attendees">Attendees: 20,000+</p>
+                                    <div class="div_botto_stick">Attendees: 500+</div>
+
+                                    <!-- <p class="attendees">Attendees: 20,000+</p> -->
                                 </div>
 
-                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a> -->
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
-                            <div class="event_details_img">
-                                <div class="div_prev">
-                                    <div class="prev_event_date">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
-                                    </div>
-                                    <p class="attendees">Attendees: 21,000+</p>
-                                </div>
 
-                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
-                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
-                            <div class="event_details_img">
-                                <div class="div_prev">
-                                    <div class="prev_event_date">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad</span></p>
-                                    </div>
-                                    <p class="attendees">Attendees: 22,000+</p>
-                                </div>
 
-                                <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a>
-                            </div>
-                        </div>
                     </div>
                     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
