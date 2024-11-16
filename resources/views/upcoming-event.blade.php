@@ -274,7 +274,7 @@
             <div class="timeline_wrapper">
                 <div class="timeline_1">
                     <div class="event_time">
-                        <p class="eve_time">10:00AM - 10:15 AM</p>
+                        <p class="eve_time">10:30AM - 10:45 AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Opening</p>
@@ -283,7 +283,7 @@
                 </div>
                 <div class="timeline_2">
                     <div class="event_time">
-                        <p class="eve_time">10:15 AM - 10:45 AM</p>
+                        <p class="eve_time">10:45 AM - 11:15 AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">1st Subject</p>
@@ -292,7 +292,7 @@
                 </div>
                 <div class="timeline_3">
                     <div class="event_time">
-                        <p class="eve_time">10:45 AM - 11:15 AM</p>
+                        <p class="eve_time">11:15 AM - 11:45 AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">2nd subject</p>
@@ -301,7 +301,7 @@
                 </div>
                 <div class="timeline_4">
                     <div class="event_time">
-                        <p class="eve_time">11:15 AM - 11:35AM</p>
+                        <p class="eve_time">11:45  AM - 12:05AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Break</p>
@@ -310,7 +310,7 @@
                 </div>
                 <div class="timeline_5">
                     <div class="event_time">
-                        <p class="eve_time">11:35 AM - 12:05 PM</p>
+                        <p class="eve_time">12:05 AM - 12:35PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">3rd Subject</p>
@@ -319,7 +319,7 @@
                 </div>
                 <div class="timeline_6">
                     <div class="event_time">
-                        <p class="eve_time">12:05 PM - 12:35 PM</p>
+                        <p class="eve_time">12:35 PM - 1:05 PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">4th Subject</p>
@@ -328,7 +328,7 @@
                 </div>
                 <div class="timeline_7">
                     <div class="event_time">
-                        <p class="eve_time">12:35 PM - 1:35 PM</p>
+                        <p class="eve_time">1:05 PM - 2:05 PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Q&A</p>
@@ -337,7 +337,7 @@
                 </div>
                 <div class="timeline_8">
                     <div class="event_time">
-                        <p class="eve_time">1:35 PM - 2:05 PM</p>
+                        <p class="eve_time">2:05 PM - 2:35 PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Quiz</p>
@@ -346,7 +346,7 @@
                 </div>
                 <div class="timeline_9">
                     <div class="event_time">
-                        <p class="eve_time">2:05 PM - 2:10 PM</p>
+                        <p class="eve_time">2:35 PM - 2:45PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Closing</p>
@@ -380,7 +380,7 @@
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate</p>
-                <p class="corp_price">₹1000</p>
+                <!-- <p class="corp_price">₹1000</p> -->
                 <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Contact us</a>
             </div>
         </div>

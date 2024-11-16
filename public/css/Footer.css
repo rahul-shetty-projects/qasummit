@@ -287,3 +287,90 @@
     width: 80%;
     margin: auto;
 }
+
+/* Mobile Responsive */
+
+@media screen and (width <= 600px){
+    .footer_section{
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+
+    .newsletter{
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27.6px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #fff;        
+    }
+
+    .news_sub_heading{
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #CBCBCB;        
+    }
+
+    .second_div{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .footer_logo{
+        display: none;
+    }
+
+    .footer_bottom{
+        width: 100%;
+    }
+
+    .footer_social_icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .combine_div{
+        width: 100%;
+    }
+
+    .third_div{
+        padding: 1rem;
+    }
+
+    .footer_menu{
+        width: 100%;
+    }
+
+    .footer_menu_list{
+        padding: 0;
+    }
+
+    .footer_list_item{
+        font-family: Plus Jakarta Sans;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18.4px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;        
+    }
+}

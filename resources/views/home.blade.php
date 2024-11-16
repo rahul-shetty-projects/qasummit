@@ -38,7 +38,9 @@
                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png") }}" alt=""><span>25 Aug, 2025</span></p>
                 </div>
             </div> -->
-            
+            <div class="hero_mobile_img">
+                <img src="{{ asset(path: "images/Homepage/mobrahulimg.png") }}" alt="" style="width:100%;">
+            </div>
         </div>
     </div>
 </section>
@@ -100,8 +102,8 @@
         updateTimer();
     </script>
     <div class="about_conference_wrapper">
-        <div class="about_conference_heading">
-            <p>About the Conference</p>
+        <div class="about_con_headline">
+            <p class="about_conference_heading">About the Conference</p>
         </div>
         <div class="conference_content">
             <div class="conference_images">
@@ -128,9 +130,10 @@
             </div>
             <div class="images_description">
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
-                <p class="desc_summary">TestFest Bengaluru is the premier QA summit taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur Rahul Shetty, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
-
-                <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
+                <div class="">
+                    <p class="desc_summary">TestFest Bengaluru is the premier QA summit taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur Rahul Shetty, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
+                    <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
+                </div>
                 <div class="btn_wrapper">
                     <a href="{{ route("upcoming-event")}}" class="register_btn">Register</a>
                     <!-- <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
@@ -314,7 +317,7 @@
 
         <div class="mobile_carousel_div">
             
-                <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="carouselExampleInterval22" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="slide_1">
@@ -422,14 +425,23 @@
             </div>
 
 
-        <div class="controls">
-            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
-                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            <div class="mob_controls">
+                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="prev" class="prev_div">
+                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+                </div>
+                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="next" class="next_div">
+                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+                </div>
             </div>
-            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
-                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+
+            <div class="controls">
+                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
+                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+                </div>
+                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
+                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+                </div>
             </div>
-        </div>
     </div>
 </section>
 

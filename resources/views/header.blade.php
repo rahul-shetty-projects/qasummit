@@ -10,16 +10,21 @@
             <div>
                 <ul class="nav_menu">
                     <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
-                    <li><a href="{{route("upcoming-events")}}" class="menu_item ">Events</a></li>
+                    <li class="drop_events">
+                        <a href="{{route("upcoming-events")}}" class="menu_item event_item">Events</a>
+                        <div class="dropdown_menu">
+                            <a href="">Bengaluru</a>
+                            <a href="">London</a>
+                            <a href="">Pune</a>
+                        </div>
+                    </li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
                     <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
                     <li><a href="{{route("contact-us")}}" class="menu_item">Contact Us</a></li>
                 </ul>
             </div>
         </div>
-        <button class="btn off_canvas_wrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-            <img src="{{ asset("images/Header/Menu.png")}}" />
-        </button>
+        <img src="{{ asset("images/Header/Menu.png")}}" class="off_canvas_wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"/>
     </div>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
