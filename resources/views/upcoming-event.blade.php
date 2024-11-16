@@ -19,6 +19,8 @@
                 <p class="hero_headline" style="margin-bottom: 0!important;">TestFest India!</p>
             </div>
             <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
             <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
             <a target="_blank" href="https://www.eventbrite.com/" class="hero_register_btn">Secure Your Spot!</a>
         </div>
@@ -73,7 +75,7 @@
                 <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="">
             </div>
             <div class="images_description">
-                <p class="about_conference_heading">About the Conference</p>
+                <p class="about_conference_heading" style="margin-bottom:0;">About the Conference</p>
                 <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
                 <p class="desc_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
                 <a target="_blank" href="https://www.eventbrite.com/" class="register_btn">Register</a>
@@ -249,13 +251,13 @@
     <div class="schedule_wrapper">
         <div class="schedule_heading_div">
             <p class="schedule_heading">Schedule and Event Details</p>
-            <p class="schedule_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="schedule_summary">Plan your summit experience! Our event schedule outlines all the key sessions and activities, ensuring you don’t miss a moment of this valuable opportunity.</p>
         </div>
         <div class="timeline_div">
             <div class="schedule_days">
                 <div class="day_1">
                     <!-- <p class="schedule_day">Day 01</p> -->
-                    <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
+                    <p class="schedule_date">January 25<span class="span_date">ᵗʰ, 2025</span></p>
                 </div>
                 <!-- <div class="day_2">
                     <p class="schedule_day">Day 01</p>
@@ -380,7 +382,7 @@
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate</p>
-                <!-- <p class="corp_price">₹1000</p> -->
+                <p class="corp_price">Contact us to get a custom price</p>
                 <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Contact us</a>
             </div>
         </div>
@@ -392,30 +394,83 @@
 <section class="testimonial_section" id="testimonials_section">
     <div class="clients_wrapper">
         <div class="client_details">
-            <p class="event_reviews">Testimonials from our Hyderabad Event</p>
-            <div class="review_content">
-                <div class="top_part_rev">
-                    <img src="{{ asset("images/Homepage/Format quote.png");}}" alt="" style="margin-left : -10px;">
-                    <p class="review_headline">Incredible experience!</p>
-                </div>
-                <div class="middle_part">
-                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
-                </div>
-                <div class="bottom_part">
-                    <img src="{{ asset("images/Homepage/Ellipse 19.png");}}" alt="">
-                    <div class="combine_client">
-                        <p class="client_name">Neha Sharma</p>
-                        <p class="client_designation">QA Engineer</p>
+            <p class="event_reviews">Event Reviews</p>
+            <div id="carouselExampleInterval2222" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Great Speakers. Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Johnson Doe</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Incredible experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Neha Sharma</p>
+                                        <p class="client_designation">QA Engineer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Stephanie Johnson</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                     </div>
                 </div>
             </div>
             <div class="controls_reviews">
-                <img src="{{ asset("images/Homepage/Arrow backward.png");}}" alt="">
-                <img src="{{ asset("images/Homepage/Arrow forward.png");}}" alt="">
+                <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="prev">
+                <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="next">
             </div>
+
         </div>
         <div class="client_eclipse">
-            <img src="{{ asset("images/Homepage/eclipse group.png");}}" alt="">
+            <img src="{{ asset("images/Homepage/eclipse group.png") }}" alt="">
         </div>
     </div>
 </section>

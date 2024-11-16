@@ -492,16 +492,16 @@
                             <div class="review_content">
                                 <div class="top_part_rev">
                                     <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Great Speakers.</p>
+                                    <p class="review_headline">Incredible experience!</p>
                                 </div>
                                 <div class="middle_part">
-                                    <p class="review_summary">Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
                                 </div>
                                 <div class="bottom_part">
                                     <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
                                     <div class="combine_client">
-                                        <p class="client_name">Stephanie John</p>
-                                        <p class="client_designation">CEO of Global Company</p>
+                                        <p class="client_name">Neha Sharma</p>
+                                        <p class="client_designation">QA Engineer</p>
                                     </div>
                                 </div>
                             </div>
