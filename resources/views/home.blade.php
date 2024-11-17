@@ -109,21 +109,21 @@
             <div class="conference_images">
                 <div class="first_set">
                     <div class="img1_div">
-                        <img src="{{ asset("images/Homepage/con1.png") }}" alt="">
+                        <img alt="">
                         <p class="overflow_txt">AI in testing</p>
                     </div>
                     <div class="img2_div">
-                        <img src="{{ asset("images/Homepage/con3.png") }}" alt="">
+                        <img alt="">
                         <p class="overflow_txt">Career guidance</p>
                     </div>
                 </div>
                 <div class="second_set">
                     <div class="img3_div">
-                        <img src="{{ asset("images/Homepage/con2.png") }}" alt="">
+                        <img alt="">
                         <p class="overflow_txt">Local Networking</p>
                     </div>
                     <div class="img4_div">
-                        <img src="{{ asset("images/Homepage/con4.png") }}" alt="">
+                        <img alt="">
                         <p class="overflow_txt">Stay updated with QA trends</p>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
             <a href="{{ route("become-a-speaker")}}" class="proposal_btn">Submit Your Proposal</a>
         </div>
         <div class="speaker_img">
-            <img src="{{ asset("images/Homepage/callspeaker image.png") }}" alt="">
+            <img alt="">
         </div>
     </div>
 </section>
@@ -276,67 +276,43 @@
 
         <div class="mobile_carousel_div">
 
-            <div id="carouselExampleInterval22" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleInterval22" style="width: 100%;" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slide_1" style="background-image:url('../images/Homepage/Rectangle 4.png'); background-size:cover; background-repeat:no-repeat;">
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        QASummit <span class="upcom_headline_span">Bengaluru</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
                                     </p>
                                 </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
-                            <!-- <div class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bangalore | India</span></p>
-                                        </p>
-                                    </div>
 
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div> -->
                         </div>
                     </div>
                     <div class="carousel-item">
 
                         <div class="slide_1" style="background-image:url('../images/Homepage/Group 6.png'); background-size:cover; background-repeat:no-repeat;">
-                            <div class="slide_1_2">
+                            <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        QASummit <span class="upcom_headline_span">London</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>May 24, 2025</span></p>
                                     <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
-                            <!-- <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
 
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div> -->
                         </div>
 
                     </div>
@@ -345,29 +321,17 @@
                             <div class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
+                                        QASummit <span class="upcom_headline_span">Pune</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
                                     </p>
                                 </div>
 
-                                <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
+                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
-                            <!-- <div class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            WORLD’S BIGGEST QUALITY ASSURANCE SUMMIT
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 16-19, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
 
-                                    <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a>
-                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -468,65 +432,65 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Great Speakers. Excellent experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Johnson Doe</p>
-                                        <p class="client_designation">CEO of Global Company</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">Great Speakers. Excellent experience!</p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Johnson Doe</p>
+                                    <p class="client_designation">CEO of Global Company</p>
                                 </div>
                             </div>
+                        </div>
 
                     </div>
                     <div class="carousel-item">
 
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Incredible experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Neha Sharma</p>
-                                        <p class="client_designation">QA Engineer</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">Incredible experience!</p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Neha Sharma</p>
+                                    <p class="client_designation">QA Engineer</p>
                                 </div>
                             </div>
+                        </div>
 
 
                     </div>
                     <div class="carousel-item">
 
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Excellent experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Stephanie Johnson</p>
-                                        <p class="client_designation">CEO of Global Company</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">Excellent experience!</p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Stephanie Johnson</p>
+                                    <p class="client_designation">CEO of Global Company</p>
                                 </div>
                             </div>
+                        </div>
 
 
                     </div>
