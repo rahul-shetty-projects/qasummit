@@ -70,7 +70,8 @@
                     <img src="{{ asset("images/Homepage/Mask group (2).png");}}" alt="">
                     <img src="{{ asset("images/Homepage/Mask group (3).png");}}" alt="">
                 </div> -->
-                <img src="{{ asset("images/Previouspage/rahulimage.png");}}" alt="">
+                <img src="{{ asset("images/Previouspage/rahulimg.png");}}" alt="" class="rahulimg">
+                <img src="{{ asset("images/Detailspage/mobrahulimg.png");}}" alt="" class="mobrahulimg">
             </div>
             <div class="images_description">
                 <!-- <p class="about_conference_heading">About the Conference</p> -->
@@ -276,7 +277,7 @@
     <div class="schedule_wrapper">
         <div class="schedule_heading_div">
             <p class="schedule_heading">Schedule and Event Details</p>
-            <p class="schedule_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="schedule_summary">Plan your summit experience! Our event schedule outlines all the key sessions and activities, ensuring you don’t miss a moment of this valuable opportunity.</p>
         </div>
         <div class="timeline_div">
             <div class="schedule_days">
@@ -393,19 +394,19 @@
                             <div class="carousel-item active">
                                 <div class="slide_img1">
                                     <img src="{{ asset("images/Previouspage/gallery1.png") }}" alt="">
-                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="" class="displaynone">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="slide_img2">
                                     <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
-                                    <img src="{{ asset("images/Previouspage/gallery1.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery1.png") }}" alt="" class="displaynone">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                <div class="slide_img3">
                                     <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
-                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="">
+                                    <img src="{{ asset("images/Previouspage/gallery2.png") }}" alt="" class="displaynone">
                                </div>
                             </div>
                         </div>
@@ -427,30 +428,83 @@
 <section class="testimonial_section" id="testimonials_section">
     <div class="clients_wrapper">
         <div class="client_details">
-            <p class="event_reviews">Testimonials from our Hyderabad Event</p>
-            <div class="review_content">
-                <div class="top_part_rev">
-                    <img src="{{ asset("images/Homepage/Format quote.png");}}" alt="" style="margin-left : -10px;">
-                    <p class="review_headline">Incredible experience!</p>
-                </div>
-                <div class="middle_part">
-                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
-                </div>
-                <div class="bottom_part">
-                    <img src="{{ asset("images/Homepage/Ellipse 19.png");}}" alt="">
-                    <div class="combine_client">
-                        <p class="client_name">Neha Sharma</p>
-                        <p class="client_designation">QA Engineer</p>
+            <p class="event_reviews">Event Reviews</p>
+            <div id="carouselExampleInterval2222" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Great Speakers. Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Johnson Doe</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Incredible experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Neha Sharma</p>
+                                        <p class="client_designation">QA Engineer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+
+
+                            <div class="review_content">
+                                <div class="top_part_rev">
+                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                    <p class="review_headline">Excellent experience!</p>
+                                </div>
+                                <div class="middle_part">
+                                    <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                </div>
+                                <div class="bottom_part">
+                                    <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
+                                    <div class="combine_client">
+                                        <p class="client_name">Stephanie Johnson</p>
+                                        <p class="client_designation">CEO of Global Company</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                     </div>
                 </div>
             </div>
             <div class="controls_reviews">
-                <img src="{{ asset("images/Homepage/Arrow backward.png");}}" alt="">
-                <img src="{{ asset("images/Homepage/Arrow forward.png");}}" alt="">
+                <img src="{{ asset("images/Homepage/Arrow backward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="prev">
+                <img src="{{ asset("images/Homepage/Arrow forward.png") }}" alt="" data-bs-target="#carouselExampleInterval2222" data-bs-slide="next">
             </div>
+
         </div>
         <div class="client_eclipse">
-            <img src="{{ asset("images/Homepage/eclipse group.png");}}" alt="">
+            <img src="{{ asset("images/Homepage/eclipse group.png") }}" alt="">
         </div>
     </div>
 </section>
