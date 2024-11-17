@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="attend_image">
-            <img src="{{ asset("images/Speakerpage/speakerimg.png");}}" alt="">
+            <img src="{{ asset("images/Speakerpage/speakerimage.png");}}" alt="">
         </div>
     </div>
 </section>

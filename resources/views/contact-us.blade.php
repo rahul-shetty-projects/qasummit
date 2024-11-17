@@ -95,7 +95,7 @@
             <img src="{{ asset("images/Aboutuspage/aboutimg.png");}}" alt="" style="height : 600px">
         </div>
     </div>
-</section> --> -->
+</section> --> 
 
 
 <!-- <section class="our_values_section" id="our_values_secction">
