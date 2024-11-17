@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&display=swap");
 @import url('./Header.css');
 @import url('./Footer.css');
 
@@ -44,23 +45,29 @@
     padding: 0rem 4rem;
 }
 
-.hero_headline{
+.hero_headline {
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
     line-height: 58.51px;
     text-align: left;
-    color: #F4238D;
-    background: #FFFFFF;
+    color: #f4238d;
+    background: #ffffff;
     padding: 10px;
     margin-top: -12px;
-    margin-left: -12px;
+    margin-right: -12px;
 }
 
-.border_style{
-    border-bottom: 3px solid #F4238D;
-    border-right: 3px solid #F4238D;
-    padding-right: 12px;
+.hero_headline_span {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border_style {
+    border-bottom: 3px solid #f4238d;
+    border-left: 3px solid #f4238d;
+    padding-left: 12px;
     padding-bottom: 12px;
 }
 
@@ -117,6 +124,7 @@
     flex-direction: row;
     gap: 5px;
     align-items: center;
+    display: none;
 }
 
 .event_date{
@@ -130,6 +138,7 @@
     flex-direction: row;
     gap: 5px;
     align-items: center;
+    display: none;
 }
 
 .upcoming_details{
@@ -226,6 +235,14 @@ line-height: 25.2px;
 text-align: left;
 color: #F4238D;
 
+}
+
+.rahulimg{
+    display: inline-block;
+}
+
+.mobrahulimg{
+    display: none;
 }
 
 .conference_content{
@@ -597,6 +614,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_2::before{
@@ -610,6 +630,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_3::before{
@@ -623,6 +646,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_4::before{
@@ -636,6 +662,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_5::before{
@@ -649,6 +678,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_6::before{
@@ -662,6 +694,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_7::before{
@@ -675,6 +710,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_8::before{
@@ -688,6 +726,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline_9::before{
@@ -701,6 +742,9 @@ color: #F4238D;
     background-color: #5975F7;
     border-radius: 50%;
     z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .schedule_heading{
@@ -721,6 +765,7 @@ color: #F4238D;
     line-height: 22.68px;
     text-align: left;
     color: #717380;
+    width: 90%;
 }
 
 .schedule_day{
@@ -1188,6 +1233,9 @@ color: #F4238D;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: #c8c7d3;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     .hero_summary {
@@ -1198,7 +1246,7 @@ color: #F4238D;
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        width: 100%;
+        width: 80%;
         color: #c8c7d3;
     }
 
@@ -1216,7 +1264,7 @@ color: #F4238D;
 
     .about_conference_wrapper{
         width: 100%;
-        padding: 2rem;
+        padding: 1rem;
         background-image: none;
     }
 
@@ -1233,10 +1281,18 @@ color: #F4238D;
     .conference_images{
         width: 100%;
         background-image: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .conference_images > img {
-        width: 360px;
+    .mobrahulimg{
+        display: block;
+    }
+
+    .rahulimg{
+        display: none;
     }
 
     .register_btn{
@@ -1317,7 +1373,8 @@ color: #F4238D;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        color: #717380;        
+        color: #717380;   
+        width: 80%;     
     }
 
     .timeline_div{
@@ -1331,7 +1388,7 @@ color: #F4238D;
 
     .timeline_wrapper{
         gap: 2rem;
-        padding: 0rem 2rem;
+        padding: 0rem 1.2rem;
     }
 
     .schedule_titles{
@@ -1339,12 +1396,12 @@ color: #F4238D;
     }
 
     .timeline_wrapper::after{
-        left: 45%;
+        left: 42%;
         height: 92%;
     }
 
     .timeline_1::before,.timeline_2::before,.timeline_3::before,.timeline_4::before,.timeline_5::before,.timeline_6::before,.timeline_7::before,.timeline_8::before,.timeline_9::before{
-        left: 42.8%;
+        left: 39.9%;
     }
 
     /* Client Reviews */
