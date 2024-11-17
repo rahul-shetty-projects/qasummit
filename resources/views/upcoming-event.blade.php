@@ -16,7 +16,7 @@
         </div> -->
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">TestFest India!</p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
             <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
@@ -72,7 +72,8 @@
                     <img src="{{ asset("images/Homepage/Mask group (2).png");}}" alt="">
                     <img src="{{ asset("images/Homepage/Mask group (3).png");}}" alt="">
                 </div> -->
-                <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="">
+                <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="" class="rahulimg">
+                <img src="{{ asset("images/Detailspage/mobrahulimg.png");}}" alt="" class="mobrahulimg">
             </div>
             <div class="images_description">
                 <p class="about_conference_heading" style="margin-bottom:0;">About the Conference</p>
