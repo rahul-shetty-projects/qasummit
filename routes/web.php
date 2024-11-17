@@ -44,3 +44,7 @@ Route::get('/become-a-sponsor', function () {
 Route::get('/contact-us', function () {
     return view(view: 'contact-us');
 })->name("contact-us");
+
+Route::get('/pune-event', function () {
+    return view(view: 'pune-event');
+})->name("pune-event");
