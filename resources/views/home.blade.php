@@ -22,8 +22,8 @@
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
             <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions? Join us on January 25th, 2025, as we gather the brightest minds in quality assurance for <span class="hero_summary_span">QASummit <i>Bengaluru.</i></span></p>
             <div class="hero_btn_wrapper">
-                <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a>
-                <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
+                <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Register</a>
+                <!-- <a href="{{route('bengaluru-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
         <div class="hero_second_div">
@@ -135,8 +135,8 @@
                     <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
                 </div>
                 <div class="btn_wrapper">
-                    <a href="{{ route("upcoming-event")}}" class="register_btn">Secure your Spot</a>
-                    <!-- <a href="{{ route("upcoming-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
+                    <a href="{{ route("bengaluru-event")}}" class="register_btn">Secure your Spot</a>
+                    <!-- <a href="{{ route("bengaluru-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slide_1">
-                            <div style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
+                            <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">Bengaluru</span>
@@ -222,9 +222,9 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                            </div>
-                            <div style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                            </a>
+                            <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">London</span>
@@ -235,13 +235,13 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                            </div>
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="slide_1">
-                            <div style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
+                            <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">Pune</span>
@@ -252,11 +252,21 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                            </div>
-                            <div class="slide_1_2">
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                            </a>
+                            <a href="{{route("delhi-event")}}" style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
+                                <div class="div_upcom_eve">
+                                    <p class="upcom_headline">
+                                        QASummit <span class="upcom_headline_span">Delhi</span>
+                                    </p>
+                                    <p class="upcom_event_data">
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Delhi | India</span></p>
+                                    </p>
+                                </div>
 
-                            </div>
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                            </a>
                         </div>
                     </div>
 
@@ -291,7 +301,7 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
 
                         </div>
@@ -310,7 +320,7 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
 
                         </div>
@@ -329,7 +339,7 @@
                                     </p>
                                 </div>
 
-                                <!-- <a href="{{route("upcoming-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                                <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </div>
 
                         </div>

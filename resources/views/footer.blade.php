@@ -24,7 +24,8 @@
         <div class="footer_menu">
             <ul class="footer_menu_list">
                 <li><a href="{{route("home")}}" class="footer_list_item">Home</a></li>
-                <li><a href="{{route("upcoming-events")}}" class="footer_list_item">Events</a></li>
+                <li><a href="{{route("bengaluru-event")}}" class="footer_list_item">Events</a></li>
+                <li><a target="_blank" href="https://www.udemy.com/user/rahul445/" class="footer_list_item">Courses</a></li>
                 <li><a href="{{ route("become-a-sponsor")}}" class="footer_list_item">Sponsors</a></li>
                 <li><a href="{{route("become-a-speaker")}}" class="footer_list_item">Become a Speaker</a></li>
                 <li><a href="{{route("contact-us")}}" class="footer_list_item">Contact Us</a></li>

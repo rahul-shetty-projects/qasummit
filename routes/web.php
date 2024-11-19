@@ -48,3 +48,15 @@ Route::get('/contact-us', function () {
 Route::get('/pune-event', function () {
     return view(view: 'pune-event');
 })->name("pune-event");
+
+Route::get('/bengaluru-event', function () {
+    return view(view: 'bengaluru-event');
+})->name("bengaluru-event");
+
+Route::get('/london-event', function () {
+    return view(view: 'london-event');
+})->name("london-event");
+
+Route::get('/delhi-event', function () {
+    return view(view: 'delhi-event');
+})->name("delhi-event");

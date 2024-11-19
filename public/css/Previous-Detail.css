@@ -991,6 +991,7 @@ color: #F4238D;
     .conference_content{
         flex-direction: column;
         background-image: none;
+        width: 100%;
     }
 
     .images_description{
@@ -1059,7 +1060,7 @@ color: #F4238D;
         line-height: 30.24px;
         text-align: center;
         text-underline-position: from-font;
-        text-decoration-skip-ink: none;        
+        text-decoration-skip-ink: none;
     }
 
     .schedule_summary{
@@ -1070,8 +1071,8 @@ color: #F4238D;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        color: #717380;   
-        width: 80%;     
+        color: #717380;
+        width: 80%;
     }
 
     .timeline_div{
@@ -1100,6 +1101,12 @@ color: #F4238D;
 
     .timeline_1::before,.timeline_2::before,.timeline_3::before,.timeline_4::before,.timeline_5::before,.timeline_6::before,.timeline_7::before,.timeline_8::before,.timeline_9::before{
         left: 39.6%;
+    }
+
+    .eve_time,
+    .sch_title,
+    .sch_summary {
+        font-size: 14px;
     }
 
 

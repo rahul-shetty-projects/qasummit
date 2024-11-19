@@ -817,6 +817,8 @@ animation-duration: 500ms; */
     display: flex;
     flex-direction: row;
     gap: 30px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .slide_1_1 {
@@ -843,6 +845,11 @@ animation-duration: 500ms; */
     /* background-image: url("../images/Homepage/Rectangle 4.png"); */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.slide_1_1,.slide_1_2{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* .div_upcom_eve{
