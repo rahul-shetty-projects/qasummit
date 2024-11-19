@@ -852,11 +852,13 @@ animation-duration: 500ms; */
     cursor: pointer;
 }
 
+
 /* .div_upcom_eve{
     display: flex;
     flex-direction: column;
     gap: 2rem;
 } */
+
 
 .div_upcom_eve {
     width: 100%;
@@ -1148,6 +1150,8 @@ animation-duration: 500ms; */
     color: #1c1826;
     margin-bottom: 6px;
 }
+
+
 
 /* Mobile */
 

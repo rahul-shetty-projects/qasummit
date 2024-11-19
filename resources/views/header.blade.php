@@ -32,11 +32,26 @@
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <!-- <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            ...
+            <div class="offcavas_menu_wrapper">
+                <ul class="offcanvas_menu">
+                    <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
+                    <li class="drop_events">
+                        <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a>
+                        <div class="dropdown_menu">
+                            <a href="{{route("previous-event")}}">Previous Events</a>
+                            <a href="{{route("upcoming-event")}}">Upcoming Events</a>
+                        </div>
+                    </li>
+                    <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
+                    <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
+                    <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
+                    <li><a href="{{route("contact-us")}}" class="menu_item">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
