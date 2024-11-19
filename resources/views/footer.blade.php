@@ -17,7 +17,7 @@
                 <label for="city" class="email_label">City</label>
                 <input type="text" name="city" id="city" class="email_input" placeholder="Hyderabad" required>
             </div>
-            <button id="subscribe_submit_btn" type="submit" class="subscibe_button">SUBSCRIBE</button>
+            <button id="subscribeSubmitBtn" type="submit" class="subscibe_button">SUBSCRIBE</button>
         </form>
     </div>
     <div class="third_div">
@@ -129,9 +129,9 @@
             };
 
 
-            $("#subscribe_submit_btn").prop('disabled', true);
-            $("#subscribe_submit_btn").html("Please Wait&nbsp;&nbsp;<span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>");
-            $("#subscribe_submit_btn").css({
+            $("#subscribeSubmitBtn").prop('disabled', true);
+            $("#subscribeSubmitBtn").html("Please Wait&nbsp;&nbsp;<span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>");
+            $("#subscribeSubmitBtn").css({
                 "display": "flex",
                 "flex-direction": "row",
                 "align-items": "center",
@@ -151,10 +151,10 @@
                     $('#newsletterForm').trigger('reset');
                 },
                 complete: function() {
-                    $("#subscribe_submit_btn").prop('disabled', false);
-                    $("#subscribe_submit_btn").html("SUBSCRIBE");
+                    $("#subscribeSubmitBtn").prop('disabled', false);
+                    $("#subscribeSubmitBtn").html("SUBSCRIBE");
                     //remove inline styles
-                    $("#subscribe_submit_btn").removeAttr("style");
+                    $("#subscribeSubmitBtn").removeAttr("style");
                 }
 
             });

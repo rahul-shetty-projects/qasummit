@@ -21,6 +21,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/save-to-newsletter', [ContactController::class, 'saveToNewsletter'])->name("newsletter.store");
 
+Route::post('/add-to-event-notify', [ContactController::class, 'saveToEventNotify'])->name("event.notify");
+
 Route::post('/contact-mail', [ContactController::class, 'submitContactForm'])->name("contact.mail");
 
 Route::post('/speaker-mail', [ContactController::class, 'submitSpeakerForm'])->name("speaker.mail");

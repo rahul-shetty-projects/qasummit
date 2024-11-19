@@ -60,3 +60,7 @@ Route::get('/london-event', function () {
 Route::get('/delhi-event', function () {
     return view(view: 'delhi-event');
 })->name("delhi-event");
+
+Route::get('/hyderabad-event', function () {
+    return view(view: 'hyderabad-event');
+})->name("hyderabad-event");

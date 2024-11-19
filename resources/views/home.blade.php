@@ -211,7 +211,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slide_1">
-                            <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
+                            <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">Bengaluru</span>
@@ -224,7 +224,7 @@
 
                                 <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </a>
-                            <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
+                            <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/uebg2.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">London</span>
@@ -237,11 +237,7 @@
 
                                 <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/Rectangle 4.png')" class="slide_1_1">
+                            <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/uebg3.png')" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">Pune</span>
@@ -254,7 +250,7 @@
 
                                 <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </a>
-                            <a href="{{route("delhi-event")}}" style="background-image:url('../images/Homepage/Group 6.png')" class="slide_1_2">
+                            <a href="{{route("delhi-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
                                         QASummit <span class="upcom_headline_span">Delhi</span>
@@ -269,6 +265,11 @@
                             </a>
                         </div>
                     </div>
+                    <!-- <div class="carousel-item">
+                        <div class="slide_1">
+
+                        </div>
+                    </div> -->
 
                 </div>
                 <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -396,7 +397,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
-                            <div class="event_details_img">
+                            <a href="{{route("hyderabad-event")}}" class="event_details_img">
                                 <div class="div_prev">
                                     <div class="prev_event_date">
                                         <p class="upcom_headline">
@@ -412,7 +413,7 @@
                                 </div>
 
                                 <!-- <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a> -->
-                            </div>
+                            </a>
 
                         </div>
 

@@ -232,7 +232,7 @@
             });
 
             $.ajax({
-                url: "{{ route('speaker.mail') }}",
+                url: "{{ route('sponsor.mail') }}",
                 method: 'POST',
                 data: formData,
                 success: function(response) {
