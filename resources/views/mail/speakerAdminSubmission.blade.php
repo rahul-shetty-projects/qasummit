@@ -128,7 +128,7 @@
                                                                 data-type="preheader">
                                                                 <tr>
                                                                     <td role="module-content">
-                                                                        <p>A new contact form submission was made by
+                                                                        <p>A new speaker form submission was made by
                                                                             {{ $mailData['name'] }}.
                                                                         </p>
                                                                     </td>
@@ -146,7 +146,7 @@
                                                                         bgcolor="#f8f8f8">
                                                                         <div><span style="font-size:28px;">
                                                                                 <center><span
-                                                                                        style="color:#000000;">QASummit Contact
+                                                                                        style="color:#000000;">QASummit Speaker
                                                                                         Form Submission Alert</span>
                                                                             </span></div>
                                                                     </td>
@@ -168,7 +168,7 @@
                                                                                     </span></span><br><span
                                                                                     style="color:#A9A9A9;"><span
                                                                                         style="font-size:14px;">Just a
-                                                                                        alert, you have a new contact
+                                                                                        alert, you have a new speaker
                                                                                         form submission from QASummit Website:</span></span>
                                                                             </div>
                                                                         </div>
@@ -466,7 +466,7 @@
                                                             </table>
                                                             @endif
 
-                                                            @if ($mailData['message'] != null and $mailData['message'] != '')
+                                                            @if ($mailData['about'] != null and $mailData['about'] != '')
                                                             <table class="module" role="module" data-type="text"
                                                                 border="0" cellpadding="0" cellspacing="0"
                                                                 width="100%" style="table-layout: fixed;"
@@ -477,7 +477,8 @@
                                                                         style="padding: 0px 40px 0px 40px;"
                                                                         bgcolor="#ffffff">
                                                                         <div><span style="font-size:14px;"><span
-                                                                                    style="color:#A9A9A9;">Message
+                                                                                    style="color:#A9A9A9;">Tell us about yourself and why you want to become a speaker!
+
                                                                                 </span></span>
                                                                         </div>
                                                                     </td>
@@ -493,7 +494,7 @@
                                                                         style="padding: 0px 40px 10px 40px;"
                                                                         bgcolor="#ffffff">
                                                                         <div><span style="font-size:14px;">
-                                                                                {{ $mailData['message'] }}</span>
+                                                                                {{ $mailData['about'] }}</span>
                                                                         </div>
                                                                     </td>
                                                                 </tr>
@@ -520,6 +521,117 @@
                                                             </table>
                                                             @endif
 
+                                                            @if ($mailData['links'] != null and $mailData['links'] != '')
+                                                            <table class="module" role="module" data-type="text"
+                                                                border="0" cellpadding="0" cellspacing="0"
+                                                                width="100%" style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C40%2C0%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+                                                                <tr>
+                                                                    <td role="module-content" valign="top"
+                                                                        height="100%"
+                                                                        style="padding: 0px 40px 0px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <div><span style="font-size:14px;"><span
+                                                                                    style="color:#A9A9A9;">List down your websites/social media pages to know about you,
+
+
+                                                                                </span></span>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table class="module" role="module" data-type="text"
+                                                                border="0" cellpadding="0" cellspacing="0"
+                                                                width="100%" style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C40%2C10%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+                                                                <tr>
+                                                                    <td role="module-content" valign="top"
+                                                                        height="100%"
+                                                                        style="padding: 0px 40px 10px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <div><span style="font-size:14px;">
+                                                                                {{ $mailData['links'] }}</span>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table class="module" role="module"
+                                                                data-type="divider" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%2210%2C40%2C10%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23e6e6e6%22%2C%22height%22%3A1%7D'>
+                                                                <tr>
+                                                                    <td role="module-content"
+                                                                        style="padding: 10px 40px 10px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <table border="0" cellpadding="0"
+                                                                            cellspacing="0" align="center"
+                                                                            width="100%" height="1"
+                                                                            style="font-size: 1px; line-height: 1px;">
+                                                                            <tr>
+                                                                                <td bgcolor="#e6e6e6">&nbsp;</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            @endif
+
+                                                            @if ($mailData['comments'] != null and $mailData['comments'] != '')
+                                                            <table class="module" role="module" data-type="text"
+                                                                border="0" cellpadding="0" cellspacing="0"
+                                                                width="100%" style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C40%2C0%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+                                                                <tr>
+                                                                    <td role="module-content" valign="top"
+                                                                        height="100%"
+                                                                        style="padding: 0px 40px 0px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <div><span style="font-size:14px;"><span
+                                                                                    style="color:#A9A9A9;">Additional comments
+
+
+                                                                                </span></span>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table class="module" role="module" data-type="text"
+                                                                border="0" cellpadding="0" cellspacing="0"
+                                                                width="100%" style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C40%2C10%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+                                                                <tr>
+                                                                    <td role="module-content" valign="top"
+                                                                        height="100%"
+                                                                        style="padding: 0px 40px 10px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <div><span style="font-size:14px;">
+                                                                                {{ $mailData['comments'] }}</span>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table class="module" role="module"
+                                                                data-type="divider" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="table-layout: fixed;"
+                                                                data-attributes='%7B%22dropped%22%3Atrue%2C%22padding%22%3A%2210%2C40%2C10%2C40%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22linecolor%22%3A%22%23e6e6e6%22%2C%22height%22%3A1%7D'>
+                                                                <tr>
+                                                                    <td role="module-content"
+                                                                        style="padding: 10px 40px 10px 40px;"
+                                                                        bgcolor="#ffffff">
+                                                                        <table border="0" cellpadding="0"
+                                                                            cellspacing="0" align="center"
+                                                                            width="100%" height="1"
+                                                                            style="font-size: 1px; line-height: 1px;">
+                                                                            <tr>
+                                                                                <td bgcolor="#e6e6e6">&nbsp;</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            @endif
 
 
 

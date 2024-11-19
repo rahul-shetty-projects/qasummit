@@ -20,3 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/save-to-newsletter', [ContactController::class, 'saveToNewsletter'])->name("newsletter.store");
+
+Route::post('/contact-mail', [ContactController::class, 'submitContactForm'])->name("contact.mail");
+
+Route::post('/speaker-mail', [ContactController::class, 'submitSpeakerForm'])->name("speaker.mail");
+
+Route::post('/sponsor-mail', [ContactController::class, 'submitSponsorForm'])->name("sponsor.mail");

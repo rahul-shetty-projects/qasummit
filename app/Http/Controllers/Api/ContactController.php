@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactAdminSubmission;
+use App\Mail\SpeakerAdminSubmission;
+use App\Mail\SponsorAdminSubmission;
 
 class ContactController extends Controller
 {
@@ -82,6 +84,74 @@ class ContactController extends Controller
 
         if ($mailSent2) {
             return response()->json(['message' => "Thank you for reaching out! Your message is on its way to our team. We're excited to connect and will be in touch shortly"], 200);
+        } else {
+            return response()->json(['message' => "Failed to send email. Kindly try again"], 500);
+        }
+    }
+
+    public function submitSpeakerForm(Request $request)
+    {
+
+        // Validate the incoming request data
+        $request->validate([
+            'email' => 'required|email',
+            'name' => 'required|string|max:255',
+            'title' => 'nullable|string',
+            'phone_number' => 'nullable|string',
+            'about' => 'required|string',
+            'links' => 'nullable|string',
+            'comments' => 'nullable|string',
+        ]);
+
+
+        $mailData["name"] = $request->input('name');
+        $mailData["email"] = $request->input('email');
+        $mailData["title"] = $request->input('title');
+        $mailData["subject"] = $request->input('subject');
+        $mailData["phone_number"] = $request->input('phone_number');
+        $mailData["about"] = $request->input('about');
+        $mailData["links"] = $request->input('links');
+        $mailData["comments"] = $request->input('comments');
+
+
+        $mailSent2 = Mail::to(config('services.mail.admin_mail'))->send(new SpeakerAdminSubmission($mailData));
+
+        if ($mailSent2) {
+            return response()->json(['message' => "Thank you for reaching out! Your request is on its way to our team. We're excited to connect and will be in touch shortly"], 200);
+        } else {
+            return response()->json(['message' => "Failed to send email. Kindly try again"], 500);
+        }
+    }
+
+    public function submitSponsorForm(Request $request)
+    {
+
+        // Validate the incoming request data
+        $request->validate([
+            'email' => 'required|email',
+            'name' => 'required|string|max:255',
+            'title' => 'nullable|string',
+            'phone_number' => 'nullable|string',
+            'about' => 'required|string',
+            'links' => 'nullable|string',
+            'comments' => 'nullable|string',
+        ]);
+
+
+        $mailData["name"] = $request->input('name');
+        $mailData["email"] = $request->input('email');
+        $mailData["title"] = $request->input('title');
+        $mailData["subject"] = $request->input('subject');
+        $mailData["phone_number"] = $request->input('phone_number');
+        $mailData["about"] = $request->input('about');
+        $mailData["links"] = $request->input('links');
+        $mailData["comments"] = $request->input('comments');
+
+
+        $mailSent2 = Mail::to(config('services.mail.admin_mail'))->send(new SponsorAdminSubmission($mailData));
+
+        if ($mailSent2) {
+            return response()->json(['message' => "Thank you for reaching out! Your request is on its way to our team. We're excited to connect and will be in touch shortly"], 200);
         } else {
             return response()->json(['message' => "Failed to send email. Kindly try again"], 500);
         }
