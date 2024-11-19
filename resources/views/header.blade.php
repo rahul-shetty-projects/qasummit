@@ -39,13 +39,15 @@
             <div class="offcavas_menu_wrapper">
                 <ul class="offcanvas_menu">
                     <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
-                    <li class="drop_events">
+                    <li><a href="{{route("bengaluru-event")}}" class="menu_item">Events</a></li>
+
+                    <!-- <li class="drop_events">
                         <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a>
                         <div class="dropdown_menu">
                             <a href="{{route("previous-event")}}">Previous Events</a>
                             <a href="{{route("upcoming-event")}}">Upcoming Events</a>
                         </div>
-                    </li>
+                    </li> -->
                     <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
                     <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
