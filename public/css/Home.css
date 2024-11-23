@@ -1648,3 +1648,9 @@ animation-duration: 500ms; */
         color: #1c1826;
     }
 }
+
+@media screen and (width <= 405px) {
+    .conference_images{
+        flex-direction: column;
+    }
+}
