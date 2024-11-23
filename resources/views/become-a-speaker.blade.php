@@ -51,21 +51,44 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                Mission
+                                Influence the Future of QA
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Your insights can shape the future of quality assurance. As a speaker, you'll have the platform to share innovative practices, tools, and methodologies that can inspire change and drive improvement across the industry.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Vision
+                                Boost Your Professional Profile
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Speaking at QASummit can elevate your visibility and credibility in the QA community. It’s a great way to showcase your expertise and position yourself as a thought leader in your field.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Engage with a Global Audience
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">With QASummit held quarterly in different cities, you’ll have the chance to engage with a wide range of QA professionals. This diversity fosters rich discussions and networking opportunities, allowing you to connect with local talent and global experts alike.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Network with Industry Leaders
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">This is your chance to meet and interact with some of the brightest minds in the industry, including our founder, Rahul Shetty. Connect with fellow speakers and attendees who share your passion for quality assurance.</div>
                         </div>
                     </div>
                 </div>
@@ -194,6 +217,7 @@
                 "display": "flex",
                 "flex-direction": "row",
                 "align-items": "center",
+                "justify-content": "center",
                 "gap": "8px"
             });
 

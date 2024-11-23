@@ -35,6 +35,10 @@ return [
         'admin_mail'=>env('ADMIN_MAIL'),
         'from_name'=>env('FROM_NAME'),
         'from_mail'=>env('MAIL_USERNAME')
+    ],
+
+    'brevo' => [
+        'api_key' => env('BREVO_API_KEY'),
     ]
 
 ];

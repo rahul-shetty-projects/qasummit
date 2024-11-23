@@ -12,7 +12,12 @@ use App\Mail\SponsorAdminSubmission;
 
 class ContactController extends Controller
 {
-    private $apiKey = "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";
+    private $apiKey;
+
+    public function __construct()
+    {
+        $this->apiKey = config('services.brevo.api_key');
+    }
     public function saveToNewsletter(Request $request)
     {
         // Validate the incoming request data
@@ -24,7 +29,7 @@ class ContactController extends Controller
 
         $client = new Client();
 
-        $listId = 3;
+        $listId = 10;
 
         $response = $client->request('POST', 'https://api.brevo.com/v3/contacts/import', [
             'body' => json_encode([
@@ -36,7 +41,7 @@ class ContactController extends Controller
                 'jsonBody' => [[
                     'email' => $request->input('email'),
                     'attributes' => [
-                        'FULLNAME' => $request->input('name'),
+                        'FIRSTNAME' => $request->input('name'),
                         'CITY' => $request->input('city'),
                     ],
                 ]],
@@ -181,7 +186,7 @@ class ContactController extends Controller
                 'jsonBody' => [[
                     'email' => $request->input('email'),
                     'attributes' => [
-                        'FULLNAME' => $request->input('name'),
+                        'FIRSTNAME' => $request->input('name'),
                         'CITY' => $request->input('city'),
                     ],
                 ]],

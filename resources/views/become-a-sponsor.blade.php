@@ -48,6 +48,7 @@
             <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
             <img src="{{ asset("images/Homepage/udemy logo.png") }}" alt="">
             <img src="{{ asset("images/Homepage/rslogo.png") }}" alt="">
+            <img height="115px" src="{{ asset("images/Homepage/optimworks.jpg") }}" alt="">
         </div>
     </div>
 </section>
@@ -65,41 +66,43 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                Brand Exposure:
+                                Align with Industry Leadership
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Partnering with QASummit means aligning your brand with Rahul Shetty, a respected figure in the QA industry. As a renowned instructor, mentor, and test architect, Rahul's influence attracts dedicated followers who trust his insights. By sponsoring this event, you not only showcase your commitment to quality, but also benefit from the credibility associated with Rahul's name.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Networking Opportunities
+                                Enhance Your Brand Visibility
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">As a sponsor, your brand will receive extensive visibility through our marketing channels, including social media, email newsletters, and our conference website. Your logo will be prominently displayed at the event, ensuring that attendees recognize your support for the QA community. This visibility can lead to increased brand recognition and customer loyalty.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Lead Generation
+                                Showcase Your Innovations
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">The QA landscape is ever-evolving, and sponsoring QASummit allows you to highlight your latest innovations and solutions. With dedicated time for product demonstrations and presentations, you can position your brand as a thought leader and pioneer in the industry. Attendees are eager to discover new tools and methodologies that can enhance their work, making this an ideal venue for showcasing what you offer.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                Enhanced Brand Image
+                                Drive Business Growth
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Network with over 500 industry professionals from various sectors and backgrounds. Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.Share insights, tips, and best practices in software testing.</div>
+                            <div class="accordion-body">Investing in QASummit sponsorship is an investment in your business. With direct access to decision-makers and influencers in the QA space, your brand can drive leads, generate sales, and increase market presence. The quarterly format ensures ongoing engagement with fresh audiences, maximising your return on investment.</div>
                         </div>
                     </div>
                 </div>
@@ -228,6 +231,7 @@
                 "display": "flex",
                 "flex-direction": "row",
                 "align-items": "center",
+                "justify-content": "center",
                 "gap": "8px"
             });
 

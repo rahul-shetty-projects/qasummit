@@ -1,7 +1,10 @@
 <section class="footer_section" id="footer_section">
     <div class="first_div">
         <p class="newsletter">Subscibe to Our Newsletter</p>
-        <p class="news_sub_heading">Get weekly update about our product on your email,</p>
+        <p class="news_sub_heading">Stay in the loop with monthly updates on upcoming QA Summits — both offline and online (QA Webinars) — happening in cities near you! Get the latest announcements on new QA content
+            releases, event schedules, and exclusive insights tailored to empower your career in QA.
+        </p>
+        <p class="news_sub_heading">Don’t miss out — Subscribe now! </p>
     </div>
     <div class="second_div">
         <form class="footer_form" id="newsletterForm">
@@ -38,11 +41,11 @@
             <div class="combine_div">
                 <p class="copyright" style="margin-bottom: 0!important;">2024 Copyright Rahul Shetty. All Rights Reserved</p>
                 <div class="footer_social_icons">
-                    <img src="{{ asset("images/Footer/Facebook Icon.png") }}" alt="">
-                    <img src="{{ asset("images/Footer/Linkedin Icon.png") }}" alt="">
-                    <img src="{{ asset("images/Footer/Group 25.png") }}" alt="">
-                    <img src="{{ asset("images/Footer/Group 23.png") }}" alt="">
-                    <img src="{{ asset("images/Footer/Group 27.png") }}" alt="">
+                    <!-- <img src="{{ asset("images/Footer/Facebook Icon.png") }}" alt=""> -->
+                    <a href="https://www.linkedin.com/company/qa-summit-rahul-shetty-academy" target="_blank"><img src="{{ asset("images/Footer/Linkedin Icon.png") }}" alt=""></a>
+                    <!-- <img src="{{ asset("images/Footer/Group 25.png") }}" alt=""> -->
+                    <a href="https://www.youtube.com/@RahulShettyAcademy" target="_blank"><img src="{{ asset("images/Footer/Group 23.png") }}" alt=""></a>
+                    <a href="https://www.instagram.com/rahulshettyofficial_venkat/" target="_blank"><img src="{{ asset("images/Footer/Group 27.png") }}" alt=""></a>
                 </div>
             </div>
             <div class="footer_logo">
@@ -91,30 +94,30 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <!-- <div class="modal-header">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div> -->
-      <div class="modal-body">
-        <div class="success_modal_wrapper">
-            <div class="check_div">
-                <img src="{{ asset("images/Footer/checkimg.png");}}" alt="">
+            <div class="modal-body">
+                <div class="success_modal_wrapper">
+                    <div class="check_div">
+                        <img src="{{ asset("images/Footer/checkimg.png");}}" alt="">
+                    </div>
+                    <div class="success_content">
+                        <p class="success_heading">Success!</p>
+                        <p class="success_summary">Your request has been submitted successfully.</p>
+                    </div>
+                    <button class="done_btn" data-bs-dismiss="modal">Done</button>
+                </div>
             </div>
-            <div class="success_content">
-                <p class="success_heading">Success!</p>
-                <p class="success_summary">Your request has been submitted successfully.</p>
-            </div>
-            <button class="done_btn" data-bs-dismiss="modal">Done</button>
-        </div>
-      </div>
-      <!-- <div class="modal-footer">
+            <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div> -->
+        </div>
     </div>
-  </div>
 </div>
 
 <script>
@@ -135,6 +138,7 @@
                 "display": "flex",
                 "flex-direction": "row",
                 "align-items": "center",
+                "justify-content": "center",
                 "gap": "8px"
             });
 

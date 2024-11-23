@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Pune Event')
+@section('title', 'Sydney Event')
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset("css/Puneevent.css") }}" />
@@ -16,11 +16,11 @@
         </div> -->
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Sydney</span></p>
             </div>
             <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune, India</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Sydney, Australia</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
             <!-- <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions?</p> -->
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->
@@ -65,7 +65,7 @@
                 <div class="combine_divv">
                     <div class="title_div">
                         <label for="speakertitle" class="speaker_label">Your City</label>
-                        <input required type="text" name="" id="speakertitle" class="speakertitle_inp" placeholder="Pune">
+                        <input required type="text" name="" id="speakertitle" class="speakertitle_inp" placeholder="Sydney">
                     </div>
                 </div>
                 <div class="submit_btn_div">
@@ -131,7 +131,7 @@
                 name: $('#speakername').val(),
                 email: $('#speakermail').val(),
                 city: $('#speakertitle').val(),
-                id: 12
+                id: 13
             };
 
 

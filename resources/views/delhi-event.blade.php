@@ -18,10 +18,10 @@
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Delhi</span></p>
             </div>
-            <p class="hero_heading">Uncover AI Testing!</p>
+            <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Delhi, India</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
-            <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions?</p>
+            <!-- <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions?</p> -->
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
@@ -131,7 +131,7 @@
                 name: $('#speakername').val(),
                 email: $('#speakermail').val(),
                 city: $('#speakertitle').val(),
-                id: 6
+                id: 14
             };
 
 
@@ -141,6 +141,7 @@
                 "display": "flex",
                 "flex-direction": "row",
                 "align-items": "center",
+                "justify-content": "center",
                 "gap": "8px"
             });
 
@@ -150,11 +151,11 @@
                 data: formData,
                 success: function(response) {
                     $('#contactModal').modal('show');
-                    $('#sponsorForm').trigger('reset');
+                    $('#notifyForm').trigger('reset');
                 },
                 error: function(response) {
                     $('#cfailureModal').modal('show');
-                    $('#sponsorForm').trigger('reset');
+                    $('#notifyForm').trigger('reset');
                 },
                 complete: function() {
                     $("#subscribe_submit_btn").prop('disabled', false);

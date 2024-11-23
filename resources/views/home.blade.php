@@ -17,10 +17,15 @@
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
-            <p class="hero_heading">Uncover AI Testing!</p>
+            <p class="hero_heading">Welcome to the World’s Only Career-Focused Software Testing Conferences</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
-            <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions? Join us on January 25th, 2025, as we gather the brightest minds in quality assurance for <span class="hero_summary_span">QASummit <i>Bengaluru.</i></span></p>
+            <p class="hero_summary">Join us for an unparalleled Bengaluru event designed to empower professionals with the 2025 QA trends,
+                Test Automation strategies, AI driven testing, and invaluable career insights in the ever-evolving field of software
+                testing.
+                <br>—all brought to you by the renowned instructor,
+                <span class="hero_summary_span"><i>Rahul Shetty.</i></span>
+            </p>
             <div class="hero_btn_wrapper">
                 <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Register</a>
                 <!-- <a href="{{route('bengaluru-event')}}" class="hero_learn_more_btn">Learn More</a> -->
@@ -103,7 +108,7 @@
     </script>
     <div class="about_conference_wrapper">
         <div class="about_con_headline">
-            <p class="about_conference_heading">About the Conference</p>
+            <p class="about_conference_heading">About QA Summit Conferences</p>
         </div>
         <div class="conference_content">
             <div class="conference_images">
@@ -129,10 +134,15 @@
                 </div>
             </div>
             <div class="images_description">
-                <p class="desc_heading">We Discuss New Ideas and Techniques.</p>
+                <!-- <p class="desc_heading">We Discuss New Ideas and Techniques.</p> -->
                 <div class="">
-                    <p class="desc_summary"><b>QASummit Bengaluru</b> is the premier QA event taking place on January 25th, 2025, in the heart of India’s Silicon Valley. Led by renowned QA instructor and entrepreneur <b>Rahul Shetty</b>, this summit focuses on the transformative power of AI in testing. Whether you’re a seasoned professional or just starting your career, this event is designed to provide you with insights, skills, and connections that will propel your QA journey into 2025 and beyond.</p>
-                    <p class="desc_summary">Experience an immersive half-day summit filled with cutting-edge insights, career guidance, and invaluable networking opportunities. Dive into the future of QA and discover how AI is reshaping the way we test software!</p>
+                    <p class="desc_summary"><b>QA Summit</b> is a globally recognized series of career-focused Software Testing and QA conferences designed to empower professionals in the ever-evolving testing landscape. These exclusive events are spearheaded by Rahul Shetty, one of the world’s leading QA educators, with a community of over 1 million students worldwide.
+                    </p>
+                    <p class="desc_summary"> These conferences are meticulously crafted to address the latest shifts and trends in QA for each quarter. Covering topics like trending QA technologies, AI-driven testing, automation strategies, and actionable career guidance, QA Summit ensures attendees stay ahead in their field.
+                    </p>
+                    <p class="desc_summary">With events hosted in different cities across the globe each quarter, QA Summit takes a tailored approach by integrating job market research specific to the host city into the agenda. This unique insight helps participants gain a competitive edge by understanding local and global opportunities in QA.</p>
+                    <p class="desc_summary">Whether you're a professional seeking the latest advancements or career strategies, QA Summit is the perfect platform to learn, network, and grow in the QA space.
+                    </p>
                 </div>
                 <div class="btn_wrapper">
                     <a href="{{ route("bengaluru-event")}}" class="register_btn">Secure your Spot</a>
@@ -154,6 +164,8 @@
             <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
             <img src="{{ asset("images/Homepage/udemy logo.png") }}" alt="">
             <img src="{{ asset("images/Homepage/rslogo.png") }}" alt="">
+            <img height="115px" src="{{ asset("images/Homepage/optimworks.jpg") }}" alt="">
+
         </div>
     </div>
 </section>
@@ -183,26 +195,15 @@
     </div>
 </section> -->
 
-<section class="call_for_speakers">
-    <div class="speakers_section_wrapper">
-        <div class="speakers_content">
-            <p class="get_involved">Get Involved!</p>
-            <p class="call_spaekers">Call for Speakers!</p>
-            <p class="speaker_summary">We are currently accepting proposals for speakers. If you're experienced in software testing or quality assurance and want to share your knowledge, please submit your proposal by December 15, 2024. Selected speakers will have the opportunity to engage with an audience of industry professionals and contribute to meaningful discussions. Details regarding submission guidelines and event logistics will be provided upon acceptance.</p>
-            <a href="{{ route("become-a-speaker")}}" class="proposal_btn">Submit Your Proposal</a>
-        </div>
-        <div class="speaker_img">
-            <img alt="">
-        </div>
-    </div>
-</section>
-
 
 <section class="upcoming_carousel">
     <div class="upcoming_carousel_wrapper">
         <div class="Upcoming_headlines">
             <p class="events_headlines">Upcoming Events</p>
-            <p class="events_summary">Mark your calendars for our upcoming events, designed to inspire and inform the QA community about the latest trends and technologies.</p>
+            <p style="margin-bottom:4px;" class="events_summary">Mark your calendars for our upcoming events, designed to inspire and inform the QA community about the latest trends and technologies. Don’t see your city listed? No problem! <a href="#footer_section">Fill out the form</a> and let us know your city of interest.</p>
+            <p style="margin-top: 4px;" class="events_summary">Based on popular demand, we may consider changing the venue or organizing mini events in your city!</p>
+
+
         </div>
         <div class="carousel_div">
 
@@ -230,7 +231,7 @@
                                         QASummit <span class="upcom_headline_span">London</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>May 24, 2025</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2-2025</span></p>
                                     <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
                                     </p>
                                 </div>
@@ -243,21 +244,21 @@
                                         QASummit <span class="upcom_headline_span">Pune</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
                                     <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
                                     </p>
                                 </div>
 
                                 <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </a>
-                            <a href="{{route("delhi-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
+                            <a href="{{route("sydney-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        QASummit <span class="upcom_headline_span">Delhi</span>
+                                        QASummit <span class="upcom_headline_span">Sydney</span>
                                     </p>
                                     <p class="upcom_event_data">
-                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBA</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Delhi | India</span></p>
+                                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Sydney | Australia</span></p>
                                     </p>
                                 </div>
 
@@ -397,23 +398,24 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <!-- <img src="{{ asset("images/Homepage/Group 15.png"); }}" alt=""> -->
-                            <a href="{{route("hyderabad-event")}}" class="event_details_img">
+                            <div href="{{route("hyderabad-event")}}" style="background-image: url('../images/Homepage/hyd-event-2.png')" class="event_details_img">
                                 <div class="div_prev">
                                     <div class="prev_event_date">
                                         <p class="upcom_headline">
                                             QASummit <span class="upcom_headline_span">Hyderabad</span>
                                         </p>
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
+                                        <p class="event_date blackdrop"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
+                                        <p class="event_location blackdrop"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
+                                        <a href="https://www-indiatoday-in.cdn.ampproject.org/c/s/www.indiatoday.in/amp/impact-feature/story/venkateshs-aka-rahul-shetty-ai-in-testing-conference-poised-to-revolutionize-qa-industry-in-hyderabad-2596312-2024-09-09" target="_blank" class="press_coverage blackdrop"><i class="fa-regular fa-newspaper"></i><span>Press Coverage</span></a>
 
                                     </div>
-                                    <div class="div_botto_stick">Attendees: 500+</div>
+                                    <div class="div_botto_stick">Attendees: 300+</div>
 
                                     <!-- <p class="attendees">Attendees: 20,000+</p> -->
                                 </div>
 
                                 <!-- <a href="{{route("previous-event")}}" class="learn_more_btn">Learn More</a> -->
-                            </a>
+                            </div>
 
                         </div>
 
@@ -434,6 +436,20 @@
     </div>
 </section>
 
+<section class="call_for_speakers">
+    <div class="speakers_section_wrapper">
+        <div class="speakers_content">
+            <p class="get_involved">Get Involved!</p>
+            <p class="call_spaekers">Call for Speakers!</p>
+            <p class="speaker_summary">We are currently accepting proposals for speakers. If you're experienced in software testing or quality assurance and want to share your knowledge, please submit your proposal by December 15, 2024. Selected speakers will have the opportunity to engage with an audience of industry professionals and contribute to meaningful discussions. Details regarding submission guidelines and event logistics will be provided upon acceptance.</p>
+            <a href="{{ route("become-a-speaker")}}" class="proposal_btn">Submit Your Proposal</a>
+        </div>
+        <div class="speaker_img">
+            <img alt="">
+        </div>
+    </div>
+</section>
+
 
 <section class="testimonial_section" id="testimonials_section">
     <div class="clients_wrapper">
@@ -446,16 +462,19 @@
                         <div class="review_content">
                             <div class="top_part_rev">
                                 <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                <p class="review_headline">Great Speakers. Excellent experience!</p>
+                                <p class="review_headline">My First QA summit ever!
+                                </p>
                             </div>
                             <div class="middle_part">
-                                <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <p class="review_summary">Attending the QA Summit in Hyderabad was an incredible experience. Rahul Shetty's insights on AI in software testing opened my eyes to new possibilities in the field. His session on test automation was both informative and practical, providing actionable strategies that I can implement immediately in my project.
+                                </p>
                             </div>
                             <div class="bottom_part">
-                                <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
+                                <img src="{{ asset("images/Homepage/testmonial3.png") }}" alt="">
                                 <div class="combine_client">
-                                    <p class="client_name">Johnson Doe</p>
-                                    <p class="client_designation">CEO of Global Company</p>
+                                    <p class="client_name">Satish Yadlapalli</p>
+                                    <p class="client_designation">Test Automation Engineer
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -467,16 +486,19 @@
                         <div class="review_content">
                             <div class="top_part_rev">
                                 <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                <p class="review_headline">Incredible experience!</p>
+                                <p class="review_headline">Happy to have met Rahul Shetty in real life
+                                </p>
                             </div>
                             <div class="middle_part">
-                                <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
+                                <p class="review_summary">"The Hyderabad QA Summit exceeded my expectations! Rahul Shetty is a master at engaging the audience while delivering valuable content. His guidance on career development in QA was particularly helpful, as it provided me with a clear path forward. I also made friends with few QA professionals from my city, thanks to this event :)
+                                    "</p>
                             </div>
                             <div class="bottom_part">
-                                <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
+                                <img src="{{ asset("images/Homepage/testmonial2.png") }}" alt="">
                                 <div class="combine_client">
-                                    <p class="client_name">Neha Sharma</p>
-                                    <p class="client_designation">QA Engineer</p>
+                                    <p class="client_name">Hari</p>
+                                    <p class="client_designation">Test Analyst
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -489,16 +511,16 @@
                         <div class="review_content">
                             <div class="top_part_rev">
                                 <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                <p class="review_headline">Excellent experience!</p>
+                                <p class="review_headline">Incredible and useful sessions</p>
                             </div>
                             <div class="middle_part">
-                                <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <p class="review_summary">What a fantastic event! The topics covered by Rahul Shetty were relevant and timely, especially the discussion on AI's role in testing. I found the sessions very interactive, and I learned a lot from the diverse group of attendees. This summit has truly motivated me to advance my skills in test automation and master AI testing.</p>
                             </div>
                             <div class="bottom_part">
-                                <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
+                                <img src="{{ asset("images/Homepage/testmonial1.png") }}" alt="">
                                 <div class="combine_client">
-                                    <p class="client_name">Stephanie Johnson</p>
-                                    <p class="client_designation">CEO of Global Company</p>
+                                    <p class="client_name">Pratik Raj</p>
+                                    <p class="client_designation">Test Engineer</p>
                                 </div>
                             </div>
                         </div>

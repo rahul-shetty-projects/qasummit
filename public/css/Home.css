@@ -71,9 +71,9 @@
 
 .hero_heading {
     font-family: Plus Jakarta Sans;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 60.48px;
+    line-height: 44px;
     text-align: left;
     color: #ffffff;
 }
@@ -124,11 +124,16 @@
     color: #fff;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 8px;
     align-items: center;
 }
 
-.event_date {
+.blackdrop{
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.event_date,.press_coverage {
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 500;
@@ -139,8 +144,13 @@
     color: #fff;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 8px;
     align-items: center;
+}
+
+.press_coverage:hover {
+    cursor: pointer;
+    color: #fff;
 }
 
 .upcoming_details {
@@ -755,8 +765,8 @@ animation-duration: 500ms; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
     padding: 20px 0px;
+    gap: 10px;
 }
 
 /* Upcoming Events Carousel */
@@ -951,7 +961,6 @@ animation-duration: 500ms; */
     gap: 10rem;
     height: 80vh;
     padding: 6rem 5rem;
-    background-image: url("../images/Homepage/Group 15.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
@@ -1203,9 +1212,9 @@ animation-duration: 500ms; */
 
     .hero_heading {
         font-family: Plus Jakarta Sans;
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 700;
-        line-height: 40.32px;
+        line-height: 32px;
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;

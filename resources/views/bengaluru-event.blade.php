@@ -18,11 +18,15 @@
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
-            <p class="hero_heading">Welcome to India’s Premier Software Testing and QA Conference</p>
+            <p class="hero_heading">Calling All QA Enthusiasts from Silicon Valley of India</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
-            <p class="hero_summary">Dive into the Future of QA: Ignite Innovation and Transform Testing!</p>
-            <a target="_blank" href="https://www.eventbrite.com/" class="hero_register_btn">Secure Your Spot!</a>
+            <p class="hero_summary">A Productive 4-Hour Career-Oriented QA Talk by Your
+                Beloved Instructor, Rahul Shetty!
+            </p>
+            <p class="hero_summary">Theme of Conference: Uncover AI Testing with Career Guidance.
+            </p>
+            <a href="#event_booking" class="hero_register_btn">Secure Your Spot!</a>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">
@@ -42,36 +46,10 @@
 
 
 
-<section class="about_the_cenference" id="about_the_conference">
-    <!-- <div class="timer_wrapper">
-        <div class="days">
-            <p class="timer_count" style="margin-bottom: 5px!important;">18</p>
-            <p class="timer_timing"  style="margin-bottom: 5px!important;">Days</p>
-        </div>
-        <div class="hours">
-            <p class="timer_count"  style="margin-bottom: 5px!important;">21</p>
-            <p class="timer_timing"  style="margin-bottom: 5px!important;">Hours</p>
-        </div>
-        <div class="minutes">
-            <p class="timer_count"  style="margin-bottom: 5px!important;">6</p>
-            <p class="timer_timing"  style="margin-bottom: 5px!important;">Mins</p>
-        </div>
-        <div class="seconds">
-            <p class="timer_count"  style="margin-bottom: 5px!important;">23</p>
-            <p class="timer_timing"  style="margin-bottom: 5px!important;">Secs</p>
-        </div>
-    </div> -->
+<!-- <section class="about_the_cenference" id="about_the_conference">
     <div class="about_conference_wrapper">
         <div class="conference_content">
             <div class="conference_images">
-                <!-- <div class="first_set">
-                    <img src="{{ asset("images/Homepage/Mask group.png");}}" alt="">
-                    <img src="{{ asset("images/Homepage/Mask group (1).png");}}" alt="">
-                </div>
-                <div class="second_set">
-                    <img src="{{ asset("images/Homepage/Mask group (2).png");}}" alt="">
-                    <img src="{{ asset("images/Homepage/Mask group (3).png");}}" alt="">
-                </div> -->
                 <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="" class="rahulimg">
                 <img src="{{ asset("images/Detailspage/mobrahulimg.png");}}" alt="" class="mobrahulimg">
             </div>
@@ -83,7 +61,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="why_attend_sectin" id="why_attend_section">
@@ -153,7 +131,9 @@
             </div>
         </div>
         <div class="attend_image">
-            <img src="{{ asset("images/Detailspage/Group 15.png");}}" alt="">
+            <img src="{{ asset("images/Detailspage/rahulimg.png");}}" alt="" class="rahulimg">
+            <img src="{{ asset("images/Detailspage/mobrahulimg.png");}}" alt="" class="mobrahulimg">
+            <!-- <img src="{{ asset("images/Detailspage/Group 15.png");}}" alt=""> -->
         </div>
     </div>
 </section>
@@ -304,7 +284,7 @@
                 </div>
                 <div class="timeline_4">
                     <div class="event_time">
-                        <p class="eve_time">11:45  AM - 12:05AM</p>
+                        <p class="eve_time">11:45 AM - 12:05AM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Break</p>
@@ -317,7 +297,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">3rd Subject</p>
-                        <p class="sch_summary">AI-powered automation tools overview-</p>
+                        <p class="sch_summary">AI-Hype to Reality & LLM’s Testing overview</p>
                     </div>
                 </div>
                 <div class="timeline_6">
@@ -344,7 +324,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Quiz</p>
-                        <p class="sch_summary">QA quizzes - win upto 50k INR</p>
+                        <p class="sch_summary">QA Interactive Quizzes - Win Cash Prizes</p>
                     </div>
                 </div>
                 <div class="timeline_9">
@@ -373,23 +353,22 @@
         <div class="booking_slots">
             <div class="group_booking">
                 <p class="group_title_tag">Group Ticket (3+)</p>
-                <p class="group_price">₹1200</p>
+                <p class="group_price">₹1399</p>
                 <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Buy Ticket</a>
             </div>
             <div class="individual">
                 <p class="title_tag">Individual</p>
-                <p class="price">₹499</p>
+                <p class="price">₹549</p>
                 <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket">Buy Ticket</a>
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate</p>
                 <p class="corp_price">Contact us to get a custom price</p>
-                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Contact us</a>
+                <a href="{{ route("contact-us") }}" class="buy_ticket_btn">Contact us</a>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <section class="testimonial_section" id="testimonials_section">
@@ -400,65 +379,71 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Great Speakers. Excellent experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg1.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Johnson Doe</p>
-                                        <p class="client_designation">CEO of Global Company</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">My First QA summit ever!
+                                </p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">Attending the QA Summit in Hyderabad was an incredible experience. Rahul Shetty's insights on AI in software testing opened my eyes to new possibilities in the field. His session on test automation was both informative and practical, providing actionable strategies that I can implement immediately in my project.
+                                </p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/testmonial3.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Satish Yadlapalli</p>
+                                    <p class="client_designation">Test Automation Engineer
+                                    </p>
                                 </div>
                             </div>
+                        </div>
 
                     </div>
                     <div class="carousel-item">
 
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Incredible experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">"The QA Summit was an incredible experience! I gained valuable insights and made connections that will last a lifetime."</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg2.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Neha Sharma</p>
-                                        <p class="client_designation">QA Engineer</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">Happy to have met Rahul Shetty in real life
+                                </p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">"The Hyderabad QA Summit exceeded my expectations! Rahul Shetty is a master at engaging the audience while delivering valuable content. His guidance on career development in QA was particularly helpful, as it provided me with a clear path forward. I also made friends with few QA professionals from my city, thanks to this event :)
+                                    "</p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/testmonial2.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Hari</p>
+                                    <p class="client_designation">Test Analyst
+                                    </p>
                                 </div>
                             </div>
+                        </div>
 
 
                     </div>
                     <div class="carousel-item">
 
 
-                            <div class="review_content">
-                                <div class="top_part_rev">
-                                    <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
-                                    <p class="review_headline">Excellent experience!</p>
-                                </div>
-                                <div class="middle_part">
-                                    <p class="review_summary">Lorem ipsum, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                                <div class="bottom_part">
-                                    <img src="{{ asset("images/Homepage/clientimg3.png") }}" alt="">
-                                    <div class="combine_client">
-                                        <p class="client_name">Stephanie Johnson</p>
-                                        <p class="client_designation">CEO of Global Company</p>
-                                    </div>
+                        <div class="review_content">
+                            <div class="top_part_rev">
+                                <img src="{{ asset("images/Homepage/Format quote.png") }}" alt="" style="margin-left : -10px;">
+                                <p class="review_headline">Incredible and useful sessions</p>
+                            </div>
+                            <div class="middle_part">
+                                <p class="review_summary">What a fantastic event! The topics covered by Rahul Shetty were relevant and timely, especially the discussion on AI's role in testing. I found the sessions very interactive, and I learned a lot from the diverse group of attendees. This summit has truly motivated me to advance my skills in test automation and master AI testing.</p>
+                            </div>
+                            <div class="bottom_part">
+                                <img src="{{ asset("images/Homepage/testmonial1.png") }}" alt="">
+                                <div class="combine_client">
+                                    <p class="client_name">Pratik Raj</p>
+                                    <p class="client_designation">Test Engineer</p>
                                 </div>
                             </div>
+                        </div>
 
 
                     </div>
