@@ -24,7 +24,7 @@
             <p class="hero_summary">A Productive 4-Hour Career-Oriented QA Talk by Your
                 Beloved Instructor, Rahul Shetty!
             </p>
-            <p class="hero_summary">Theme of Conference: Uncover AI Testing with Career Guidance.
+            <p class="hero_summary shine">Theme of Conference: Uncover AI Testing with Career Guidance.
             </p>
             <a href="#event_booking" class="hero_register_btn">Secure Your Spot!</a>
         </div>
@@ -257,43 +257,43 @@
             <div class="timeline_wrapper">
                 <div class="timeline_1">
                     <div class="event_time">
-                        <p class="eve_time">10:30AM - 10:45 AM</p>
+                        <p class="eve_time">10:45AM - 11:15 AM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Opening</p>
-                        <p class="sch_summary">Opening ceremony talk by Rahul Shetty</p>
+                        <p class="sch_title">1st Subject</p>
+                        <p class="sch_summary">Impact of AI in testing & How to stay Updated.</p>
                     </div>
                 </div>
                 <div class="timeline_2">
                     <div class="event_time">
-                        <p class="eve_time">10:45 AM - 11:15 AM</p>
+                        <p class="eve_time">11:15 AM - 12:00 PM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">1st Subject</p>
-                        <p class="sch_summary">Exploring 2025 QA trends</p>
+                        <p class="sch_title">2nd Subject</p>
+                        <p class="sch_summary">Exploring 2025 QA trends & Bangalore QA Job Market analysis</p>
                     </div>
                 </div>
                 <div class="timeline_3">
                     <div class="event_time">
-                        <p class="eve_time">11:15 AM - 11:45 AM</p>
+                        <p class="eve_time">12:00 PM - 12:30 PM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">2nd subject</p>
-                        <p class="sch_summary">Impact of AI in testing </p>
+                        <p class="sch_title">Q&A</p>
+                        <p class="sch_summary">Query Session-1:1 Interaction with Rahul Shetty</p>
                     </div>
                 </div>
                 <div class="timeline_4">
                     <div class="event_time">
-                        <p class="eve_time">11:45 AM - 12:05AM</p>
+                        <p class="eve_time">12:30 PM - 1:00PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Break</p>
-                        <p class="sch_summary">Hot tea & Snacks</p>
+                        <p class="sch_summary">One Hot Veg Snack & Tea/Coffee with Cookies </p>
                     </div>
                 </div>
                 <div class="timeline_5">
                     <div class="event_time">
-                        <p class="eve_time">12:05 AM - 12:35PM</p>
+                        <p class="eve_time">1:00 PM - 2:00PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">3rd Subject</p>
@@ -302,32 +302,32 @@
                 </div>
                 <div class="timeline_6">
                     <div class="event_time">
-                        <p class="eve_time">12:35 PM - 1:05 PM</p>
+                        <p class="eve_time">2:00 PM - 2:30 PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">4th Subject</p>
-                        <p class="sch_summary">Career guidance & Upskilling to SDET </p>
+                        <p class="sch_summary">Career guidance &Future of AI in QA Automation Space</p>
                     </div>
                 </div>
                 <div class="timeline_7">
                     <div class="event_time">
-                        <p class="eve_time">1:05 PM - 2:05 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Q&A</p>
-                        <p class="sch_summary">Ask your queries, 1-1 interaction with Rahul(Q&A)</p>
-                    </div>
-                </div>
-                <div class="timeline_8">
-                    <div class="event_time">
-                        <p class="eve_time">2:05 PM - 2:35 PM</p>
+                        <p class="eve_time">2:30 PM - 3:00 PM</p>
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Quiz</p>
                         <p class="sch_summary">QA Interactive Quizzes - Win Cash Prizes</p>
                     </div>
                 </div>
-                <div class="timeline_9">
+                <div class="timeline_8">
+                    <div class="event_time">
+                        <p class="eve_time">3:00 PM - 3:30 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Closing</p>
+                        <p class="sch_summary">Photo Session & Candid conversations</p>
+                    </div>
+                </div>
+                <!-- <div class="timeline_9">
                     <div class="event_time">
                         <p class="eve_time">2:35 PM - 2:45PM</p>
                     </div>
@@ -335,7 +335,7 @@
                         <p class="sch_title">Closing</p>
                         <p class="sch_summary">Vote of thanks/Closing ceremony</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

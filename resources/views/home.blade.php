@@ -17,13 +17,13 @@
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
-            <p class="hero_heading">Welcome to the World’s Only Career-Focused Software Testing Conferences</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
+            <p class="hero_heading">Welcome to the Career-Focused Software Testing Conferences</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Novotel Bellandur - Bengaluru</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
-            <p class="hero_summary">Join us for an unparalleled Bengaluru event designed to empower professionals with the 2025 QA trends,
-                Test Automation strategies, AI driven testing, and invaluable career insights in the ever-evolving field of software
-                testing.
-                <br>—all brought to you by the renowned instructor,
+            <p class="hero_summary">Join us in Bengaluru to explore 2025 QA trends, test automation,
+                AI-driven testing, and career insights in the n the ever-evolving field
+                of software testing.
+                <br><span class="hero_summary_span_before">—all brought to you by the renowned instructor,</span>
                 <span class="hero_summary_span"><i>Rahul Shetty.</i></span>
             </p>
             <div class="hero_btn_wrapper">
@@ -424,7 +424,7 @@
                                         </p>
                                         <p class="event_date blackdrop"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Aug 24, 2024 </span></p>
                                         <p class="event_location blackdrop"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
-                                        <a href="https://www-indiatoday-in.cdn.ampproject.org/c/s/www.indiatoday.in/amp/impact-feature/story/venkateshs-aka-rahul-shetty-ai-in-testing-conference-poised-to-revolutionize-qa-industry-in-hyderabad-2596312-2024-09-09" target="_blank" class="press_coverage blackdrop"><i class="fa-regular fa-newspaper"></i><span>Press Coverage</span></a>
+                                        <a href="https://www-indiatoday-in.cdn.ampproject.org/c/s/www.indiatoday.in/amp/impact-feature/story/venkateshs-aka-rahul-shetty-ai-in-testing-conference-poised-to-revolutionize-qa-industry-in-hyderabad-2596312-2024-09-09" target="_blank" class="press_coverage blackdrop"><i class="fa-regular fa-newspaper"></i><span class="slow-blink">Press Coverage</span></a>
 
                                     </div>
                                     <div class="div_botto_stick">Attendees: 300+</div>
