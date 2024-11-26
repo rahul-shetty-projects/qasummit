@@ -778,6 +778,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.grad_text{
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
 .schedule_summary {
     font-family: Plus Jakarta Sans;
     font-size: 18px;

@@ -67,9 +67,9 @@
     <div class="schedule_wrapper">
         <div class="schedule_heading_div">
             <p class="schedule_heading">Schedule and Event Details</p>
-            <p class="schedule_summary">When : Jan 25th 2024, 10:30AM </p>
-            <p class="schedule_summary">Where : Bengaluru, India </p>
-            <p class="schedule_summary">Event Address : Novotel Bengaluru Outer Ring Road </p>
+            <p class="schedule_summary"><b><span class="grad_text">When :</span> Jan 25th 2024, 10:30AM </b></p>
+            <p class="schedule_summary"><b><span class="grad_text">Where :</span> Bengaluru, India </b></p>
+            <p class="schedule_summary"><b><span class="grad_text">Event Address :</span> Novotel Bengaluru Outer Ring Road </b></p>
         </div>
         <div class="timeline_div">
             <div class="schedule_days">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">2nd Subject</p>
-                        <p class="sch_summary">Exploring 2025 QA Automation trends with India QA Job Market analysis</p>
+                        <p class="sch_summary">Delving into 2025 QA Automation Trends and Insights on the Indian QA Job Market</p>
                     </div>
                 </div>
                 <div class="timeline_3">
