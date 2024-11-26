@@ -354,12 +354,12 @@
             <div class="group_booking">
                 <p class="group_title_tag">Group Ticket (3+)</p>
                 <p class="group_price">₹1399</p>
-                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket_btn">Buy Ticket</a>
+                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket_btn">Buy Ticket</a>
             </div>
             <div class="individual">
                 <p class="title_tag">Individual</p>
                 <p class="price">₹549</p>
-                <a target="_blank" href="https://www.eventbrite.com/" class="buy_ticket">Buy Ticket</a>
+                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate</p>

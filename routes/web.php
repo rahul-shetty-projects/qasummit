@@ -68,3 +68,7 @@ Route::get('/sydney-event', function () {
 Route::get('/hyderabad-event', function () {
     return view(view: 'hyderabad-event');
 })->name("hyderabad-event");
+
+Route::get('/event-booking', function () {
+    return view(view: 'event-booking');
+})->name("event-booking");
