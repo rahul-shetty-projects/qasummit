@@ -4,6 +4,11 @@
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset("css/About-us.css") }}" />
+<style>
+    #navbar_section{
+        background-color: #2D1C5B;
+    }
+</style>
 @endsection
 
 @section('content')

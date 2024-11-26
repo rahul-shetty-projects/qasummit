@@ -16,7 +16,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 85vh;
     padding: 10px 80px;
 }
 
@@ -545,7 +545,7 @@
     width: 76%;
     margin: auto;
     gap: 4rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .schedule_heading_div {
@@ -922,8 +922,8 @@
 .booking_slots {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: center;
     padding: 20px;
     gap: 4rem;
     width: 100%;
@@ -960,6 +960,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: #fff;
     width: 250px;
     /* border: 1px solid; */
@@ -976,6 +977,7 @@
     background: #e946c1;
     padding: 10px 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .group_title_tag {
@@ -1006,10 +1008,10 @@
 
 .price {
     font-family: Plus Jakarta Sans;
-    font-size: 48px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 60.48px;
-    text-align: left;
+    line-height: 25px;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #fff;

@@ -63,6 +63,150 @@
     </div>
 </section> -->
 
+<section class="schedule_section" id="schedule_section">
+    <div class="schedule_wrapper">
+        <div class="schedule_heading_div">
+            <p class="schedule_heading">Schedule and Event Details</p>
+            <p class="schedule_summary">When : Jan 25th 2024, 10:30AM </p>
+            <p class="schedule_summary">Where : Bengaluru, India </p>
+            <p class="schedule_summary">Event Address : Novotel Bengaluru Outer Ring Road </p>
+        </div>
+        <div class="timeline_div">
+            <div class="schedule_days">
+                <div class="day_1">
+                    <!-- <p class="schedule_day">Day 01</p> -->
+                    <p class="schedule_date">January 25<span class="span_date">ᵗʰ, 2025</span></p>
+                </div>
+                <!-- <div class="day_2">
+                    <p class="schedule_day">Day 01</p>
+                    <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
+                </div>
+                <div class="day_3">
+                    <p class="schedule_day">Day 01</p>
+                    <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
+                </div> -->
+            </div>
+            <!-- <div class="schedule_horiz_line">
+                <div class="small_horiz_line">
+
+                </div>
+            </div> -->
+            <div class="timeline_wrapper">
+                <div class="timeline_1">
+                    <div class="event_time">
+                        <p class="eve_time">10:45AM - 11:15 AM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">1st Subject</p>
+                        <p class="sch_summary">Impact of AI in testing & How to stay Updated.</p>
+                    </div>
+                </div>
+                <div class="timeline_2">
+                    <div class="event_time">
+                        <p class="eve_time">11:15 AM - 12:00 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">2nd Subject</p>
+                        <p class="sch_summary">Exploring 2025 QA Automation trends with India QA Job Market analysis</p>
+                    </div>
+                </div>
+                <div class="timeline_3">
+                    <div class="event_time">
+                        <p class="eve_time">12:00 PM - 12:30 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">3rd Subject</p>
+                        <p class="sch_summary">AI Powered Automation tools overview and their Learning Curve</p>
+                    </div>
+                </div>
+                <div class="timeline_4">
+                    <div class="event_time">
+                        <p class="eve_time">12:30 PM - 1:00PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Break</p>
+                        <p class="sch_summary">One Hot Veg Snack & Tea/Coffee with Cookies </p>
+                    </div>
+                </div>
+                <div class="timeline_5">
+                    <div class="event_time">
+                        <p class="eve_time">1:00 PM - 2:00PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">4th Subject</p>
+                        <p class="sch_summary">The Era of LLM Testing: Are Automated Tests for ML Models the Next Big Revolution?</p>
+                    </div>
+                </div>
+                <div class="timeline_6">
+                    <div class="event_time">
+                        <p class="eve_time">2:00 PM - 2:30 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">5th Subject</p>
+                        <p class="sch_summary">Career guidance & Succesful CaseStudies on choosing right Learning Path</p>
+                    </div>
+                </div>
+                <div class="timeline_7">
+                    <div class="event_time">
+                        <p class="eve_time">2:30 PM - 3:00 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Quiz</p>
+                        <p class="sch_summary">QA Interactive Quizzes - Win CashPrices and get featured in Socia Media channels.</p>
+                    </div>
+                </div>
+                <div class="timeline_8">
+                    <div class="event_time">
+                        <p class="eve_time">3:00 PM - 3:30 PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Closing</p>
+                        <p class="sch_summary">Photo Session & Candid conversations with Rahul Shetty</p>
+                    </div>
+                </div>
+                <!-- <div class="timeline_9">
+                    <div class="event_time">
+                        <p class="eve_time">2:35 PM - 2:45PM</p>
+                    </div>
+                    <div class="schedule_titles">
+                        <p class="sch_title">Closing</p>
+                        <p class="sch_summary">Vote of thanks/Closing ceremony</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="event_booking" id="event_booking">
+    <div class="event_booking_wrapper">
+        <div class="headline_content">
+            <p class="early_bird">Early Bird Registration</p>
+            <p class="early_bird_summary">Secure your spot today and take advantage of our early bird pricing until December 15, 2024.</p>
+        </div>
+        <div class="days_remaining">
+            <p class="remaining_days">15 Days Remaining!</p>
+        </div>
+        <div class="booking_slots">
+            <!-- <div class="group_booking">
+                <p class="group_title_tag">Group Ticket (3+)</p>
+                <p class="group_price">₹1399</p>
+                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket_btn">Buy Ticket</a>
+            </div> -->
+            <div class="individual">
+                <p class="title_tag">Individual/Group Ticket</p>
+                <p class="price">Limited seats available, act now!</p>
+                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
+            </div>
+            <div class="corp_booking">
+                <p class="corp_title_tag">Corporate</p>
+                <p class="corp_price">Contact us to get a custom price</p>
+                <a href="{{ route("contact-us") }}" class="buy_ticket_btn">Contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="why_attend_sectin" id="why_attend_section">
     <div class="why_attend_wrapper">
@@ -226,149 +370,6 @@
         }
     }
 </script> -->
-
-
-<section class="schedule_section" id="schedule_section">
-    <div class="schedule_wrapper">
-        <div class="schedule_heading_div">
-            <p class="schedule_heading">Schedule and Event Details</p>
-            <p class="schedule_summary">Plan your summit experience! Our event schedule outlines all the key sessions and activities, ensuring you don’t miss a moment of this valuable opportunity.</p>
-        </div>
-        <div class="timeline_div">
-            <div class="schedule_days">
-                <div class="day_1">
-                    <!-- <p class="schedule_day">Day 01</p> -->
-                    <p class="schedule_date">January 25<span class="span_date">ᵗʰ, 2025</span></p>
-                </div>
-                <!-- <div class="day_2">
-                    <p class="schedule_day">Day 01</p>
-                    <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
-                </div>
-                <div class="day_3">
-                    <p class="schedule_day">Day 01</p>
-                    <p class="schedule_date">10 <span class="span_date">February, 2024</span></p>
-                </div> -->
-            </div>
-            <!-- <div class="schedule_horiz_line">
-                <div class="small_horiz_line">
-
-                </div>
-            </div> -->
-            <div class="timeline_wrapper">
-                <div class="timeline_1">
-                    <div class="event_time">
-                        <p class="eve_time">10:45AM - 11:15 AM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">1st Subject</p>
-                        <p class="sch_summary">Impact of AI in testing & How to stay Updated.</p>
-                    </div>
-                </div>
-                <div class="timeline_2">
-                    <div class="event_time">
-                        <p class="eve_time">11:15 AM - 12:00 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">2nd Subject</p>
-                        <p class="sch_summary">Exploring 2025 QA trends & Bangalore QA Job Market analysis</p>
-                    </div>
-                </div>
-                <div class="timeline_3">
-                    <div class="event_time">
-                        <p class="eve_time">12:00 PM - 12:30 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Q&A</p>
-                        <p class="sch_summary">Query Session-1:1 Interaction with Rahul Shetty</p>
-                    </div>
-                </div>
-                <div class="timeline_4">
-                    <div class="event_time">
-                        <p class="eve_time">12:30 PM - 1:00PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Break</p>
-                        <p class="sch_summary">One Hot Veg Snack & Tea/Coffee with Cookies </p>
-                    </div>
-                </div>
-                <div class="timeline_5">
-                    <div class="event_time">
-                        <p class="eve_time">1:00 PM - 2:00PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">3rd Subject</p>
-                        <p class="sch_summary">AI-Hype to Reality & LLM’s Testing overview</p>
-                    </div>
-                </div>
-                <div class="timeline_6">
-                    <div class="event_time">
-                        <p class="eve_time">2:00 PM - 2:30 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">4th Subject</p>
-                        <p class="sch_summary">Career guidance &Future of AI in QA Automation Space</p>
-                    </div>
-                </div>
-                <div class="timeline_7">
-                    <div class="event_time">
-                        <p class="eve_time">2:30 PM - 3:00 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Quiz</p>
-                        <p class="sch_summary">QA Interactive Quizzes - Win Cash Prizes</p>
-                    </div>
-                </div>
-                <div class="timeline_8">
-                    <div class="event_time">
-                        <p class="eve_time">3:00 PM - 3:30 PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Closing</p>
-                        <p class="sch_summary">Photo Session & Candid conversations</p>
-                    </div>
-                </div>
-                <!-- <div class="timeline_9">
-                    <div class="event_time">
-                        <p class="eve_time">2:35 PM - 2:45PM</p>
-                    </div>
-                    <div class="schedule_titles">
-                        <p class="sch_title">Closing</p>
-                        <p class="sch_summary">Vote of thanks/Closing ceremony</p>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="event_booking" id="event_booking">
-    <div class="event_booking_wrapper">
-        <div class="headline_content">
-            <p class="early_bird">Early Bird Registration</p>
-            <p class="early_bird_summary">Secure your spot today and take advantage of our early bird pricing until December 15, 2024.</p>
-        </div>
-        <div class="days_remaining">
-            <p class="remaining_days">15 Days Remaining!</p>
-        </div>
-        <div class="booking_slots">
-            <div class="group_booking">
-                <p class="group_title_tag">Group Ticket (3+)</p>
-                <p class="group_price">₹1399</p>
-                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket_btn">Buy Ticket</a>
-            </div>
-            <div class="individual">
-                <p class="title_tag">Individual</p>
-                <p class="price">₹549</p>
-                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
-            </div>
-            <div class="corp_booking">
-                <p class="corp_title_tag">Corporate</p>
-                <p class="corp_price">Contact us to get a custom price</p>
-                <a href="{{ route("contact-us") }}" class="buy_ticket_btn">Contact us</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="testimonial_section" id="testimonials_section">

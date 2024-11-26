@@ -24,10 +24,10 @@
                 AI-driven testing, and career insights in the n the ever-evolving field
                 of software testing.
                 <br><span class="hero_summary_span_before">—all brought to you by the renowned instructor,</span>
-                <span class="hero_summary_span"><i>Rahul Shetty.</i></span>
+                <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Register</a>
+                <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Know more</a>
                 <!-- <a href="{{route('bengaluru-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
@@ -136,7 +136,7 @@
             <div class="images_description">
                 <!-- <p class="desc_heading">We Discuss New Ideas and Techniques.</p> -->
                 <div class="">
-                    <p class="desc_summary"><b>QA Summit</b> is a globally recognized series of career-focused Software Testing and QA conferences designed to empower professionals in the ever-evolving testing landscape. These exclusive events are spearheaded by Rahul Shetty, one of the world’s leading QA educators, with a community of over 1 million students worldwide.
+                    <p class="desc_summary"><b>QA Summit</b> is a globally recognized series of career-focused Software Testing and QA conferences designed to empower professionals in the ever-evolving testing landscape. These exclusive events are spearheaded by <b><a style="color:#000;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a></b>, one of the world’s leading QA educators, with a community of over 1 million students worldwide.
                     </p>
                     <p class="desc_summary"> These conferences are meticulously crafted to address the latest shifts and trends in QA for each quarter. Covering topics like trending QA technologies, AI-driven testing, automation strategies, and actionable career guidance, QA Summit ensures attendees stay ahead in their field.
                     </p>
