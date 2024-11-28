@@ -60,6 +60,7 @@
 
 </section>
 
+@if (!request()->routeIs('event-booking'))
 <script>
     window.addEventListener('scroll', function() {
         var navbar = document.getElementById('navbar_section');
@@ -70,3 +71,4 @@
         }
     });
 </script>
+@endif

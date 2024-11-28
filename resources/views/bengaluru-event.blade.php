@@ -98,7 +98,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">1st Subject</p>
-                        <p class="sch_summary">Impact of AI in testing & How to stay Updated.</p>
+                        <p class="sch_summary">Impact of AI in Testing – Be more productive with AI as your coworker.</p>
                     </div>
                 </div>
                 <div class="timeline_2">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">2nd Subject</p>
-                        <p class="sch_summary">Delving into 2025 QA Automation Trends and Insights on the Indian QA Job Market</p>
+                        <p class="sch_summary">Exploring 2025 QA Automation Trends & Technologies – Market evaluation and insights.</p>
                     </div>
                 </div>
                 <div class="timeline_3">
@@ -116,7 +116,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">3rd Subject</p>
-                        <p class="sch_summary">AI Powered Automation tools overview and their Learning Curve</p>
+                        <p class="sch_summary">Overview of AI-Powered Testing Tools with a Comparison of AI Integration into Existing Test Frameworks</p>
                     </div>
                 </div>
                 <div class="timeline_4">
@@ -125,7 +125,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">Break</p>
-                        <p class="sch_summary">One Hot Veg Snack & Tea/Coffee with Cookies </p>
+                        <p class="sch_summary">Enjoy a hot vegetarian snack with tea/coffee and cookies.</p>
                     </div>
                 </div>
                 <div class="timeline_5">
@@ -134,7 +134,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">4th Subject</p>
-                        <p class="sch_summary">The Era of LLM Testing: Are Automated Tests for ML Models the Next Big Revolution?</p>
+                        <p class="sch_summary">The Era of LLM Testing – Are automated tests for ML models the next big revolution?</p>
                     </div>
                 </div>
                 <div class="timeline_6">
@@ -143,7 +143,7 @@
                     </div>
                     <div class="schedule_titles">
                         <p class="sch_title">5th Subject</p>
-                        <p class="sch_summary">Career guidance & Succesful CaseStudies on choosing right Learning Path</p>
+                        <p class="sch_summary">Successful Case Studies on Shift Left Testing – Bring a revolution to your work!</p>
                     </div>
                 </div>
                 <div class="timeline_7">
@@ -151,17 +151,17 @@
                         <p class="eve_time">2:30 PM - 3:00 PM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Quiz</p>
-                        <p class="sch_summary">QA Interactive Quizzes - Win CashPrices and get featured in Socia Media channels.</p>
+                        <p class="sch_title">6th Subject</p>
+                        <p class="sch_summary">QA Career Guidance and Learning Paths – Stay ahead in the ever-evolving tech landscape.</p>
                     </div>
                 </div>
                 <div class="timeline_8">
                     <div class="event_time">
-                        <p class="eve_time">3:00 PM - 3:30 PM</p>
+                        <p class="eve_time">3:00 PM - 4:00 PM</p>
                     </div>
                     <div class="schedule_titles">
-                        <p class="sch_title">Closing</p>
-                        <p class="sch_summary">Photo Session & Candid conversations with Rahul Shetty</p>
+                        <p class="sch_title">Q&A</p>
+                        <p class="sch_summary">Query Sessions and 1:1 Candid Interactions with Rahul Shetty.</p>
                     </div>
                 </div>
                 <!-- <div class="timeline_9">
