@@ -21,8 +21,8 @@
             <p class="hero_heading">Calling All QA Enthusiasts from Silicon Valley of India</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
-            <p class="hero_summary">A Productive 4-Hour Career-Oriented QA Talk by Your
-                Beloved Instructor, Rahul Shetty!
+            <p class="hero_summary">
+                A Productive 5-Hour QA Insights Talk by Renowned Industry Expert, Rahul Shetty!
             </p>
             <p class="hero_summary shine">Theme of Conference: Uncover AI Testing with Career Guidance.
             </p>
