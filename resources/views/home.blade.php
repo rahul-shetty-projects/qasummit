@@ -17,7 +17,7 @@
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Bengaluru</span></p>
             </div>
-            <p class="hero_heading">Welcome to the Career-Focused Software Testing Conferences</p>
+            <p class="hero_heading">Welcome to the Career-Focused Software Testing Meetup</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Novotel Bellandur - Bengaluru</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
             <p class="hero_summary">Join us in Bengaluru to explore 2025 QA trends, test automation,
@@ -27,7 +27,7 @@
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Know more</a>
+                <a href="{{route('bengaluru-event')}}" class="hero_register_btn">Limited Seats Availability - Know more</a>
                 <!-- <a href="{{route('bengaluru-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
@@ -108,7 +108,7 @@
     </script>
     <div class="about_conference_wrapper">
         <div class="about_con_headline">
-            <p class="about_conference_heading">About QA Summit Conferences</p>
+            <p class="about_conference_heading">About QA Summit Meetups</p>
         </div>
         <div class="conference_content">
             <div class="conference_images">
@@ -136,9 +136,9 @@
             <div class="images_description">
                 <!-- <p class="desc_heading">We Discuss New Ideas and Techniques.</p> -->
                 <div class="">
-                    <p class="desc_summary"><b>QA Summit</b> is a globally recognized series of career-focused Software Testing and QA conferences designed to empower professionals in the ever-evolving testing landscape. These exclusive events are spearheaded by <b><a style="color:#000;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a></b>, one of the world’s leading QA educators, with a community of over 1 million students worldwide.
+                    <p class="desc_summary"><b>QA Summit</b> is a globally recognized series of career-focused Software Testing and QA Meetups designed to empower professionals in the ever-evolving testing landscape. These exclusive events are spearheaded by <b><a style="color:#000;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a></b>, one of the world’s leading QA educators, with a community of over 1 million students worldwide.
                     </p>
-                    <p class="desc_summary"> These conferences are meticulously crafted to address the latest shifts and trends in QA for each quarter. Covering topics like trending QA technologies, AI-driven testing, automation strategies, and actionable career guidance, QA Summit ensures attendees stay ahead in their field.
+                    <p class="desc_summary"> These Meetups are meticulously crafted to address the latest shifts and trends in QA for each quarter. Covering topics like trending QA technologies, AI-driven testing, automation strategies, and actionable career guidance, QA Summit ensures attendees stay ahead in their field.
                     </p>
                     <p class="desc_summary">With events hosted in different cities across the globe each quarter, QA Summit takes a tailored approach by integrating job market research specific to the host city into the agenda. This unique insight helps participants gain a competitive edge by understanding local and global opportunities in QA.</p>
                     <p class="desc_summary">Whether you're a professional seeking the latest advancements or career strategies, QA Summit is the perfect platform to learn, network, and grow in the QA space.
