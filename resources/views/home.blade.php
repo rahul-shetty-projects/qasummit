@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'RSTEK Events')
+@section('title', 'Software Testing Meetup 2025 - Bengaluru')
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset("css/Home.css") }}" />

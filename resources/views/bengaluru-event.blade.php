@@ -182,7 +182,7 @@
     <div class="event_booking_wrapper">
         <div class="headline_content">
             <p class="early_bird">Early Bird Registration</p>
-            <p class="early_bird_summary">Secure your spot today and take advantage of our early bird pricing until December 15, 2024.</p>
+            <p class="early_bird_summary">Secure your spot today and take advantage of our early bird pricing until December 30, 2024.</p>
         </div>
         <div class="days_remaining">
             <p class="remaining_days">15 Days Remaining!</p>

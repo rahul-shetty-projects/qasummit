@@ -1360,6 +1360,7 @@
     .booking_slots {
         flex-direction: column;
         gap: 2rem;
+        align-items: center;
     }
 
     /* Schedule Timeline */
