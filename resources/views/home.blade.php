@@ -251,14 +251,14 @@
 
                                 <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                             </a>
-                            <a href="{{route("sydney-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
+                            <a href="{{route("toronto-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        QASummit <span class="upcom_headline_span">Sydney</span>
+                                        QASummit <span class="upcom_headline_span">Toronto</span>
                                     </p>
                                     <p class="upcom_event_data">
                                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Sydney | Australia</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
                                     </p>
                                 </div>
 
@@ -348,14 +348,14 @@
                     </div>
                     <div class="carousel-item">
                         <div class="slide_1" style="background-image:url('../images/Homepage/uebg4.png'); background-size:cover; background-repeat:no-repeat;">
-                            <a href="{{route("sydney-event")}}" class="slide_1_1">
+                            <a href="{{route("toronto-event")}}" class="slide_1_1">
                                 <div class="div_upcom_eve">
                                     <p class="upcom_headline">
-                                        QASummit <span class="upcom_headline_span">Sydney</span>
+                                        QASummit <span class="upcom_headline_span">Toronto</span>
                                     </p>
                                     <p class="upcom_event_data">
                                     <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Sydney | Australia</span></p>
+                                    <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
                                     </p>
                                 </div>
 
