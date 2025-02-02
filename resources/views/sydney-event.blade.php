@@ -3,7 +3,7 @@
 @section('title', 'Sydney Event')
 
 @section('styles')
-<link rel="stylesheet" href="{{ asset("css/Puneevent.css") }}" />
+<link rel="stylesheet" href="{{ asset("css/Upcoming-Event-Form.css") }}" />
 @endsection
 
 @section('content')

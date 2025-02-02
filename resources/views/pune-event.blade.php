@@ -3,29 +3,29 @@
 @section('title', 'Pune Event')
 
 @section('styles')
-<link rel="stylesheet" href="{{ asset("css/Puneevent.css") }}" />
+<link rel="stylesheet" href="{{ asset("css/Pune-Event.css") }}" />
 @endsection
 
 @section('content')
 
-
 <section class="hero_section" id="hero_section">
     <div class="hero_section_wrapper">
         <!-- <div class="hero_speaker_image">
-            <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="" style="width:100%;">
+            <img src="{{ asset("images/Homepage/hero image.png");}}" alt="">
         </div> -->
         <div class="hero_first_div">
             <div class="border_style">
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
             </div>
-            <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune, India</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
-            <!-- <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions?</p> -->
-            <div class="hero_btn_wrapper">
-                <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->
-                <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
-            </div>
+            <p class="hero_heading">Calling All QA Enthusiasts from Maharashtra - India</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
+            <p class="hero_summary">
+                A Productive 5-Hour QA Insights Talk by Renowned Industry Expert, Rahul Shetty!
+            </p>
+            <p class="hero_summary shine">Theme of Conference: Uncover AI Testing with Career Guidance.
+            </p>
+            <!-- <a href="#event_booking" class="hero_register_btn">Secure Your Spot!</a> -->
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">
@@ -35,13 +35,10 @@
                 </div>
                 <div class="horizontal_line_event"></div>
                 <div class="upcoming_details">
-                    <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png") }}" alt=""><span>Conference room 5</span></p>
-                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png") }}" alt=""><span>25 Aug, 2025</span></p>
+                    <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png");}}" alt=""><span>Conference room 5</span></p>
+                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png");}}" alt=""><span>25 Aug, 2025</span></p>
                 </div>
             </div> -->
-            <div class="hero_mobile_img">
-                <img src="{{ asset(path: "images/Homepage/mobrahulimg.png") }}" alt="" style="width:100%;">
-            </div>
         </div>
     </div>
 </section>
