@@ -174,7 +174,7 @@
         <div class="sponsors_logo">
             <img src="{{ asset("images/Homepage/Sponsors/lambdatest.png") }}" alt="">
             <img src="{{ asset("images/Homepage/Sponsors/udemy.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/Sponsors/testRigor.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/Sponsors/testrigor.png") }}" alt="">
             <img src="{{ asset("images/Homepage/Sponsors/rstek.png") }}" alt="">
         </div>
     </div>
