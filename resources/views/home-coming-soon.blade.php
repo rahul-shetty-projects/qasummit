@@ -148,14 +148,31 @@
         <div class="previous_carousel">
             <div class="Upcoming_headlines">
                 <p class="events_headlines">Previous Events</p>
-                <p style="margin-bottom:4px;" class="events_summary">Mark your calendars for our upcoming events, designed to inspire and inform the QA community about the latest trends and technologies. Don’t see your city listed? No problem! <a href="#footer_section">Fill out the form</a> and let us know your city of interest.</p>
-                <p style="margin-top: 4px;" class="events_summary">Based on popular demand, we may consider changing the venue or organizing mini events in your city!</p>
+                <p class="events_summary">
+                    Explore our past events that have inspired and informed the QA community about the latest trends and technologies.
+                    Relive the highlights and key takeaways from our previous sessions.
+                </p>
+
             </div>
+            <div style="flex-grow:1;"></div>
             <div class="carousel_div">
                 <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="slide_1">
+                                <a href="{{route("hyderabad-event")}}" style="background-image:url('../images/Homepage/uebg3.png')" class="slide_1_1">
+                                    <div class="div_upcom_eve">
+                                        <p class="upcom_headline">
+                                            QASummit <span class="upcom_headline_span">Hyderabad</span>
+                                        </p>
+                                        <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>August 24, 2024</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
+                                        </p>
+                                    </div>
+
+                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                                </a>
                                 <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_1">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
@@ -169,57 +186,8 @@
 
                                     <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                                 </a>
-                                <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/uebg3.png')" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Pune</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="slide_1">
-                                <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/uebg2.png')" class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">London</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("london-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                                <a href="{{route("toronto-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Toronto</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("toronto-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                            </div>
-                        </div>
-                        <!-- <div class="carousel-item">
-                        <div class="slide_1">
-
-                        </div>
-                    </div> -->
-
                     </div>
                     <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -237,6 +205,24 @@
                 <div id="carouselExampleInterval22" style="width: 100%;" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg3.png'); background-size:cover; background-repeat:no-repeat;">
+                                <a href="{{route("hyderabad-event")}}" class="slide_1_1">
+                                    <div class="div_upcom_eve">
+                                        <p class="upcom_headline">
+                                            QASummit <span class="upcom_headline_span">Hyderabad</span>
+                                        </p>
+                                        <p class="upcom_event_data">
+                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>August 24, 2024</span></p>
+                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
+                                        </p>
+                                    </div>
+
+                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
                             <div class="slide_1" style="background-image:url('../images/Homepage/uebg1.png'); background-size:cover; background-repeat:no-repeat;">
                                 <a href="{{route("bengaluru-event")}}" class="slide_1_1">
                                     <div class="div_upcom_eve">
@@ -251,63 +237,6 @@
 
                                     <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                                 </a>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg3.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("pune-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Pune</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg2.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("london-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">London</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("london-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg4.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("toronto-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Toronto</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("toronto-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
                             </div>
                         </div>
                     </div>
@@ -350,20 +279,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="slide_1">
-                                <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Bengaluru</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                                <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/uebg3.png')" class="slide_1_1">
+                                <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/uebg2.png')" class="slide_1_1">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
                                             QASummit <span class="upcom_headline_span">Pune</span>
@@ -376,11 +292,7 @@
 
                                     <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                                 </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1">
-                                <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/uebg2.png')" class="slide_1_2">
+                                <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
                                             QASummit <span class="upcom_headline_span">London</span>
@@ -393,7 +305,11 @@
 
                                     <!-- <a href="{{route("london-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                                 </a>
-                                <a href="{{route("toronto-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide_1">
+                                <a href="{{route("toronto-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_2">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
                                             QASummit <span class="upcom_headline_span">Toronto</span>
@@ -403,7 +319,6 @@
                                         <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
                                         </p>
                                     </div>
-
                                     <!-- <a href="{{route("toronto-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
                                 </a>
                             </div>
@@ -430,26 +345,9 @@
 
                 <div id="carouselExampleInterval33" style="width: 100%;" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
+
                         <div class="carousel-item active">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg1.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("bengaluru-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Bengaluru</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg3.png'); background-size:cover; background-repeat:no-repeat;">
+                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg2.png'); background-size:cover; background-repeat:no-repeat;">
                                 <a href="{{route("pune-event")}}" class="slide_1_1">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
@@ -468,7 +366,7 @@
                         </div>
                         <div class="carousel-item">
 
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg2.png'); background-size:cover; background-repeat:no-repeat;">
+                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg4.png'); background-size:cover; background-repeat:no-repeat;">
                                 <a href="{{route("london-event")}}" class="slide_1_1">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
@@ -487,7 +385,7 @@
 
                         </div>
                         <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg4.png'); background-size:cover; background-repeat:no-repeat;">
+                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg1.png'); background-size:cover; background-repeat:no-repeat;">
                                 <a href="{{route("toronto-event")}}" class="slide_1_1">
                                     <div class="div_upcom_eve">
                                         <p class="upcom_headline">
