@@ -45,10 +45,10 @@
             <!-- <p class="sponsor_summary">We are grateful for our sponsors and partners who make this summit possible. Together, we drive innovation in quality assurance.</p> -->
         </div>
         <div class="sponsors_logo">
-            <img src="{{ asset("images/Homepage/test logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/udemy logo.png") }}" alt="">
-            <img src="{{ asset("images/Homepage/rslogo.png") }}" alt="">
-            <img height="115px" src="{{ asset("images/Homepage/optimworks.jpg") }}" alt="">
+            <img src="{{ asset("images/Homepage/Sponsors/lambdatest.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/Sponsors/udemy.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/Sponsors/testRigor.png") }}" alt="">
+            <img src="{{ asset("images/Homepage/Sponsors/rstek.png") }}" alt="">
         </div>
     </div>
 </section>

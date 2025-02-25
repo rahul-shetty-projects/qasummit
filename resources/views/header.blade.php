@@ -10,17 +10,16 @@
             <div>
                 <ul class="nav_menu">
                     <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
-                    <li> <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a></li>
-                    <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
-
-                    <!-- <li class="drop_events">
-                        <a href="{{route("upcoming-events")}}" class="menu_item event_item">Events</a>
+                    <!-- <li> <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a></li> -->
+                    <li class="drop_events">
+                        <a href="#" class="menu_item event_item">Upcoming Events</a>
                         <div class="dropdown_menu">
-                            <a href="">Bengaluru</a>
-                            <a href="">London</a>
-                            <a href="">Pune</a>
+                            <a href="{{route("pune-event")}}">QA Summit Pune</a>
+                            <a href="{{ route("home") }}">QA Summit Online</a>
                         </div>
-                    </li> -->
+                    </li>
+                    <li><a href="{{ route("previous-events")}}" class="menu_item">Previous Events</a></li>
+                    <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
                     <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
                     <li><a href="{{route("contact-us")}}" class="menu_item">Contact Us</a></li>
@@ -39,15 +38,15 @@
             <div class="offcavas_menu_wrapper">
                 <ul class="offcanvas_menu">
                     <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
-                    <li><a href="{{route("bengaluru-event")}}" class="menu_item">Events</a></li>
-
-                    <!-- <li class="drop_events">
-                        <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a>
-                        <div class="dropdown_menu">
-                            <a href="{{route("previous-event")}}">Previous Events</a>
-                            <a href="{{route("upcoming-event")}}">Upcoming Events</a>
+                    <!-- <li><a href="{{route(name: "bengaluru-event")}}" class="menu_item">Events</a></li> -->
+                    <li class="drop_events">
+                        <a href="#" class="menu_item event_item">Upcoming Events</a>
+                        <div class="dropdown_menu_offcanvas">
+                        <a href="{{route("pune-event")}}">QA Summit Pune</a>
+                        <a href="">QA Summit Online</a>
                         </div>
-                    </li> -->
+                    </li>
+                    <li><a href="{{route(name: "previous-events")}}" class="menu_item">Previous Events</a></li>
                     <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
                     <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>

@@ -350,6 +350,7 @@
     }
 
     .footer_menu_list {
+        flex-direction: column;
         padding: 0;
     }
 

@@ -1,0 +1,1727 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&display=swap");
+@import url("./Header.css");
+@import url("./Footer.css");
+
+.hero_section_wrapper {
+    background-image: url("../images/Homepage/homeherobg.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 93vh;
+    padding: 10px 80px;
+}
+
+.hero_second_div {
+    display: none;
+}
+
+.hero_speaker_image {
+    /* background: linear-gradient(90deg, #F741BB 0%, #5A6FF4 100%); */
+    width: 47%;
+    top: 0;
+    right: 10px;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero_first_div {
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0rem 4rem;
+    padding-top: 2rem;
+}
+
+.hero_headline {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: left;
+    color: #f4238d;
+    background: #ffffff;
+    padding: 10px;
+    margin-top: -12px;
+    margin-right: -12px;
+}
+
+.hero_headline_span {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border_style {
+    border-bottom: 3px solid #f4238d;
+    border-left: 3px solid #f4238d;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.hero_heading {
+    font-family: "Pacifico", cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 112px;
+    text-decoration: underline;
+    text-align: left;
+    color: #ffffff;
+}
+
+.hero_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #c8c7d3;
+    width: 80%;
+}
+
+.hero_summary_span_before {
+    color: #fff;
+}
+
+.hero_summary_span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.event_headline {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #c8c7d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.event_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #fff;
+}
+
+.event_location {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.blackdrop {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.event_date,
+.press_coverage {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.slow-blink {
+    animation: blink 1s infinite;
+    text-decoration: underline;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.press_coverage:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.upcoming_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming_events {
+    backdrop-filter: blur(20px);
+    border: 1px solid;
+    border-image-source: linear-gradient(
+        134.72deg,
+        rgba(255, 255, 255, 0.5) -1.24%,
+        rgba(255, 255, 255, 0.3) 100.74%
+    );
+    background: linear-gradient(
+        134.86deg,
+        rgba(113, 113, 113, 0.45) 0.99%,
+        rgba(255, 255, 255, 0.2) 99.01%
+    );
+    border-radius: 15px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.horizontal_line_event {
+    border: 1px solid #c8c7d3;
+}
+
+.hero_btn_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hero_register_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+    text-align: center;
+    width: 100%;
+}
+
+/* // While hovering
+// Change to: "Variant2";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 500ms; */
+
+.hero_register_btn:hover {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    background: linear-gradient(90deg, #5a6ff4 0%, #f741bb 100%);
+    border-radius: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.hero_learn_more_btn {
+    background: transparent;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.hero_learn_more_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Timer */
+
+.timer_wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -2.2rem;
+    right: 25%;
+}
+
+.days,
+.hours,
+.seconds,
+.minutes {
+    box-shadow: 2px 4px 15px 0px #00000026;
+    border-radius: 15px;
+    padding: 20px 21px;
+    background-color: #fff;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer_count {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.93px;
+    text-align: center;
+    color: #000000;
+}
+
+.timer_timing {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.95px;
+    text-align: center;
+    color: #000000;
+}
+
+/* About The Conference */
+
+.about_the_cenference {
+    position: relative;
+    padding-top: 5rem;
+}
+
+.about_conference_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+    padding: 20px 40px;
+    background-image: url("../images/Homepage/Group 4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.conference_images {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-image: url("../images/Homepage/Group 4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 55%;
+    padding: 2rem 0rem;
+}
+
+.first_set {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.second_set {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.about_conference_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+    color: #001023;
+}
+
+.img1_div,
+.img2_div,
+.img3_div,
+.img4_div {
+    position: relative;
+}
+
+.img1_div > img {
+    content: url("../images/Homepage/con1.png");
+}
+
+.img2_div > img {
+    content: url("../images/Homepage/con3.png");
+}
+
+.img3_div > img {
+    content: url("../images/Homepage/con2.png");
+}
+
+.img4_div > img {
+    content: url("../images/Homepage/con4.png");
+}
+
+.overflow_txt {
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    padding-inline: 10px;
+}
+
+.conference_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.images_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    gap: 3rem;
+    width: 45%;
+    background-image: url("../images/Homepage/Group 4.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.desc_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.desc_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: left;
+    color: #001023;
+    width: 100%;
+}
+
+.register_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.register_btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.learn_more_btn2 {
+    padding: 8px 32px;
+    position: relative;
+    background-color: white;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 1.75rem;
+    z-index: 1;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.learn_more_btn2:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.learn_more_btn2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2.5px;
+    left: -2.5px;
+    z-index: -1;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    border-radius: 1.75rem;
+}
+
+.button__label {
+    margin: 0;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+/* Call For Speakers */
+
+.speakers_section_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2d1c5b;
+    padding: 4rem 6rem;
+}
+
+.speakers_content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+
+.get_involved {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: #f4238d;
+}
+
+.call_spaekers {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.speaker_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.86px;
+    text-align: left;
+    color: #cecbd7;
+    padding: 20px 0px;
+}
+
+.proposal_btn {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #ffffff;
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.proposal_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.speaker_img > img {
+    width: 700px;
+    z-index: 0;
+    content: url("../images/Homepage/callspeaker image.png");
+    /* background: linear-gradient(180deg, rgba(45, 28, 91, 0) 47.35%, #2D1C5B 93.49%);
+    filter: drop-shadow(5px 23px 13px #2D1C5B); */
+}
+
+/* Events booking */
+
+.event_booking {
+    background: #eff1fd;
+}
+
+.event_booking_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.headline_content {
+    padding: 20px 10px;
+}
+
+.early_bird {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
+.early_bird_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+    width: 70%;
+    margin: auto;
+}
+
+.remaining_days {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;
+    color: #f4238d;
+    animation: colorChange 1000ms infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #f4238d;
+    }
+
+    50% {
+        color: #14063b;
+    }
+}
+
+.booking_slots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 3rem;
+    margin: auto;
+}
+
+.individual {
+    border-radius: 15px;
+    background: #7750e7;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.group_booking {
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+}
+
+.title_tag {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #ffffff;
+    background: #e946c1;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.group_title_tag {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #7750e7;
+    background: #e7e1fa;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.price {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.36px;
+    text-align: left;
+    color: #fff;
+}
+
+.group_price {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.36px;
+    text-align: left;
+    color: #1c1826;
+}
+
+.buy_ticket {
+    background: #ffffff;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #7750e7;
+    padding: 10px 40px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buy_ticket_btn {
+    border: 1px solid #5a6ff4;
+    color: #5a6ff4;
+    background-color: transparent;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+
+/* Sponsors and Partners */
+
+.sponsors_wrapper {
+    width: 60%;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsors_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sponsor_summary {
+    width: 70%;
+    margin: auto;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+}
+
+.sponsors_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    gap: 40px;
+}
+
+/* Upcoming Events Carousel */
+
+.events_headlines {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.events_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #717380;
+}
+
+.upcoming_carousel_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #eff1fd;
+}
+
+.upcoming_carousel,
+.previous_carousel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Upcoming_headlines {
+    width: 90%;
+}
+
+.carousel_div {
+    width: 100%;
+    text-align: center;
+}
+
+.mob_controls {
+    display: none;
+    flex-direction: row;
+    padding: 10px;
+    gap: 40px;
+}
+
+.mobile_carousel_div {
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+.slide_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slide_1_1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12rem;
+    height: 70vh;
+    padding: 2rem;
+    /* background-image: url("../images/Homepage/Group 6.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_1_2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12rem;
+    height: 70vh;
+    padding: 2rem;
+    /* background-image: url("../images/Homepage/Rectangle 4.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide_1_1,
+.slide_1_2 {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .div_upcom_eve{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} */
+
+.div_upcom_eve {
+    width: 100%;
+}
+
+.upcom_headline {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.24px;
+    text-align: left;
+    color: #f4238d;
+    background-color: #fff;
+    padding: 18px 12px;
+    width: fit-content;
+}
+
+.upcom_headline_span {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.upcom_event_data {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.76px;
+    text-align: left;
+    color: #fff;
+}
+
+.upcom_learn_more_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.upcom_learn_more_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 40px;
+}
+
+/* Previous Events */
+
+.background_div {
+    background: linear-gradient(140.1deg, #fe2287 0.22%, #6626d8 77.66%);
+    /* background-image: url("../images/Homepage/Group 4.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50%;
+    height: 80%;
+    text-align: right;
+    z-index: 0;
+}
+
+.previious_events {
+    background: #2d1c5b;
+    position: relative;
+    padding: 40px;
+}
+
+.event_details_img {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10rem;
+    height: 80vh;
+    padding: 6rem 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prev_event_date {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.91px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.div_prev {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div_botto_stick {
+    width: fit-content;
+    padding: 14px 12px;
+    color: #fff;
+    background-color: #f4238d;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.attendees {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.76px;
+    text-align: left;
+    color: #fff;
+}
+
+.learn_more_btn {
+    background: linear-gradient(90deg, #f741bb 0%, #5a6ff4 100%);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.learn_more_btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.previous_event_wrapper {
+    background-image: url("../images/Homepage/Group 4.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.previous_details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.prev_event_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+    color: #fff;
+}
+
+.images_carousel {
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-indicators {
+    bottom: -4rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 16px !important;
+    width: 16px !important;
+    border-radius: 50% !important;
+}
+
+/* Event Reviews */
+
+.clients_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0px;
+}
+
+.client_details {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.review_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.bottom_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.controls_reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    padding: 2rem 0rem;
+}
+
+.controls_reviews > img:hover {
+    cursor: pointer;
+}
+
+.combine_client {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event_reviews {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: left;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    -webkit-text-fill-color: transparent;
+}
+
+.review_headline {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.91px;
+    text-align: left;
+    color: #1c1826;
+}
+
+.review_summary {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1c1826;
+    width: 80%;
+}
+
+.client_name {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1c1826;
+    margin-bottom: 0px;
+}
+
+.client_designation {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: left;
+    color: #1c1826;
+    margin-bottom: 6px;
+}
+
+/* Mobile */
+
+@media screen and (width <= 600px) {
+    .hero_section_wrapper {
+        background-image: url("../images/Homepage/mobherobg.png");
+        background-size: cover;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 6rem 0rem;
+        height: 100% !important;
+    }
+
+    .hero_speaker_image {
+        display: none;
+    }
+
+    .hero_first_div {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .hero_second_div {
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+    }
+
+    .hero_mobile_img {
+        background: linear-gradient(150deg, #f741bb 0%, #5a6ff4 100%);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+
+    .hero_headline {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.88px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #f4238d;
+    }
+
+    .hero_heading {
+        font-family: "Pacifico", cursive;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 64px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .event_location,
+    .event_date {
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.68px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #fff;
+    }
+
+    .hero_summary {
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22.68px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 100%;
+        color: #c8c7d3;
+    }
+
+    .hero_register_btn {
+        width: 100%;
+        border-radius: 46px;
+    }
+
+    .hero_btn_wrapper {
+        width: 100%;
+    }
+
+    /* Timer */
+
+    .timer_wrapper {
+        width: 100%;
+        justify-content: space-evenly;
+        right: 0;
+    }
+
+    .timer_count {
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 29.2px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+
+    .timer_timing {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.95px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+
+    /* Mob About Conference */
+
+    .about_conference_wrapper {
+        width: 100%;
+        padding: 1rem;
+        background-image: none;
+    }
+
+    .about_conference_heading {
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #001023;
+        margin-bottom: 0;
+    }
+
+    .about_con_headline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conference_images {
+        width: fit-content;
+        gap: 8px;
+        flex-direction: row;
+        margin: auto;
+        background-image: none;
+    }
+
+    .first_set {
+        gap: 1rem;
+    }
+
+    .second_set {
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .images_description {
+        width: 100%;
+        background-image: none;
+        padding: 2rem 0.5rem;
+        gap: 1rem;
+    }
+
+    .overflow_txt {
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.68px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .conference_content {
+        flex-direction: column;
+    }
+
+    .desc_heading {
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .desc_summary {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #001023;
+    }
+
+    .btn_wrapper {
+        width: 100%;
+    }
+
+    .register_btn {
+        width: 100%;
+        display: block;
+        border-radius: 46px;
+        padding: 10px 31px;
+    }
+
+    .img1_div > img {
+        content: url("../images/Homepage/mo_con1.png");
+    }
+
+    .img2_div > img {
+        content: url("../images/Homepage/mo_con3.png");
+    }
+
+    .img3_div > img {
+        content: url("../images/Homepage/mo_con2.png");
+    }
+
+    .img4_div > img {
+        content: url("../images/Homepage/mo_con4.png");
+    }
+
+    /* Mob Sponsors */
+
+    .sponsors_logo {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .sponsors_wrapper {
+        width: 100%;
+    }
+
+    .sponsor_summary {
+        width: 100%;
+    }
+
+    /* Mob Call Speakers */
+
+    .speakers_section_wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+
+    .speaker_img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .speaker_img > img {
+        /* margin-top: -2rem; */
+        /* margin-left: -10rem; */
+        width: 80%;
+        content: url("../images/Homepage/mo_callspeaker image.png");
+    }
+
+    .speakers_content {
+        padding: 2rem 1rem;
+    }
+
+    .get_involved {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #f4238d;
+    }
+
+    .call_spaekers {
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #fff;
+    }
+
+    .speaker_summary {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.1px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #cecbd7;
+    }
+
+    .proposal_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Upcoming Carousel */
+
+    .upcoming_carousel_wrapper {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .carousel_div {
+        padding: 0;
+    }
+
+    .Upcoming_headlines {
+        width: fit-content;
+    }
+
+    .upcoming_carousel,
+    .previous_carousel {
+        width: 95%;
+        padding: 0;
+    }
+
+    .carousel_div {
+        display: none;
+    }
+
+    .mob_controls {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .controls {
+        display: none;
+    }
+
+    .mobile_carousel_div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .slide_1_1 {
+        width: 100%;
+        height: auto;
+        padding: 2rem 1rem;
+        margin: 0rem 1rem;
+        height: 360px;
+    }
+
+    .slide_1_2 {
+        width: 100%;
+        height: auto;
+        padding: 2rem 1rem;
+        margin: 0rem 1rem;
+    }
+
+    /* Previous Events */
+
+    .background_div {
+        display: none;
+    }
+
+    .previous_event_wrapper {
+        background-image: none;
+    }
+
+    .previious_events {
+        padding: 3rem 0rem;
+    }
+
+    .event_details_img {
+        height: auto;
+        background-image: url("../images/Homepage/mobprevbg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4rem 2rem;
+        gap: 13rem;
+    }
+
+    .learn_more_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel-indicators {
+        bottom: -3.5rem !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 16px !important;
+        width: 16px !important;
+        border-radius: 50% !important;
+    }
+
+    .div_prev {
+        gap: 2rem;
+    }
+
+    /* Client Reviews */
+
+    .clients_wrapper {
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .client_details {
+        width: 100%;
+    }
+
+    .client_eclipse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .client_eclipse > img {
+        width: 80%;
+    }
+
+    .event_reviews {
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .review_headline {
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23.18px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #1c1826;
+    }
+
+    .review_summary {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #1c1826;
+        width: 100%;
+    }
+
+    .client_name {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #1c1826;
+    }
+
+    .client_designation {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #1c1826;
+    }
+}
+
+@media screen and (width <= 405px) {
+    .conference_images {
+        flex-direction: column;
+    }
+}
+
+/* Media Gallery */
+.media_gallery_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #170548;
+}
+
+.media_headlines{
+    width: 50%;
+}
+
+.media_headline {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #5a6ff4 0%, #f741bb 81.86%);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+@media screen and (width <= 600px) {
+    .media_gallery_wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .media_headlines{
+        width: fit-content;
+    }
+}
