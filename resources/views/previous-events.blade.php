@@ -17,7 +17,7 @@
                 <p class="hero_headline" style="margin-bottom: 0!important;">Previous Events</p>
             </div>
             <p class="hero_heading">QA Summit delivers conferences of the highest standard</p>
-            <p class="hero_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="hero_summary">Explore past events where Rahul Shetty shared insights and innovations in quality assurance.</p>
             <!-- <button class="hero_register_btn">Register</button> -->
         </div>
         <!--<div class="hero_second_div">
@@ -49,6 +49,52 @@
         <div class="prev_eve_timeline_wrapper">
 
             <div class="first_timeline">
+                <div data-after-content="August 2024." class="timeline_img">
+                    <div class="img_wrapper">
+                        <div class="image_content_tmln">
+                            <p class="image_summary_tmln">
+                                August 24, 2024
+                                <br>Hyderabad | India
+                                <br>T-Hub
+                            </p>
+                        </div>
+                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                    </div>
+                </div>
+                <div class="timeline_content">
+                    <p class="mobile_date">August 2024.</p>
+                    <p class="tmln_heading">QASummit Hyderabad</p>
+                    <p class="tmln_summary">The QA Summit held in Hyderabad on August 24, 2024, brought together over 300 attendees passionate about quality assurance and emerging technologies. The event featured insightful sessions, including a career guidance workshop led by Rahul Shetty, discussions on trending QA technologies set to shape the industry by 2025, and explorations of how artificial intelligence is transforming the QA interview process. Attendees also engaged in critical conversations about the impact of AI on QA jobs and the future of AI in QA automation. The event fostered valuable networking opportunities and knowledge sharing among industry professionals, making it a significant milestone in the QA community.</p>
+                    <a href="{{ route("hyderabad-event") }}" class="prev_learn_more_btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="second_timeline">
+                <div class="sec_timeline_content">
+                    <p class="mobile_date">January 2025.</p>
+                    <p class="tmln_heading">QASummit Bangalore</p>
+                    <p class="sec_tmln_summary">The QASummit event in Bangalore on January 25, 2025, marked another significant milestone following our inaugural event in Hyderabad in 2024. With over 330 attendees, the atmosphere was charged with enthusiasm and passion for advancing the software testing industry.
+                        <br><br>This year's summit, led by the esteemed Rahul Shetty, focused on practical, industry-relevant topics aimed at upskilling professionals and addressing the evolving landscape of AI in software testing. Rahul's leadership ensured a seamless experience, guiding discussions on automation trends, AI-powered testing tools, and successful case studies.
+                        <br><br>Attendees also benefited from valuable networking opportunities, connecting with industry peers and experts to share insights and foster collaborations. The event featured dedicated career guidance sessions, equipping participants with strategies to navigate their professional growth in a rapidly changing environment. Additionally, interactive Q&A sessions allowed attendees to engage directly with Rahul, further enhancing their learning experience.
+                        <br><br>The energy and engagement shared during the event reflect our commitment to shaping the future of software testing and empowering professionals to keep pace with technological advancements. We look forward to continuing this journey together!
+                    </p>
+                    <a href="{{ route("bengaluru-event") }}" class="prev_learn_more_btn">Learn More</a>
+                </div>
+                <div data-after-content="January 2025." class="sec_timeline_img">
+                    <div class="img_wrapper">
+                        <div class="image_content_tmln">
+                            <p class="image_summary_tmln">
+                                January 25, 2025
+                                <br>Bengaluru | India
+                                <br>Novotel Bengaluru Outer Ring Road
+                            </p>
+                        </div>
+                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="first_timeline">
                 <div data-after-content="December 2024." class="timeline_img">
                     <div class="img_wrapper">
                         <div class="image_content_tmln">
@@ -109,49 +155,7 @@
                     <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
                     <button class="prev_learn_more_btn">Learn More</button>
                 </div>
-            </div>
-
-            <div class="second_timeline">
-                <div class="sec_timeline_content">
-                    <p class="mobile_date">December 2024.</p>
-                    <p class="tmln_heading">India QA Fest</p>
-                    <p class="sec_tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                    <button class="prev_learn_more_btn">Learn More</button>
-                </div>
-                <div data-after-content="December 2024." class="sec_timeline_img">
-                    <div class="img_wrapper">
-                        <div class="image_content_tmln">
-                            <p class="image_summary_tmln">
-                                January 16-19, 2025
-                                <br>New Delhi | India
-                                <br>Habitat World Convention Centre
-                            </p>
-                        </div>
-                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
-                    </div>
-                </div>
-            </div>
-
-            <div class="first_timeline">
-                <div data-after-content="December 2024." class="timeline_img">
-                    <div class="img_wrapper">
-                        <div class="image_content_tmln">
-                            <p class="image_summary_tmln">
-                                January 16-19, 2025
-                                <br>New Delhi | India
-                                <br>Habitat World Convention Centre
-                            </p>
-                        </div>
-                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
-                    </div>
-                </div>
-                <div class="timeline_content">
-                    <p class="mobile_date">December 2024.</p>
-                    <p class="tmln_heading">India QA Fest</p>
-                    <p class="tmln_summary">After the success of our inaugural summit in Hyderabad, we are excited to bring the next QA Summit to Bangalore! This event offers software testers, test automation engineers, and quality assurance professionals a valuable opportunity for learning, networking, and collaboration.</p>
-                    <button class="prev_learn_more_btn">Learn More</button>
-                </div>
-            </div>
+            </div> -->
 
         </div>
         <!-- <div class="controls">

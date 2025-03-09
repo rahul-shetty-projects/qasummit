@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view(view: 'home-coming-soon');
 })->name("home");
 
+Route::get('/home', function () {
+    return view(view: 'home');
+})->name("home2");
+
 Route::get('/upcoming-event', function () {
     return view(view: 'upcoming-event');
 })->name("upcoming-event");

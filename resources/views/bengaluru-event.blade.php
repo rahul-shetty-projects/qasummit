@@ -67,7 +67,7 @@
     <div class="schedule_wrapper">
         <div class="schedule_heading_div">
             <p class="schedule_heading">Schedule and Event Details</p>
-            <p class="schedule_summary"><b><span class="grad_text">When :</span> Jan 25th 2024, 10:30AM </b></p>
+            <p class="schedule_summary"><b><span class="grad_text">When :</span> Jan 25th 2025, 10:30AM </b></p>
             <p class="schedule_summary"><b><span class="grad_text">Where :</span> Bengaluru, India </b></p>
             <p class="schedule_summary"><b><span class="grad_text">Event Address :</span> Novotel Bengaluru Outer Ring Road </b></p>
         </div>

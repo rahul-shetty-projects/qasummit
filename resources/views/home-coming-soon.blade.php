@@ -142,297 +142,278 @@
     </div>
 </section> -->
 
-
-<section>
+<section class="upcoming_carousel">
     <div class="upcoming_carousel_wrapper">
-        <div class="previous_carousel">
-            <div class="Upcoming_headlines">
-                <p class="events_headlines">Previous Events</p>
-                <p class="events_summary">
-                    Explore our past events that have inspired and informed the QA community about the latest trends and technologies.
-                    Relive the highlights and key takeaways from our previous sessions.
-                </p>
-
+        <div class="Upcoming_headlines">
+            <p class="events_headlines">Upcoming Events</p>
+            <p style="margin-bottom:20px;" class="events_summary">Mark your calendars for our upcoming events,<br> designed to inspire and inform the QA community<br> about the latest trends and technologies.</p>
+            <p style="margin-bottom:20px;" class="events_summary">Your city isn't listed? <a style="color: #F4238D;" href="#footer_section">Fill out the form</a> to let us know!</p>
+            <p style="margin-bottom: 20px;" class="events_summary">If there’s enough demand, we might bring an event to you!</p>
+            <div style="display: flex;flex-direction: row;justify-content: center;" class="btn_wrapper">
+                <a href="#footer_section" class="register_btn">Secure your Spot</a>
+                <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
             </div>
-            <div style="flex-grow:1;"></div>
-            <div class="carousel_div">
-                <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="slide_1">
-                                <a href="{{route("hyderabad-event")}}" style="background-image:url('../images/Homepage/uebg3.png')" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Hyderabad</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>August 24, 2024</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
-                                        </p>
-                                    </div>
 
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                                <a href="{{route("bengaluru-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Bengaluru</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
-                </div>
-
-            </div>
-            <div class="mobile_carousel_div">
-
-                <div id="carouselExampleInterval22" style="width: 100%;" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg3.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("hyderabad-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Hyderabad</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>August 24, 2024</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hyderabad | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg1.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("bengaluru-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Bengaluru</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>January 25, 2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("bengaluru-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> -->
-                </div>
-
-            </div>
-            <div class="mob_controls">
-                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-                </div>
-            </div>
-            <div class="controls">
-                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-                </div>
-            </div>
         </div>
-        <div class="upcoming_carousel">
-            <div class="Upcoming_headlines">
-                <p class="events_headlines">Upcoming Events</p>
-                <p style="margin-bottom:4px;" class="events_summary">Mark your calendars for our upcoming events, designed to inspire and inform the QA community about the latest trends and technologies. Don’t see your city listed? No problem! <a href="#footer_section">Fill out the form</a> and let us know your city of interest.</p>
-                <p style="margin-top: 4px;" class="events_summary">Based on popular demand, we may consider changing the venue or organizing mini events in your city!</p>
-            </div>
-            <div class="carousel_div">
-                <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="slide_1">
-                                <a href="{{route("pune-event")}}" style="background-image:url('../images/Homepage/uebg2.png')" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Pune</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
-                                        </p>
+        <div class="carousel_div">
+            <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="events-wrapper">
+                            <div class="event-card right-wing" style="background-image: url('../images/Homepage/london-upcoming.png');" onclick="window.location.href=`{{ route('london-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">London</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> Q3 - 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> London | UK</span>
                                     </div>
-
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                                <a href="{{route("london-event")}}" style="background-image:url('../images/Homepage/uebg4.png')" class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">London</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
                                     </div>
-
-                                    <!-- <a href="{{route("london-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1">
-                                <a href="{{route("toronto-event")}}" style="background-image:url('../images/Homepage/uebg1.png')" class="slide_1_2">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Toronto</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
-                                        </p>
-                                    </div>
-                                    <!-- <a href="{{route("toronto-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-                            </div>
-                        </div>
-                        <!-- <div class="carousel-item">
-                        <div class="slide_1">
-
-                        </div>
-                    </div> -->
-
-                    </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
-                </div>
-
-            </div>
-            <div class="mobile_carousel_div">
-
-                <div id="carouselExampleInterval33" style="width: 100%;" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg2.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("pune-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Pune</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune | India</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("pune-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg4.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("london-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">London</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London | UK</span></p>
-                                        </p>
-                                    </div>
-
-                                    <!-- <a href="{{route("london-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
+                                </div>
                             </div>
 
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slide_1" style="background-image:url('../images/Homepage/uebg1.png'); background-size:cover; background-repeat:no-repeat;">
-                                <a href="{{route("toronto-event")}}" class="slide_1_1">
-                                    <div class="div_upcom_eve">
-                                        <p class="upcom_headline">
-                                            QASummit <span class="upcom_headline_span">Toronto</span>
-                                        </p>
-                                        <p class="upcom_event_data">
-                                        <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q4-2025</span></p>
-                                        <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto | Canada</span></p>
-                                        </p>
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');margin-top:80px;" onclick="window.location.href=`{{ route('pune-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> Q2 - 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
                                     </div>
-
-                                    <!-- <a href="{{route("toronto-event")}}" class="upcom_learn_more_btn">Learn More</a> -->
-                                </a>
-
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/delhi-upcoming.png');" onclick="window.location.href=`{{ route('delhi-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Delhi</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> Q4 - 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Delhi | India</span>
+                                    </div>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> -->
-                </div>
-
-            </div>
-            <div class="mob_controls">
-                <div type="button" data-bs-target="#carouselExampleInterval33" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval33" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-                </div>
-            </div>
-            <div class="controls">
-                <div type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev" class="prev_div">
-                    <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-                </div>
-                <div type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next" class="next_div">
-                    <img src="{{ asset("images/Homepage/next.png") }}" alt="">
                 </div>
             </div>
         </div>
 
-    </div>
+        <div class="mobile_carousel_div">
+
+            <div id="carouselExampleInterval22" style="width: 100%;" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="event-card right-wing" style="background-image: url('../images/Homepage/london-upcoming.png');" onclick="window.location.href=`{{ route('london-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">London</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> Q3 - 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> London | UK</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');" onclick="window.location.href=`{{ route('pune-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> Q2 - 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="event-card left-wing" style="background-image: url('../images/Homepage/delhi-upcoming.png');" onclick="window.location.href=`{{ route('delhi-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Delhi</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> Q4 - 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Delhi | India</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mob_controls">
+            <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            </div>
+            <div type="button" data-bs-target="#carouselExampleInterval22" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            </div>
+            <div type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
+</section>
+
+<section class="upcoming_carousel">
+    <div class="upcoming_carousel_wrapper">
+        <div class="Upcoming_headlines">
+            <p class="events_headlines">Previous Events</p>
+            <p style="margin-bottom:20px;" class="events_summary">Explore highlights from our past events, where the QA<br> community connected, learned, and shared insights <br> on the latest trends and technologies.</p>
+
+        </div>
+        <div class="carousel_div">
+            <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="events-wrapper">
+                            <div class="event-card right-wing" style="background-image: url('../images/Homepage/bengaluru-previous.png');" onclick="window.location.href=`{{ route('bengaluru-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Bengaluru</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> January 25, 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Bengaluru | India</span>
+                                    </div>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/hyderabad-previous.png');margin-top:80px;" onclick="window.location.href=`{{ route('hyderabad-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Hyderabad</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> August 24, 2024</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Hyderabad | India</span>
+                                    </div>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile_carousel_div">
+
+            <div id="carouselExampleInterval33" style="width: 100%;" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="event-card right-wing" style="background-image: url('../images/Homepage/bengaluru-previous.png');" onclick="window.location.href=`{{ route('bengaluru-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Bengaluru</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> January 25, 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Bengaluru | India</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="event-card left-wing" style="background-image: url('../images/Homepage/hyderabad-previous.png');" onclick="window.location.href=`{{ route('hyderabad-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Hyderabad</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> August 24, 2024</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Hyderabad | India</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mob_controls">
+            <div type="button" data-bs-target="#carouselExampleInterval33" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            </div>
+            <div type="button" data-bs-target="#carouselExampleInterval33" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev" class="prev_div">
+                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
+            </div>
+            <div type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next" class="next_div">
+                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
+            </div>
+        </div>
 </section>
 
 
@@ -493,106 +474,12 @@
     </div>
 </section> -->
 
-<section class="media_gallery">
-    <div class="media_gallery_wrapper">
-        <div class="media_headlines">
-            <p class="media_headline">Media Gallery</p>
-        </div>
-        <div class="carousel_div">
-            <div id="carouselExampleInterval4" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/1.png") }}" alt="">
-                            </div>
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <video style="max-width: 525px;" controls loop src="{{ asset("images/Homepage/Media/2.mp4") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/3.jpg") }}" alt="">
-                            </div>
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/4.jpg") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-
-
-        <div class="mobile_carousel_div">
-
-            <div id="carouselExampleInterval44" style="width: 100%;" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/1.png") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <video style="width: 100%;" controls loop src="{{ asset("images/Homepage/Media/2.mp4") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/3.jpg") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="slide_1">
-                            <div style="display: flex;flex-direction:column;align-items:center;justify-content:center;height:auto;" class="slide_1_1">
-                                <img style="max-width: 525px;max-height:525px;" src="{{ asset("images/Homepage/Media/4.jpg") }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> -->
-            </div>
-
-        </div>
-
-
-        <div class="mob_controls">
-            <div type="button" data-bs-target="#carouselExampleInterval44" data-bs-slide="prev" class="prev_div">
-                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-            </div>
-            <div type="button" data-bs-target="#carouselExampleInterval44" data-bs-slide="next" class="next_div">
-                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-            </div>
-        </div>
-
-        <div class="controls">
-            <div type="button" data-bs-target="#carouselExampleInterval4" data-bs-slide="prev" class="prev_div">
-                <img src="{{ asset("images/Homepage/prev.png") }}" alt="">
-            </div>
-            <div type="button" data-bs-target="#carouselExampleInterval4" data-bs-slide="next" class="next_div">
-                <img src="{{ asset("images/Homepage/next.png") }}" alt="">
-            </div>
-        </div>
-    </div>
+<section class="moments_galary" id="moments_galary">
+    <p class="moments_heading">Moments from Our Events</p>
+    <img class="moments_img" src="{{ asset("images/Homepage/moments_galary_pic.png") }}" alt="Moments from Our Events">
 </section>
+
 
 
 <section class="testimonial_section" id="testimonials_section">
