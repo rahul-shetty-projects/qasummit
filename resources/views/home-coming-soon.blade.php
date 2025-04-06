@@ -8,6 +8,12 @@
 
 @section('content')
 
+@php
+$isUpcoming = false;
+$eventDate = '2025-06-21'; // Example event date
+@endphp
+
+@if ($isUpcoming)
 <section class="hero_section" id="hero_section">
     <div class="hero_section_wrapper">
         <div class="hero_speaker_image">
@@ -15,7 +21,7 @@
         </div>
         <div class="hero_first_div">
 
-            <p class="hero_heading">Coming Soon</p>
+            <p class="hero_heading_coming_soon">Coming Soon</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hybrid - Offline/Online (Venue TBD)</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBD</span></p>
             <p class="hero_summary">Join us to explore 2025 QA trends, test automation, AI-
@@ -49,11 +55,105 @@
         </div>
     </div>
 </section>
-
-
-
+@else
+<section class="hero_section" id="hero_section">
+    <div class="hero_section_wrapper">
+        <div class="hero_speaker_image">
+            <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="" style="width:100%;">
+        </div>
+        <div class="hero_first_div">
+            <div class="border_style">
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
+            </div>
+            <p class="hero_heading">Welcome to the Career-Focused Software Testing Meetup</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune/Mumbai - (Venue TBD)</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>21st June, 2025</span></p>
+            <p class="hero_summary">Join us in Maharashtra, India to explore 2025 QA trends, test automation,
+                AI-driven testing, and career insights in the n the ever-evolving field
+                of software testing.
+                <br><span class="hero_summary_span_before">—all brought to you by the renowned instructor,</span>
+                <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
+            </p>
+            <div class="hero_btn_wrapper">
+                <a href="{{route('pune-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a>
+                <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
+            </div>
+        </div>
+        <div class="hero_second_div">
+            <!-- <div class="upcoming_events">
+                <div class="event_headline">
+                    <p class="event_headline">Upcoming Event</p>
+                    <p class="event_heading" style="margin-bottom: 0!important;">QA Transformation</p>
+                </div>
+                <div class="horizontal_line_event"></div>
+                <div class="upcoming_details">
+                    <p class="event_location"><img src="{{ asset("images/Homepage/Location on.png") }}" alt=""><span>Conference room 5</span></p>
+                    <p class="event_date"><img src="{{ asset("images/Homepage/Calendar today.png") }}" alt=""><span>25 Aug, 2025</span></p>
+                </div>
+            </div> -->
+            <div class="hero_mobile_img">
+                <img src="{{ asset(path: "images/Homepage/mobrahulimg.png") }}" alt="" style="width:100%;">
+            </div>
+        </div>
+    </div>
+</section>
+@endif
 
 <section class="about_the_cenference" id="about_the_conference">
+    @if (!$isUpcoming)
+    <div class="timer_wrapper">
+        <div class="days">
+            <p class="timer_count" id="days" style="margin-bottom: -5px!important;">0</p>
+            <p class="timer_timing" style="margin-bottom: 5px!important;">Days</p>
+        </div>
+        <div class="hours">
+            <p class="timer_count" id="hours" style="margin-bottom: -5px!important;">0</p>
+            <p class="timer_timing" style="margin-bottom: 5px!important;">Hours</p>
+        </div>
+        <div class="minutes">
+            <p class="timer_count" id="minutes" style="margin-bottom: -5px!important;">0</p>
+            <p class="timer_timing" style="margin-bottom: 5px!important;">Mins</p>
+        </div>
+        <div class="seconds">
+            <p class="timer_count" id="seconds" style="margin-bottom: -5px!important;">0</p>
+            <p class="timer_timing" style="margin-bottom: 5px!important;">Secs</p>
+        </div>
+    </div>
+    <script>
+        // End timestamp (in seconds) - replace with your actual end timestamp
+        const endTimestamp = "{{ strtotime($eventDate) }}"; // Example end timestamp
+
+        // Function to calculate and display remaining time
+        function updateTimer() {
+            const currentTimestamp = Math.floor(Date.now() / 1000); // Current timestamp in seconds
+            let remainingTime = endTimestamp - currentTimestamp;
+
+            if (remainingTime <= 0) {
+                // Stop the timer if time is up
+                clearInterval(timerInterval);
+                remainingTime = 0;
+            }
+
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(remainingTime / (24 * 60 * 60));
+            const hours = Math.floor((remainingTime % (24 * 60 * 60)) / (60 * 60));
+            const minutes = Math.floor((remainingTime % (60 * 60)) / 60);
+            const seconds = remainingTime % 60;
+
+            // Update the DOM elements
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+        }
+
+        // Update the timer every second
+        const timerInterval = setInterval(updateTimer, 1000);
+
+        // Initial call to display the timer immediately
+        updateTimer();
+    </script>
+    @endif
     <div class="about_conference_wrapper">
         <div class="about_con_headline">
             <p class="about_conference_heading">About QA Summit Meetups</p>
@@ -93,7 +193,7 @@
                     </p>
                 </div>
                 <div class="btn_wrapper">
-                    <a href="#footer_section" class="register_btn">Secure your Spot</a>
+                    <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a>
                     <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
@@ -181,7 +281,7 @@
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
                                     <div class="event-details">
-                                        <span><i class="far fa-calendar"></i> Q2 - 2025</span>
+                                        <span><i class="far fa-calendar"></i> June 21, 2025</span>
                                         <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
                                     </div>
                                     <div class="separate-line"></div>
@@ -245,7 +345,7 @@
                             <div class="card-content">
                                 <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
                                 <div class="event-details">
-                                    <span><i class="far fa-calendar"></i> Q2 - 2025</span>
+                                    <span><i class="far fa-calendar"></i> June 21, 2025</span>
                                     <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
                                 </div>
                                 <div class="separate-line"></div>
@@ -301,7 +401,7 @@
 </section>
 
 <section class="upcoming_carousel">
-    <div class="upcoming_carousel_wrapper">
+    <div style="background-image: url('{{ asset("images/Homepage/bg-previous.png") }}')" class="upcoming_carousel_wrapper">
         <div class="Upcoming_headlines">
             <p class="events_headlines">Previous Events</p>
             <p style="margin-bottom:20px;" class="events_summary">Explore highlights from our past events, where the QA<br> community connected, learned, and shared insights <br> on the latest trends and technologies.</p>

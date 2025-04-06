@@ -39,7 +39,7 @@
         </div>
         <div class="footer_bottom">
             <div class="combine_div">
-                <p class="copyright" style="margin-bottom: 0!important;">2024 Copyright Rahul Shetty. All Rights Reserved</p>
+                <p class="copyright" style="margin-bottom: 0!important;">2025 Copyright Rahul Shetty. All Rights Reserved</p>
                 <div class="footer_social_icons">
                     <!-- <img src="{{ asset("images/Footer/Facebook Icon.png") }}" alt=""> -->
                     <a href="https://www.linkedin.com/company/qa-summit-rahul-shetty-academy" target="_blank"><img src="{{ asset("images/Footer/Linkedin Icon.png") }}" alt=""></a>

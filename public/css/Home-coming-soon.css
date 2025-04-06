@@ -70,6 +70,15 @@
 }
 
 .hero_heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.hero_heading_coming_soon {
     font-family: "Pacifico", cursive;
     font-size: 64px;
     font-weight: 400;
@@ -1413,6 +1422,17 @@ animation-duration: 500ms; */
     }
 
     .hero_heading {
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+    }
+
+    .hero_heading_coming_soon {
         font-family: "Pacifico", cursive;
         font-size: 48px;
         font-weight: 400;
