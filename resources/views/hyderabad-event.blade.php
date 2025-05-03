@@ -169,7 +169,7 @@
     </div>
 </section>
 
-<section class="event_booking" id="event_booking">
+<!-- <section class="event_booking" id="event_booking">
     <div class="event_booking_wrapper">
         <div class="headline_content">
             <p class="early_bird">Early Bird Registration</p>
@@ -179,11 +179,11 @@
             <p class="remaining_days">15 Days Remaining!</p>
         </div>
         <div class="booking_slots">
-            <!-- <div class="group_booking">
+            <div class="group_booking">
                 <p class="group_title_tag">Group Ticket (3+)</p>
                 <p class="group_price">₹1399</p>
                 <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket_btn">Buy Ticket</a>
-            </div> -->
+            </div> 
             <div class="individual">
                 <p class="title_tag">Individual/Group Ticket</p>
                 <p class="price">Limited seats available, act now!</p>
@@ -196,7 +196,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="speaker_form_section" id="speaker_form_section">
     <div class="form_wrapper">

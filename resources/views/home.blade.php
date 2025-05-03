@@ -18,7 +18,7 @@
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
             </div>
             <p class="hero_heading">Welcome to the Career-Focused Software Testing Meetup</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune/Mumbai - (Venue TBD)</span></p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Vivanta PUNE - Hinjawadi</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>10th May, 2025</span></p>
             <p class="hero_summary">Join us in Maharashtra, India to explore 2025 QA trends, test automation,
                 AI-driven testing, and career insights in the n the ever-evolving field

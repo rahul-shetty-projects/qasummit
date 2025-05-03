@@ -58,7 +58,7 @@
                                 <br>T-Hub
                             </p>
                         </div>
-                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;">
+                        <img src="{{ asset("images/Previouspage/hyd-event.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;height: 402px;width:475px;object-fit: none;">
                     </div>
                 </div>
                 <div class="timeline_content">
@@ -89,7 +89,7 @@
                                 <br>Novotel Bengaluru Outer Ring Road
                             </p>
                         </div>
-                        <img src="{{ asset("images/Previouspage/tmlnimg.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;">
+                        <img src="{{ asset("images/Previouspage/bangalore-event.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;height: 402px;width:475px;object-fit: none;">
                     </div>
                 </div>
             </div>
