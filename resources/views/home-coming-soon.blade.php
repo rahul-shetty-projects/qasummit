@@ -76,7 +76,8 @@ $eventDate = '2025-06-21'; // Example event date
             </p>
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('pune-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a> -->
-                <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a>
+                <a href="{{route('pune-event')}}" class="hero_register_btn">Limited Seats Availability - Know more</a>
+                <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
         <div class="hero_second_div">
@@ -193,8 +194,8 @@ $eventDate = '2025-06-21'; // Example event date
                     </p>
                 </div>
                 <div class="btn_wrapper">
-                    <!-- <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a> -->
-                    <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a>
+                    <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a>
+                    <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
         </div>
@@ -249,10 +250,11 @@ $eventDate = '2025-06-21'; // Example event date
             <p style="margin-bottom:20px;" class="events_summary">Mark your calendars for our upcoming events,<br> designed to inspire and inform the QA community<br> about the latest trends and technologies.</p>
             <p style="margin-bottom:20px;" class="events_summary">Your city isn't listed? <a style="color: #F4238D;" href="#footer_section">Fill out the form</a> to let us know!</p>
             <p style="margin-bottom: 20px;" class="events_summary">If there’s enough demand, we might bring an event to you!</p>
-            <div style="display: flex;flex-direction: row;justify-content: center;">
+            <div style="display: flex;flex-direction: row;justify-content: center;padding-top: 20px;">
                 <div class="btn_wrapper">
+                    <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a>
                     <!-- <a href="#footer_section" class="register_btn">Secure your Spot</a> -->
-                    <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a>
+                    <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
                 </div>
             </div>
 
