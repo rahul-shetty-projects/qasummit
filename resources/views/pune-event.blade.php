@@ -19,8 +19,8 @@
                 <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
             </div>
             <p class="hero_heading">Calling All QA Enthusiasts from Silicon Valley of India</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Bengaluru, Karnataka</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>25th January, 2025</span></p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Pune, Maharashtra</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>21st June, 2025</span></p>
             <p class="hero_summary">
                 A Productive 5-Hour QA Insights Talk by Renowned Industry Expert, Rahul Shetty!
             </p>
@@ -254,7 +254,7 @@
                 </div>
                 <div class="email_div">
                     <label for="speakercity" class="speaker_label">City *</label>
-                    <input required type="text" name="" id="speakercity" class="speakermail_inp" placeholder="Bengaluru">
+                    <input required type="text" name="" id="speakercity" class="speakermail_inp" placeholder="Pune">
                 </div>
                 <div class="submit_btn_div">
                     <button type="submit" id="subscribe_submit_btn" class="submit_btn">Subscribe</button>
@@ -393,7 +393,7 @@
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Connect with fellow QA professionals, industry experts, and leaders in Bengaluru’s vibrant tech community.
+                            <div class="accordion-body">Connect with fellow QA professionals, industry experts, and leaders in Pune’s vibrant tech community.
                             </div>
                         </div>
                     </div>
