@@ -25,7 +25,7 @@ $eventDate = '2025-06-21'; // Example event date
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hybrid - Offline/Online (Venue TBD)</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBD</span></p>
             <p class="hero_summary">Join us to explore 2025 QA trends, test automation, AI-
-                driven testing, and career insights in the n the ever-
+                driven testing, and career insights in the ever-
                 evolving field of software testing.
                 <br>
                 <br>
@@ -69,7 +69,7 @@ $eventDate = '2025-06-21'; // Example event date
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Vivanta PUNE - Hinjawadi</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>21st June, 2025</span></p>
             <p class="hero_summary">Join us in Maharashtra, India to explore 2025 QA trends, test automation,
-                AI-driven testing, and career insights in the n the ever-evolving field
+                AI-driven testing, and career insights in the ever-evolving field
                 of software testing.
                 <br><span class="hero_summary_span_before">—all brought to you by the renowned instructor,</span>
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
