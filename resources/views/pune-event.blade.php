@@ -228,7 +228,7 @@
                 <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
             </div>
             <div class="corp_booking">
-                <p class="corp_title_tag">Corporate</p>
+                <p class="corp_title_tag">Bulk Bookings</p>
                 <p class="corp_price">Contact us to get a custom price</p>
                 <a href="{{ route("contact-us") }}" class="buy_ticket_btn">Contact us</a>
             </div>
