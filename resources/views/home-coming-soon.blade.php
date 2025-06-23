@@ -9,7 +9,7 @@
 @section('content')
 
 @php
-$isUpcoming = false;
+$isUpcoming = true;
 $eventDate = '2025-06-21'; // Example event date
 @endphp
 
@@ -22,7 +22,7 @@ $eventDate = '2025-06-21'; // Example event date
         <div class="hero_first_div">
 
             <p class="hero_heading_coming_soon">Coming Soon</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Hybrid - Offline/Online (Venue TBD)</span></p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London (Venue TBD)</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBD</span></p>
             <p class="hero_summary">Join us to explore 2025 QA trends, test automation, AI-
                 driven testing, and career insights in the ever-
@@ -33,7 +33,7 @@ $eventDate = '2025-06-21'; // Example event date
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <a href="#footer_section" class="hero_register_btn">Be the First to Register</a>
+                <a href="{{route('london-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a>
                 <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
@@ -75,7 +75,6 @@ $eventDate = '2025-06-21'; // Example event date
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <!-- <a href="{{route('pune-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a> -->
                 <a href="{{route('pune-event')}}" class="hero_register_btn">Limited Seats Availability - Know more</a>
                 <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
@@ -194,8 +193,12 @@ $eventDate = '2025-06-21'; // Example event date
                     </p>
                 </div>
                 <div class="btn_wrapper">
-                    <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a>
+                    @if ($isUpcoming)
+                    <a href="{{ route("london-event")}}" class="register_btn">Learn More</a>
                     <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
+                    @else
+                    <a href="{{ route("london-event")}}" class="register_btn">Secure your Spot</a>
+                    @endif
                 </div>
             </div>
         </div>
@@ -250,12 +253,9 @@ $eventDate = '2025-06-21'; // Example event date
             <p style="margin-bottom:20px;" class="events_summary">Mark your calendars for our upcoming events,<br> designed to inspire and inform the QA community<br> about the latest trends and technologies.</p>
             <p style="margin-bottom:20px;" class="events_summary">Your city isn't listed? <a style="color: #F4238D;" href="#footer_section">Fill out the form</a> to let us know!</p>
             <p style="margin-bottom: 20px;" class="events_summary">If there’s enough demand, we might bring an event to you!</p>
-            <div style="display: flex;flex-direction: row;justify-content: center;padding-top: 20px;">
-                <div class="btn_wrapper">
-                    <a href="{{ route("pune-event")}}" class="register_btn">Secure your Spot</a>
-                    <!-- <a href="#footer_section" class="register_btn">Secure your Spot</a> -->
-                    <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
-                </div>
+            <div style="display: flex;flex-direction: row;justify-content: center;" class="btn_wrapper">
+                <a href="{{ route("london-event")}}" class="register_btn">Secure your Spot</a>
+                <!-- <a href="{{ route("pune-event")}}" class="learn_more_btn2"><span class="button__label">Learn More</span></a> -->
             </div>
 
         </div>
@@ -281,24 +281,7 @@ $eventDate = '2025-06-21'; // Example event date
                                 </div>
                             </div>
 
-                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');margin-top:80px;" onclick="window.location.href=`{{ route('pune-event') }}`;">
-                                <div class="card-content">
-                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
-                                    <div class="event-details">
-                                        <span><i class="far fa-calendar"></i> June 21, 2025</span>
-                                        <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
-                                    </div>
-                                    <div class="separate-line"></div>
-                                    <div class="learn-more">
-                                        <a>Learn More</a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
-                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/delhi-upcoming.png');" onclick="window.location.href=`{{ route('delhi-event') }}`;">
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/delhi-upcoming.png');margin-top:80px;" onclick="window.location.href=`{{ route('delhi-event') }}`;">
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Delhi</span></p>
                                     <div class="event-details">
@@ -344,24 +327,6 @@ $eventDate = '2025-06-21'; // Example event date
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');" onclick="window.location.href=`{{ route('pune-event') }}`;">
-                            <div class="card-content">
-                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
-                                <div class="event-details">
-                                    <span><i class="far fa-calendar"></i> June 21, 2025</span>
-                                    <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
-                                </div>
-                                <div class="separate-line"></div>
-                                <div class="learn-more">
-                                    <a>Learn More</a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
-                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item">
                         <div class="event-card left-wing" style="background-image: url('../images/Homepage/delhi-upcoming.png');" onclick="window.location.href=`{{ route('delhi-event') }}`;">
                             <div class="card-content">
@@ -433,7 +398,24 @@ $eventDate = '2025-06-21'; // Example event date
                                 </div>
                             </div>
 
-                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/hyderabad-previous.png');margin-top:80px;" onclick="window.location.href=`{{ route('hyderabad-event') }}`;">
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');margin-top:80px;" onclick="window.location.href=`{{ route('pune-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> June 21, 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
+                                    </div>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/hyderabad-previous.png');" onclick="window.location.href=`{{ route('hyderabad-event') }}`;">
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Hyderabad</span></p>
                                     <div class="event-details">
@@ -460,6 +442,25 @@ $eventDate = '2025-06-21'; // Example event date
             <div id="carouselExampleInterval33" style="width: 100%;" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="event-card left-wing" style="background-image: url('../images/Homepage/pune-upcoming.png');" onclick="window.location.href=`{{ route('pune-event') }}`;">
+                            <div class="card-content">
+                                <p class="upcom_headline">QASummit <span class="upcom_headline_span">Pune</span></p>
+                                <div class="event-details">
+                                    <span><i class="far fa-calendar"></i> June 21, 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Pune | India</span>
+                                </div>
+                                <div class="separate-line"></div>
+                                <div class="learn-more">
+                                    <a>Learn More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                        <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
                         <div class="event-card right-wing" style="background-image: url('../images/Homepage/bengaluru-previous.png');" onclick="window.location.href=`{{ route('bengaluru-event') }}`;">
                             <div class="card-content">
                                 <p class="upcom_headline">QASummit <span class="upcom_headline_span">Bengaluru</span></p>

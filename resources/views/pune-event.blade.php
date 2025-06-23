@@ -225,7 +225,7 @@
             <div class="individual">
                 <p class="title_tag">Individual/Group Ticket</p>
                 <p class="price">Limited seats available, act now!</p>
-                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
+                <a href="#speaker_form_section" class="buy_ticket">Sold Out!</a>
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate - Bulk Bookings</p>
@@ -236,7 +236,7 @@
     </div>
 </section>
 
-<!-- <section class="speaker_form_section" id="speaker_form_section">
+<section class="speaker_form_section" id="speaker_form_section">
     <div class="form_wrapper">
         <div class="headline_content">
             <p class="early_bird">Be the First to Know!</p>
@@ -262,7 +262,7 @@
             </form>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -309,7 +309,7 @@
     </div>
 </div>
 
-<!-- <script>
+<script>
     $(document).ready(function() {
         $('#contactForm').on('submit', function(event) {
             event.preventDefault();
@@ -318,7 +318,7 @@
                 name: $('#speakername').val(),
                 email: $('#speakermail').val(),
                 city: $('#speakercity').val(),
-                id: 17
+                id: 19
             };
 
 
@@ -355,7 +355,7 @@
 
         });
     });
-</script> -->
+</script>
 
 
 <section class="why_attend_sectin" id="why_attend_section">

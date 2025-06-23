@@ -14,7 +14,7 @@
                     <li class="drop_events">
                         <a href="#" class="menu_item event_item">Upcoming Events</a>
                         <div class="dropdown_menu">
-                            <a href="{{route("pune-event")}}">QA Summit Pune</a>
+                            <a href="{{route("london-event")}}">QA Summit London</a>
                             <a href="{{ route("home") }}">QA Summit Online</a>
                         </div>
                     </li>
@@ -42,7 +42,7 @@
                     <li class="drop_events">
                         <a href="#" class="menu_item event_item">Upcoming Events</a>
                         <div class="dropdown_menu_offcanvas">
-                        <a href="{{route("pune-event")}}">QA Summit Pune</a>
+                        <a href="{{route("london-event")}}">QA Summit London</a>
                         <a href="">QA Summit Online</a>
                         </div>
                     </li>
