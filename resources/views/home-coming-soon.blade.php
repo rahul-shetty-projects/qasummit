@@ -10,7 +10,8 @@
 
 @php
 $isUpcoming = true;
-$eventDate = '2025-06-21'; // Example event date
+$showTimer = true;
+$eventDate = '2025-10-11'; // Example event date
 @endphp
 
 @if ($isUpcoming)
@@ -23,7 +24,7 @@ $eventDate = '2025-06-21'; // Example event date
 
             <p class="hero_heading_coming_soon">Coming Soon</p>
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London (Venue TBD)</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>TBD</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>11th October, 2025</span></p>
             <p class="hero_summary">Join us to explore 2025 QA trends, test automation, AI-
                 driven testing, and career insights in the ever-
                 evolving field of software testing.
@@ -100,7 +101,7 @@ $eventDate = '2025-06-21'; // Example event date
 @endif
 
 <section class="about_the_cenference" id="about_the_conference">
-    @if (!$isUpcoming)
+    @if ($showTimer)
     <div class="timer_wrapper">
         <div class="days">
             <p class="timer_count" id="days" style="margin-bottom: -5px!important;">0</p>
