@@ -70,6 +70,14 @@ Route::get('/toronto-event', function () {
     return view(view: 'toronto-event');
 })->name("toronto-event");
 
+Route::get('/usa-event', function () {
+    return view(view: 'usa-event');
+})->name("usa-event");
+
+Route::get('/chennai-event', function () {
+    return view(view: 'chennai-event');
+})->name("chennai-event");
+
 Route::get('/hyderabad-event', function () {
     return view(view: 'hyderabad-event');
 })->name("hyderabad-event");

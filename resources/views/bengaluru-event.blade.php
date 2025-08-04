@@ -26,7 +26,7 @@
             </p>
             <p class="hero_summary shine">Theme of Conference: Uncover AI Testing with Career Guidance.
             </p>
-            <a href="#event_booking" class="hero_register_btn">Secure Your Spot!</a>
+            <a href="#speaker_form_section" class="hero_register_btn">Secure Your Spot!</a>
         </div>
         <div class="hero_second_div">
             <!-- <div class="upcoming_events">

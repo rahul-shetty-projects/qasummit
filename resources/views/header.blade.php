@@ -10,14 +10,14 @@
             <div>
                 <ul class="nav_menu">
                     <li><a href="{{route("home")}}" class="menu_item">Home</a></li>
-                    <!-- <li> <a href="{{route("bengaluru-event")}}" class="menu_item event_item">Events</a></li> -->
-                    <li class="drop_events">
+                    <li> <a href="{{route("home",["#upcoming_carousel"])}}" class="menu_item event_item">Upcoming Events</a></li>
+                    <!-- <li class="drop_events">
                         <a href="#" class="menu_item event_item">Upcoming Events</a>
                         <div class="dropdown_menu">
                             <a href="{{route("london-event")}}">QA Summit London</a>
                             <a href="{{ route("home") }}">QA Summit Online</a>
                         </div>
-                    </li>
+                    </li> -->
                     <li><a href="{{ route("previous-events")}}" class="menu_item">Previous Events</a></li>
                     <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>

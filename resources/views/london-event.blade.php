@@ -10,7 +10,7 @@
 
 
 <section class="hero_section" id="hero_section">
-    <div class="hero_section_wrapper">
+    <div style="background-image: url('images/Homepage/uk-upcoming-bg.jpeg');" class="hero_section_wrapper">
         <!-- <div class="hero_speaker_image">
             <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="" style="width:100%;">
         </div> -->
@@ -21,10 +21,11 @@
             <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London, UK</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>11th October 2025</span></p>
-            <!-- <p class="hero_summary">AI is revolutionizing the testing landscape, presenting both exciting opportunities and significant challenges. As Test automation becomes essential in this evolution, who's ensuring the quality of AI-driven solutions?</p> -->
+            <p class="hero_summary">London QA community, get ready! Rahul Shetty—Udemy’s top QA Instructor with over 1 million students—is bringing his in-person summit to your city. After sold-out events across India, it's time to take the stage in the UK. Expect deep dives into AI Testing, Agentic Workflows, and real-world career guidance. If you're passionate about testing and future-proofing your skills—this is your moment.</p>
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
+                <a href="#speaker_form_section" class="hero_register_btn">Secure Your Spot!</a>
             </div>
         </div>
         <div class="hero_second_div">

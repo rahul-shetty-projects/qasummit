@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Toronto Event')
+@section('title', 'USA Event')
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset("css/Upcoming-Event-Form.css") }}" />
@@ -10,18 +10,18 @@
 
 
 <section class="hero_section" id="hero_section">
-    <div style="background-image: url('images/Homepage/canada-upcoming-bg.jpeg');" class="hero_section_wrapper">
+    <div style="background-image: url('images/Homepage/usa-upcoming-bg.jpeg');" class="hero_section_wrapper">
         <!-- <div class="hero_speaker_image">
             <img src="{{ asset(path: "images/Homepage/hero image.png") }}" alt="" style="width:100%;">
         </div> -->
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Toronto</span></p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">USA</span></p>
             </div>
             <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto, Canada</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q2 - 2026</span></p>
-            <p class="hero_summary">Canada—it's your turn to experience QA learning like never before! Rahul Shetty, the mind behind the best-selling QA courses on Udemy, is coming to Toronto and Vancouver with a one-of-a-kind live summit. Dive into the future of automation, AI Agents, and real-world testing frameworks. Meet fellow professionals, upskill with cutting-edge tools, and get your questions answered—live. Limited seats expected, so show your interest early!</p>
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Texas, USA</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q1 - 2026</span></p>
+            <p class="hero_summary">The U.S. tour begins! Rahul Shetty, global QA thought leader and instructor of 30+ best-selling courses, is hitting major tech cities—Texas, California, Virginia, and Denver. Join the AI-powered revolution in testing, with live demos, agentic workflows, and automation insights you won’t get anywhere else. Whether you're a beginner or a pro—this event is built to elevate your QA journey. Submit your interest now—your city could be the next stop!</p>
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_learn_more_btn">Learn More</a> -->
@@ -66,7 +66,7 @@
                 <div class="combine_divv">
                     <div class="title_div">
                         <label for="speakertitle" class="speaker_label">Your City</label>
-                        <input required type="text" name="" id="speakertitle" class="speakertitle_inp" placeholder="Toronto">
+                        <input required type="text" name="" id="speakertitle" class="speakertitle_inp" placeholder="Texas">
                     </div>
                 </div>
                 <div class="submit_btn_div">
@@ -132,7 +132,7 @@
                 name: $('#speakername').val(),
                 email: $('#speakermail').val(),
                 city: $('#speakertitle').val(),
-                id: 13
+                id: 20
             };
 
 
