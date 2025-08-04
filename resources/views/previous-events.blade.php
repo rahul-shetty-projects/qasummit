@@ -48,40 +48,40 @@
         </div>
         <div class="prev_eve_timeline_wrapper">
 
+
             <div class="first_timeline">
-                <div data-after-content="August 2024." class="timeline_img">
-                    <div class="img_wrapper">
+                <div data-after-content="July 2025." class="timeline_img">
+                    <div class="img_wrapper left">
                         <div class="image_content_tmln">
                             <p class="image_summary_tmln">
-                                August 24, 2024
-                                <br>Hyderabad | India
-                                <br>T-Hub
+                                June 21, 2025
+                                <br>Pune | India
+                                <br>Vivanta PUNE - Hinjawadi
                             </p>
                         </div>
-                        <img src="{{ asset("images/Previouspage/hyd-event.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;height: 402px;width:475px;object-fit: none;">
+                        <img src="{{ asset("images/Previouspage/pune.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;height: 402px;width:475px;object-fit: none;">
                     </div>
                 </div>
                 <div class="timeline_content">
-                    <p class="mobile_date">August 2024.</p>
-                    <p class="tmln_heading">QASummit Hyderabad</p>
-                    <p class="tmln_summary">The QA Summit held in Hyderabad on August 24, 2024, brought together over 300 attendees passionate about quality assurance and emerging technologies. The event featured insightful sessions, including a career guidance workshop led by Rahul Shetty, discussions on trending QA technologies set to shape the industry by 2025, and explorations of how artificial intelligence is transforming the QA interview process. Attendees also engaged in critical conversations about the impact of AI on QA jobs and the future of AI in QA automation. The event fostered valuable networking opportunities and knowledge sharing among industry professionals, making it a significant milestone in the QA community.</p>
-                    <a href="{{ route("hyderabad-event") }}" class="prev_learn_more_btn">Learn More</a>
+                    <p class="mobile_date">July 2025.</p>
+                    <p class="tmln_heading">QASummit Pune</p>
+                    <p class="tmln_summary">The Pune QASummit made history, gathering over 407 QA Engineers under one roof, making it one of the largest testing events ever hosted in the Asia-Pacific region. The energy was unmatched, as attendees dove deep into the evolving world of AI in testing. The sessions kicked off with AI Agents, prompt engineering, and browser-based automation using “browser-use.” We explored the difference between Gen AI, Agentic AI, and AI Agents—when to use what, and why it matters. One highlight was the power of MCP servers in Playwright, enabling AI-powered, context-aware test execution. Attendees were introduced to smarter validation workflows using LLMs, LangChain, and the RAGAS framework. The discussion also covered the importance of data QA through ETL vs ELT for LLM training. We looked into building custom LLMs, working with OpenAI Agents, and orchestrating multi-agent systems. A light-hearted yet deep moment reminded us that POM is truly “Peace Of Mind,” not just Page Object Model. And to wrap it all—yes, vibe coding is real when learning strikes the right chord 🎧</p>
+                    <a href="{{ route("pune-event") }}" class="prev_learn_more_btn">Learn More</a>
                 </div>
             </div>
+
 
             <div class="second_timeline">
                 <div class="sec_timeline_content">
                     <p class="mobile_date">January 2025.</p>
                     <p class="tmln_heading">QASummit Bangalore</p>
-                    <p class="sec_tmln_summary">The QASummit event in Bangalore on January 25, 2025, marked another significant milestone following our inaugural event in Hyderabad in 2024. With over 330 attendees, the atmosphere was charged with enthusiasm and passion for advancing the software testing industry.
-                        <br><br>This year's summit, led by the esteemed Rahul Shetty, focused on practical, industry-relevant topics aimed at upskilling professionals and addressing the evolving landscape of AI in software testing. Rahul's leadership ensured a seamless experience, guiding discussions on automation trends, AI-powered testing tools, and successful case studies.
-                        <br><br>Attendees also benefited from valuable networking opportunities, connecting with industry peers and experts to share insights and foster collaborations. The event featured dedicated career guidance sessions, equipping participants with strategies to navigate their professional growth in a rapidly changing environment. Additionally, interactive Q&A sessions allowed attendees to engage directly with Rahul, further enhancing their learning experience.
-                        <br><br>The energy and engagement shared during the event reflect our commitment to shaping the future of software testing and empowering professionals to keep pace with technological advancements. We look forward to continuing this journey together!
+                    <p class="sec_tmln_summary">
+                        The QASummit in Bangalore on January 25, 2025, was a powerful follow-up to our debut event in Hyderabad. With over 330 attendees, the energy was electric and filled with passion for the future of software testing. Led by Rahul Shetty, the summit focused on real-world skills, automation trends, AI-powered tools, and hands-on case studies. Rahul’s guidance ensured smooth sessions packed with valuable takeaways. A dedicated career track offered strategies to help professionals grow in today’s fast-changing tech space. Attendees also enjoyed rich networking opportunities with peers and industry experts. Interactive Q&A sessions with Rahul brought additional clarity and engagement. The event fostered both learning and collaboration in a supportive environment. The response affirmed our mission to drive innovation in QA. We’re excited to keep growing with this amazing community!
                     </p>
                     <a href="{{ route("bengaluru-event") }}" class="prev_learn_more_btn">Learn More</a>
                 </div>
                 <div data-after-content="January 2025." class="sec_timeline_img">
-                    <div class="img_wrapper">
+                    <div class="img_wrapper right">
                         <div class="image_content_tmln">
                             <p class="image_summary_tmln">
                                 January 25, 2025
@@ -91,6 +91,27 @@
                         </div>
                         <img src="{{ asset("images/Previouspage/bangalore-event.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;height: 402px;width:475px;object-fit: none;">
                     </div>
+                </div>
+            </div>
+
+            <div class="first_timeline">
+                <div data-after-content="August 2024." class="timeline_img">
+                    <div class="img_wrapper left">
+                        <div class="image_content_tmln">
+                            <p class="image_summary_tmln">
+                                August 24, 2024
+                                <br>Hyderabad | India
+                                <br>T-Hub
+                            </p>
+                        </div>
+                        <img src="{{ asset("images/Previouspage/hyd.png") }}" alt="" style="margin-top:-20px;margin-left:-20px;height: 402px;width:475px;object-fit: none;">
+                    </div>
+                </div>
+                <div class="timeline_content">
+                    <p class="mobile_date">August 2024.</p>
+                    <p class="tmln_heading">QASummit Hyderabad</p>
+                    <p class="tmln_summary">The QA Summit held in Hyderabad on August 24, 2024, brought together over 300 attendees passionate about quality assurance and emerging technologies. The event featured insightful sessions, including a career guidance workshop led by Rahul Shetty, discussions on trending QA technologies set to shape the industry by 2025, and explorations of how artificial intelligence is transforming the QA interview process. Attendees also engaged in critical conversations about the impact of AI on QA jobs and the future of AI in QA automation. The event fostered valuable networking opportunities and knowledge sharing among industry professionals, making it a significant milestone in the QA community.</p>
+                    <a href="{{ route("hyderabad-event") }}" class="prev_learn_more_btn">Learn More</a>
                 </div>
             </div>
 
