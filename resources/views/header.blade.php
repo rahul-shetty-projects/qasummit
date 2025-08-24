@@ -21,7 +21,7 @@
                     <li><a href="{{ route("previous-events")}}" class="menu_item">Previous Events</a></li>
                     <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
-                    <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
+                    <li><a target="_blank" href="{{route("about-speaker")}}" class="menu_item">About Speaker</a></li>
                     <li><a href="{{route("contact-us")}}" class="menu_item">Contact Us</a></li>
                 </ul>
             </div>
@@ -42,21 +42,19 @@
                     <li class="drop_events">
                         <a href="#" class="menu_item event_item">Upcoming Events</a>
                         <div class="dropdown_menu_offcanvas">
-                        <a href="{{route("london-event")}}">QA Summit London</a>
-                        <a href="">QA Summit Online</a>
+                            <a href="{{route("london-event")}}">QA Summit London</a>
+                            <a href="">QA Summit Online</a>
                         </div>
                     </li>
                     <li><a href="{{route(name: "previous-events")}}" class="menu_item">Previous Events</a></li>
                     <li> <a target="_blank" href="https://www.udemy.com/user/rahul445/" class="menu_item event_item">Courses</a></li>
                     <li><a href="{{ route("become-a-sponsor")}}" class="menu_item">Sponsors</a></li>
-                    <li><a href="{{route("become-a-speaker")}}" class="menu_item">Become Speaker</a></li>
+                    <li><a target="_blank" href="{{route("about-speaker")}}" class="menu_item">About Speaker</a></li>
                     <li><a href="{{route("contact-us")}}" class="menu_item">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </div>
-
-
 </section>
 
 @if (!request()->routeIs('event-booking'))

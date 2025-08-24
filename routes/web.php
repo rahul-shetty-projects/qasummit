@@ -85,3 +85,36 @@ Route::get('/hyderabad-event', function () {
 Route::get('/event-booking', function () {
     return view(view: 'event-booking');
 })->name("event-booking");
+
+Route::get('/about-speaker/{path?}', function ($path = null) {
+    if ($path === null || $path === '') {
+        $path = 'index.html';
+    }
+
+    $filePath = resource_path('about-rahul/dist/' . $path);
+
+    if (!file_exists($filePath) || is_dir($filePath)) {
+        abort(404);
+    }
+
+    $extension = pathinfo($filePath, PATHINFO_EXTENSION);
+    
+    $mimeTypes = [
+        'js' => 'application/javascript',
+        'css' => 'text/css',
+        'html' => 'text/html',
+        'png' => 'image/png',
+        'jpeg' => 'image/jpeg',
+        'jpg' => 'image/jpeg',
+        'gif' => 'image/gif',
+        'svg' => 'image/svg+xml',
+        'ico' => 'image/x-icon',
+        'json' => 'application/json',
+        'webmanifest' => 'application/manifest+json',
+    ];
+
+    $mime = $mimeTypes[$extension] ?? mime_content_type($filePath);
+
+    return response(file_get_contents($filePath), 200)
+        ->header('Content-Type', $mime);
+})->where('path', '.*')->name('about-speaker');

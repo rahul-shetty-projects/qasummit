@@ -20,7 +20,7 @@
             </div>
             <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Chennai, India</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3 - 2026</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q1 - 2026</span></p>
             <p class="hero_summary">Chennai, it's your turn to experience QA learning like never before! Rahul Shetty, the mind behind the best-selling QA courses on Udemy, is coming to Chennai with a one-of-a-kind live summit. Dive into the future of automation, AI Agents, and real-world testing frameworks. Meet fellow professionals, upskill with cutting-edge tools, and get your questions answered—live. Limited seats expected, so show your interest early!</p>
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->

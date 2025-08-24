@@ -20,7 +20,7 @@
             </div>
             <!-- <p class="hero_heading">Uncover AI Testing!</p> -->
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Texas, USA</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q1 - 2026</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>Q3 - 2026</span></p>
             <p class="hero_summary">The U.S. tour begins! Rahul Shetty, global QA thought leader and instructor of 30+ best-selling courses, is hitting major tech cities—Texas, California, Virginia, and Denver. Join the AI-powered revolution in testing, with live demos, agentic workflows, and automation insights you won’t get anywhere else. Whether you're a beginner or a pro—this event is built to elevate your QA journey. Submit your interest now—your city could be the next stop!</p>
             <div class="hero_btn_wrapper">
                 <!-- <a href="{{route('upcoming-event')}}" class="hero_register_btn">Register</a> -->

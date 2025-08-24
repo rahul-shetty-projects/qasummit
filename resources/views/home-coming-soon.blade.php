@@ -324,12 +324,12 @@ $eventDate = '2025-10-11'; // Example event date
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="events-wrapper">
-                            <div class="event-card right-wing" style="background-image: url('../images/Homepage/usa-upcoming.png');" onclick="window.location.href=`{{ route('usa-event') }}`;">
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/chennai-upcoming.png');" onclick="window.location.href=`{{ route('chennai-event') }}`;">
                                 <div class="card-content">
-                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">USA</span></p>
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Chennai</span></p>
                                     <div class="event-details">
                                         <span><i class="far fa-calendar"></i> Q1 - 2026</span>
-                                        <span><i class="fas fa-map-marker-alt"></i> Texas | USA</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Chennai | India</span>
                                     </div>
                                     <div class="separate-line"></div>
                                     <div class="learn-more">
@@ -345,7 +345,7 @@ $eventDate = '2025-10-11'; // Example event date
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Toronto</span></p>
                                     <div class="event-details">
-                                        <span><i class="far fa-calendar"></i> Q2 - 2026</span>
+                                        <span><i class="far fa-calendar"></i> Q3 - 2026</span>
                                         <span><i class="fas fa-map-marker-alt"></i> Toronto | Canada</span>
                                     </div>
                                     <div class="separate-line"></div>
@@ -358,12 +358,12 @@ $eventDate = '2025-10-11'; // Example event date
                                 </div>
                             </div>
 
-                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/chennai-upcoming.png');" onclick="window.location.href=`{{ route('chennai-event') }}`;">
+                            <div class="event-card right-wing" style="background-image: url('../images/Homepage/usa-upcoming.png');" onclick="window.location.href=`{{ route('usa-event') }}`;">
                                 <div class="card-content">
-                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">Chennai</span></p>
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">USA</span></p>
                                     <div class="event-details">
                                         <span><i class="far fa-calendar"></i> Q3 - 2026</span>
-                                        <span><i class="fas fa-map-marker-alt"></i> Chennai | India</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Texas | USA</span>
                                     </div>
                                     <div class="separate-line"></div>
                                     <div class="learn-more">
