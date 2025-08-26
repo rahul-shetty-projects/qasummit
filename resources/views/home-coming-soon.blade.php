@@ -100,7 +100,7 @@ $eventDate = '2025-10-11'; // Example event date
 </section>
 @endif
 
-<section id="previous_carousel" class="upcoming_carousel">
+<section id="previous_carousel" class="upcoming_carousel timer_container">
     @if ($showTimer)
     <div class="timer_wrapper">
         <div class="days">

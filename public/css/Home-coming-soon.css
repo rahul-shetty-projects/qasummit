@@ -822,6 +822,10 @@ animation-duration: 500ms; */
     color: #717380;
 }
 
+.timer_container {
+    position: relative;
+}
+
 .upcoming_carousel_wrapper {
     display: flex;
     flex-direction: column;
@@ -1481,10 +1485,21 @@ animation-duration: 500ms; */
 
     /* Timer */
 
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+        padding:10px 20px;
+        width: fit-content;
+        gap: 2px;
+    }
+
     .timer_wrapper {
         width: 100%;
+        height: fit-content;
         justify-content: space-evenly;
         right: 0;
+        top: -60px;
     }
 
     .timer_count {

@@ -22,7 +22,7 @@
             <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>University of West London - Ealing, London</span></p>
             <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>11th October, 2025</span></p>
             <p class="hero_summary">
-                A Productive 5-Hour QA Insights Talk by Renowned Industry Expert, Rahul Shetty!
+                A Productive 3-Hour QA Insights Talk by Renowned Industry Expert, Rahul Shetty!
             </p>
             <p class="hero_summary shine">Theme of Conference: Uncover AI Testing with Career Guidance.
             </p>
