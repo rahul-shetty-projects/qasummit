@@ -286,7 +286,7 @@ animation-duration: 500ms; */
     position: absolute;
     right: 25%;
     z-index: 99;
-    bottom: 0rem;
+    top: -48px;
 }
 
 .days,
