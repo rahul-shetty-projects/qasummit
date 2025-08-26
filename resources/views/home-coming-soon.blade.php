@@ -9,7 +9,7 @@
 @section('content')
 
 @php
-$isUpcoming = true;
+$isUpcoming = false;
 $showTimer = true;
 $eventDate = '2025-10-11'; // Example event date
 @endphp
@@ -64,19 +64,19 @@ $eventDate = '2025-10-11'; // Example event date
         </div>
         <div class="hero_first_div">
             <div class="border_style">
-                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">Pune</span></p>
+                <p class="hero_headline" style="margin-bottom: 0!important;">QASummit <span class="hero_headline_span">London</span></p>
             </div>
             <p class="hero_heading">Welcome to the Career-Focused Software Testing Meetup</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Vivanta PUNE - Hinjawadi</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>21st June, 2025</span></p>
-            <p class="hero_summary">Join us in Maharashtra, India to explore 2025 QA trends, test automation,
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>University of West London - Ealing, London</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>11th October, 2025</span></p>
+            <p class="hero_summary">Join us in London, UK to explore 2025 QA trends, test automation,
                 AI-driven testing, and career insights in the ever-evolving field
                 of software testing.
                 <br><span class="hero_summary_span_before">—all brought to you by the renowned instructor,</span>
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <a href="{{route('pune-event')}}" class="hero_register_btn">Limited Seats Availability - Know more</a>
+                <a href="{{route('london-event')}}" class="hero_register_btn">Limited Seats Availability - Know more</a>
                 <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
