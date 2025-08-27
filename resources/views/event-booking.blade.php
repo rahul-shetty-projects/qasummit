@@ -13,7 +13,7 @@
 
 @section('content')
 <div style="margin-top:100px;margin-bottom:60px;display:flex;flex-direction:row;justify-content:center;">
-    <iframe id="iframeticket" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://www.tickets99.com/buy/qa-summit/ticket" frameborder="0" width="100%" height="700px" scrolling="auto"> </iframe>
+    <iframe id="iframeticket" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://www.tickets99.com/buy/qa-summit--london/ticket" frameborder="0" width="100%" height="700px" scrolling="auto"> </iframe>
 </div>
 <script>
     function resizeIframe(iframe) {
