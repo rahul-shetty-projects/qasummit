@@ -345,7 +345,7 @@ $eventDate = '2025-10-11'; // Example event date
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Toronto</span></p>
                                     <div class="event-details">
-                                        <span><i class="far fa-calendar"></i> Q3 - 2026</span>
+                                        <span><i class="far fa-calendar"></i> Q2 - 2026</span>
                                         <span><i class="fas fa-map-marker-alt"></i> Toronto | Canada</span>
                                     </div>
                                     <div class="separate-line"></div>
@@ -409,7 +409,7 @@ $eventDate = '2025-10-11'; // Example event date
                             <div class="card-content">
                                 <p class="upcom_headline">QASummit <span class="upcom_headline_span">Toronto</span></p>
                                 <div class="event-details">
-                                    <span><i class="far fa-calendar"></i> Q3 - 2026</span>
+                                    <span><i class="far fa-calendar"></i> Q2 - 2026</span>
                                     <span><i class="fas fa-map-marker-alt"></i> Toronto | Canada</span>
                                 </div>
                                 <div class="separate-line"></div>
