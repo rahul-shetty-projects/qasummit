@@ -225,7 +225,7 @@
             <div class="individual">
                 <p class="title_tag">Individual/Group Ticket</p>
                 <p class="price">Limited seats available, act now!</p>
-                <a target="_blank" href="{{route("event-booking")}}" class="buy_ticket">Buy Ticket</a>
+                <a href="#" class="buy_ticket" data-bs-toggle="modal" data-bs-target="#buyTicketModal">Buy Ticket</a>
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate - Bulk Bookings</p>
@@ -356,6 +356,25 @@
         });
     });
 </script> -->
+
+<!-- Buy Ticket Choice Modal -->
+<div class="modal fade" id="buyTicketModal" tabindex="-1" aria-labelledby="buyTicketModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="ticket_modal_wrapper">
+                    <p class="ticket_modal_heading">Choose Your Booking Platform</p>
+                    <p class="ticket_modal_summary">Choose your preferred platform to book your ticket securely:</p>
+                    <div class="ticket_btns">
+                        <a href="{{ route('event-booking') }}" target="_blank" class="buy_ticket_btn">Buy on QA Summit</a>
+                        <a href="https://www.eventbrite.com/e/1633761928909?aff=oddtdtcreator" target="_blank" rel="noopener" class="buy_ticket">Buy on Eventbrite</a>
+                    </div>
+                    <p class="ticket_note">Both options provide the same ticket access. Choose whichever platform you're comfortable with to buy your ticket.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <section class="why_attend_sectin" id="why_attend_section">
