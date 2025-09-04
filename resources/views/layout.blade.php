@@ -13,7 +13,7 @@
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:title" content="@yield('title', 'QA Summit - Global QA Conferences')">
     <meta property="og:description" content="QA Summit - Leading QA conferences worldwide. Join industry expert Rahul Shetty to learn best practices, and network with QA professionals from around the globe.">
-    <meta property="og:image" content="{{ asset('images/Header/logo.png') }}">
+    <meta property="og:image" content="{{ asset('images/Header/og-meta-image.png') }}">
     <meta property="og:site_name" content="QA Summit">
 
     <!-- Twitter -->
@@ -21,7 +21,7 @@
     <meta name="twitter:url" content="{{ url()->current() }}">
     <meta name="twitter:title" content="@yield('title', 'QA Summit - Global QA Conferences')">
     <meta name="twitter:description" content="QA Summit - Leading QA conferences worldwide. Join industry expert Rahul Shetty to learn best practices, and network with QA professionals from around the globe.">
-    <meta name="twitter:image" content="{{ asset('images/Header/logo.png') }}">
+    <meta name="twitter:image" content="{{ asset('images/Header/og-meta-image.png') }}">
 
     <title>@yield('title')</title>
 
