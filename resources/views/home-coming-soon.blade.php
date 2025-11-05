@@ -9,8 +9,8 @@
 @section('content')
 
 @php
-$isUpcoming = false;
-$showTimer = true;
+$isUpcoming = true;
+$showTimer = false;
 $eventDate = '2025-10-11'; // Example event date
 @endphp
 
@@ -23,9 +23,9 @@ $eventDate = '2025-10-11'; // Example event date
         <div class="hero_first_div">
 
             <p class="hero_heading_coming_soon">Coming Soon</p>
-            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>London (Venue TBD)</span></p>
-            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>11th October, 2025</span></p>
-            <p class="hero_summary">Join us to explore 2025 QA trends, test automation, AI-
+            <p class="event_location"><img src="{{ asset("images/Homepage/Location.png") }}" alt=""><span>Toronto (Venue TBD)</span></p>
+            <p class="event_date"><img src="{{ asset("images/Homepage/Calendar.png") }}" alt=""><span>April, 2026</span></p>
+            <p class="hero_summary">Join us to explore 2026 QA trends, test automation, AI-
                 driven testing, and career insights in the ever-
                 evolving field of software testing.
                 <br>
@@ -34,7 +34,7 @@ $eventDate = '2025-10-11'; // Example event date
                 <span class="hero_summary_span"><i><a style="color:#fff;" target="_blank" href="https://www.linkedin.com/in/rahul-shetty-venkatesh/">Rahul Shetty</a>.</i></span>
             </p>
             <div class="hero_btn_wrapper">
-                <a href="{{route('london-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a>
+                <a href="{{route('toronto-event')}}" class="hero_register_btn">Be the First One to Know When Tickets Open</a>
                 <!-- <a href="{{route('pune-event')}}" class="hero_learn_more_btn">Learn More</a> -->
             </div>
         </div>
