@@ -47,7 +47,38 @@
             <div class="horizontal_line_prev_eve"></div>
         </div>
         <div class="prev_eve_timeline_wrapper">
-
+            <div class="second_timeline">
+                <div class="sec_timeline_content">
+                    <p class="mobile_date">October 2025.</p>
+                    <p class="tmln_heading">QASummit London</p>
+                    <p class="sec_tmln_summary">
+                        The QA Summit London 2025 emerged as one of the most successful international QA events in the UK, drawing massive attention from the testing community.
+                        It quickly became recognised as one of the top software testing gatherings in the UK, attracting professionals, leaders, and innovators from multiple countries.
+                        More than 240 QA professionals attended the summit at the University of West London.
+                        Rahul Shetty delivered a high-energy keynote focused on the future of testing in an AI-driven landscape.
+                        Topics covered included AI automation, agentic workflows, multi-agent systems, MCP, and RAG-based testing.
+                        The sessions clearly explained how these technologies can be applied to real software projects.
+                        The summit provided a roadmap for testers transitioning into SDET and AI-focused roles.
+                        Participants praised the content for being deeply practical and relatable to real industry needs.
+                        Many attendees shared that the event helped them gain clarity on skill growth and career direction.
+                        Networking segments enabled valuable discussions, peer exchange, and community building.
+                        The London summit reinforced QASummit’s mission to empower global testers and inspire future-ready talent.
+                    </p>
+                    <a href="{{ route("london-event") }}" class="prev_learn_more_btn">Learn More</a>
+                </div>
+                <div data-after-content="October 2025." class="sec_timeline_img">
+                    <div class="img_wrapper right">
+                        <div class="image_content_tmln">
+                            <p class="image_summary_tmln">
+                                October 11, 2025
+                                <br>London | UK
+                                <br>University of West London - Ealing
+                            </p>
+                        </div>
+                        <img src="{{ asset("images/Previouspage/london.png") }}" alt="" style="margin-top:-20px;margin-right:-20px;height: 402px;width:475px;object-fit: none;">
+                    </div>
+                </div>
+            </div>
 
             <div class="first_timeline">
                 <div data-after-content="July 2025." class="timeline_img">

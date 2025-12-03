@@ -200,6 +200,26 @@ $eventDate = '2025-10-11'; // Example event date
                                 </div>
                             </div>
 
+                            <div class="event-card left-wing" style="background-image: url('../images/Homepage/london-previous.png');" onclick="window.location.href=`{{ route('london-event') }}`;">
+                                <div class="card-content">
+                                    <p class="upcom_headline">QASummit <span class="upcom_headline_span">London</span></p>
+                                    <div class="event-details">
+                                        <span><i class="far fa-calendar"></i> October 11, 2025</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> London | UK</span>
+                                    </div>
+                                    <div class="separate-line"></div>
+                                    <div class="learn-more">
+                                        <a>Learn More</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                                            <path d="M2 2.25L9.75 10L2 17.75" stroke="#F4238D" stroke-width="3" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="events-wrapper">
                             <div class="event-card left-wing" style="background-image: url('../images/Homepage/hyderabad-previous.png');" onclick="window.location.href=`{{ route('hyderabad-event') }}`;">
                                 <div class="card-content">
                                     <p class="upcom_headline">QASummit <span class="upcom_headline_span">Hyderabad</span></p>
@@ -385,7 +405,7 @@ $eventDate = '2025-10-11'; // Example event date
             <div id="carouselExampleInterval22" style="width: 100%;" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
 
-                <div class="carousel-item active">
+                    <div class="carousel-item active">
                         <div class="event-card left-wing" style="background-image: url('../images/Homepage/chennai-upcoming.png');" onclick="window.location.href=`{{ route('chennai-event') }}`;">
                             <div class="card-content">
                                 <p class="upcom_headline">QASummit <span class="upcom_headline_span">Chennai</span></p>
@@ -442,7 +462,7 @@ $eventDate = '2025-10-11'; // Example event date
                         </div>
                     </div>
 
-                  
+
                 </div>
             </div>
         </div>

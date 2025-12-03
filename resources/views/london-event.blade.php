@@ -225,7 +225,8 @@
             <div class="individual">
                 <p class="title_tag">Individual/Group Ticket</p>
                 <p class="price">Limited seats available, act now!</p>
-                <a href="#" class="buy_ticket" data-bs-toggle="modal" data-bs-target="#buyTicketModal">Buy Ticket</a>
+                <a href="#speaker_form_section" class="buy_ticket">Sold Out!</a>
+                <!-- <a href="#" class="buy_ticket" data-bs-toggle="modal" data-bs-target="#buyTicketModal">Buy Ticket</a> -->
             </div>
             <div class="corp_booking">
                 <p class="corp_title_tag">Corporate - Bulk Bookings</p>
@@ -236,11 +237,11 @@
     </div>
 </section>
 
-<!-- <section class="speaker_form_section" id="speaker_form_section">
+<section class="speaker_form_section" id="speaker_form_section">
     <div class="form_wrapper">
         <div class="headline_content">
             <p class="early_bird">Be the First to Know!</p>
-            <p class="early_bird_summary">Subscribe now for updates on upcoming Pune events.</p>
+            <p class="early_bird_summary">Subscribe now for updates on upcoming London events.</p>
         </div>
         <div class="form_wrap">
             <form id="contactForm">
@@ -254,7 +255,7 @@
                 </div>
                 <div class="email_div">
                     <label for="speakercity" class="speaker_label">City *</label>
-                    <input required type="text" name="" id="speakercity" class="speakermail_inp" placeholder="Pune">
+                    <input required type="text" name="" id="speakercity" class="speakermail_inp" placeholder="London">
                 </div>
                 <div class="submit_btn_div">
                     <button type="submit" id="subscribe_submit_btn" class="submit_btn">Subscribe</button>
@@ -262,7 +263,7 @@
             </form>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -309,7 +310,7 @@
     </div>
 </div>
 
-<!-- <script>
+<script>
     $(document).ready(function() {
         $('#contactForm').on('submit', function(event) {
             event.preventDefault();
@@ -318,7 +319,7 @@
                 name: $('#speakername').val(),
                 email: $('#speakermail').val(),
                 city: $('#speakercity').val(),
-                id: 17
+                id: 11
             };
 
 
@@ -355,7 +356,7 @@
 
         });
     });
-</script> -->
+</script>
 
 <!-- Buy Ticket Choice Modal -->
 <div class="modal fade" id="buyTicketModal" tabindex="-1" aria-labelledby="buyTicketModalLabel" aria-hidden="true">
